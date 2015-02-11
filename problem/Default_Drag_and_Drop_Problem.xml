@@ -1,0 +1,87 @@
+<problem url_name="Default_Drag_and_Drop_Problem" display_name="Default Drag and Drop Problem" markdown="null">
+  <p>Here's an example of a "Drag and Drop" question set. Click and drag each word in the scrollbar below, up to the numbered bucket which matches the number of letters in the word.</p>
+  <p>For this first problem, click on <span onclick="unhide('calculations_2')" style="cursor: pointer; color: blue; text-decoration: underline;">this link</span> to see the code used to create it below. For each draggable id, which corresponds to the words in the horizontal table below the image, there is a specific correct location where the words can go.  Specifying that is done by giving the coordinates in relation to the image you are using.</p>
+  <p>
+    <div class="hidden" id="calculations_2" style="padding-bottom: 1em;">
+      <pre>
+        <code>
+&lt;drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/L9_buckets.png"&gt;
+            &lt;draggable id="1" label="a"/&gt;
+            &lt;draggable id="2" label="cat"/&gt;
+            &lt;draggable id="3" label="there"/&gt;
+            &lt;draggable id="4" label="pear"/&gt;
+            &lt;draggable id="5" label="kitty"/&gt;
+            &lt;draggable id="6" label="in"/&gt;
+            &lt;draggable id="7" label="them"/&gt;
+            &lt;draggable id="8" label="za"/&gt;
+            &lt;draggable id="9" label="dog"/&gt;
+            &lt;draggable id="10" label="slate"/&gt;
+            &lt;draggable id="11" label="few"/&gt;
+        &lt;/drag_and_drop_input&gt;
+        &lt;answer type="loncapa/python"&gt;
+correct_answer = {
+        '1':      [[70, 150], 121],
+        '6':      [[190, 150], 121],
+        '8':      [[190, 150], 121],
+        '2':      [[310, 150], 121],
+        '9':      [[310, 150], 121],
+        '11':     [[310, 150], 121],
+        '4':      [[420, 150], 121],
+        '7':      [[420, 150], 121],
+        '3':      [[550, 150], 121],
+        '5':      [[550, 150], 121],
+        '10':     [[550, 150], 121]}
+if draganddrop.grade(submission[0], correct_answer):
+    correct = ['correct']
+else:
+    correct = ['incorrect']
+        &lt;/answer&gt;
+    &lt;/customresponse&gt;</code>
+      </pre>
+      <p>
+        <span onclick="hide('calculations_2')" style="cursor: pointer; color: blue; text-decoration: underline;">Click here to hide this code.</span>
+      </p>
+    </div>
+  </p>
+  <customresponse>
+    <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/L9_buckets.png">
+      <draggable id="1" label="a"/>
+      <draggable id="2" label="cat"/>
+      <draggable id="3" label="there"/>
+      <draggable id="4" label="pear"/>
+      <draggable id="5" label="kitty"/>
+      <draggable id="6" label="in"/>
+      <draggable id="7" label="them"/>
+      <draggable id="8" label="za"/>
+      <draggable id="9" label="dog"/>
+      <draggable id="10" label="slate"/>
+      <draggable id="11" label="few"/>
+    </drag_and_drop_input>
+    <answer type="loncapa/python">
+correct_answer = {
+        '1':      [[70, 150], 121],
+        '6':      [[190, 150], 121],
+        '8':      [[190, 150], 121],
+        '2':      [[310, 150], 121],
+        '9':      [[310, 150], 121],
+        '11':     [[310, 150], 121],
+        '4':      [[420, 150], 121],
+        '7':      [[420, 150], 121],
+        '3':      [[550, 150], 121],
+        '5':      [[550, 150], 121],
+        '10':     [[550, 150], 121]}
+if draganddrop.grade(submission[0], correct_answer):
+    correct = ['correct']
+else:
+    correct = ['incorrect']
+        </answer>
+  </customresponse>
+  <solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>This is the explanation for this question.</p>
+
+</div>
+</solution>
+</problem>

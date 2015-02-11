@@ -1,0 +1,19 @@
+<p style="font-size: 16px; margin-top: 20px;">If you are creating an A/B test between units in a single subsection, you'll want to find the sequential file that corresponds to the subsection. &nbsp;This sequential will contain two vertical url names that will correspond to the units in that subsection. &nbsp;Please click here to view detailed instructions for creating an A/B test between units in a subsection.</p>
+<h3>Creating an A/B test between units within a subsection:</h3>
+<blockquote><ol>
+<li><span style="line-height: 1.6;">Open the folder that contains all of your course's files in an editing program of your choosing.</span></li>
+<li>In the live version of your course, go to your subsection that contains the two units.</li>
+<li>Note the URL string at the end of the URL. &nbsp;This string will correspond to the sequential file ID in your course's files.</li>
+<li>Note the vertical url_name strings in your sequential file. &nbsp;These will correspond to the units in the subsection. &nbsp;Here is how that will look before you make any changes:<br /><br /><img alt="" src="/static/sequential_file_before_editing_for_ab_test_of_units-1.jpg" /><br /><br />Wrap your &lt;split_test&gt; tag around these two (or more) verticals. Your changed file will look something like this:<br /><br /><img alt="" src="/static/wrap_the_two_or_more_items_in_question_with_a_split_test_tag.jpg" /></li>
+<li>You can also optionally add a display_name attribute to &lt;split_test&gt;. &nbsp;The final code would look something like this:
+<pre><code>&lt;split_test display_name="My A/B Test between Units" user_partition_id="0" group_id_to_child='{"0": "i4x://StanfordOnline/OpenEdX/vertical/db92c4b12dcf43e6a71bc8343a376b7c", "2": "i4x://StanfordOnline/OpenEdX/vertical/1b74b4fe98584d0e8ef55aea917c97eb"}'&gt;
+  &lt;vertical url_name="db92c4b12dcf43e6a71bc8343a376b7c"/&gt;
+  &lt;vertical url_name="1b74b4fe98584d0e8ef55aea917c97eb"/&gt;
+&lt;/split_test&gt;<br /></code></pre>
+(Not adding a display_name attribute will result in the unit that now contains the two units in the A/B test displaying a name of random numbers and letters. &nbsp;This is not something your participants will see.)</li>
+<li>Save your changes, then zip up your course file and import this file back into your course by going to Tools &gt; Import.</li>
+<li>When you are done, your units in Studio will now exist in a newly created split_test unit, and will longer be editable. &nbsp;They will look something like this:<br /><br /><img alt="" src="/static/two_units_in_one_for_the_split_test.jpg" /></li>
+<li>The end result in Courseware will look something like this:<br /><br /><img alt="" src="/static/courseware_view_of_unit_a-b_test.jpg" /></li>
+<li>Note that participants or students will not see the drop-down menu. Rather, students who end up (note this assignment is randomly assigned and cannot be specified) in one group will see the unit pecified for that group, and students in the other group will only see the unit that has been specified for that group.</li>
+<li>If you export and edit your course file again at a later time, you might notice that the sequential file you edited and imported now looks different.&nbsp;</li>
+</ol></blockquote>

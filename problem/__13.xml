@@ -1,0 +1,164 @@
+<problem url_name="__13" display_name="" markdown="null" rerandomize="always">
+  <p>[Q1] Suppose relation R(A,C) has the following tuples:
+</p>
+  <p>
+    <table>
+      <tr style="border: 2px solid black; text-align: center">
+        <th style="border: 2px solid black; text-align: center">A</th>
+        <th style="border: 2px solid black; text-align: center">C</th>
+      </tr>
+      <tr style="border: 2px solid black; text-align: center">
+        <td style="border: 2px solid black; text-align: center">3</td>
+        <td style="border: 2px solid black; text-align: center">3</td>
+      </tr>
+      <tr style="border: 2px solid black; text-align: center">
+        <td style="border: 2px solid black; text-align: center">6</td>
+        <td style="border: 2px solid black; text-align: center">4</td>
+      </tr>
+      <tr style="border: 2px solid black; text-align: center">
+        <td style="border: 2px solid black; text-align: center">2</td>
+        <td style="border: 2px solid black; text-align: center">3</td>
+      </tr>
+      <tr style="border: 2px solid black; text-align: center">
+        <td style="border: 2px solid black; text-align: center">3</td>
+        <td style="border: 2px solid black; text-align: center">5</td>
+      </tr>
+      <tr style="border: 2px solid black; text-align: center">
+        <td style="border: 2px solid black; text-align: center">7</td>
+        <td style="border: 2px solid black; text-align: center">1</td>
+      </tr>
+    </table>
+  </p>
+  <p>
+and relation S(B,C,D) has the following tuples:
+<table><tr style="border: 2px solid black; text-align: center"><th style="border: 2px solid black; text-align: center">B</th><th style="border: 2px solid black; text-align: center">C</th><th style="border: 2px solid black; text-align: center">D</th></tr><tr style="border: 2px solid black; text-align: center"><td style="border: 2px solid black; text-align: center">5</td><td style="border: 2px solid black; text-align: center">1</td><td style="border: 2px solid black; text-align: center">6</td></tr><tr style="border: 2px solid black; text-align: center"><td style="border: 2px solid black; text-align: center">1</td><td style="border: 2px solid black; text-align: center">5</td><td style="border: 2px solid black; text-align: center">8</td></tr><tr style="border: 2px solid black; text-align: center"><td style="border: 2px solid black; text-align: center">4</td><td style="border: 2px solid black; text-align: center">3</td><td style="border: 2px solid black; text-align: center">9</td></tr></table>
+</p>
+  <p>
+Compute the natural join of R and S. Which of the following tuples is in the result? Assume each tuple has schema (A,B,C,D).</p>
+  <multiplechoiceresponse targeted-feedback="">
+    <choicegroup answer-pool="4" type="MultipleChoice">
+      <choice correct="true" explanation-id="solution0">
+        <span>(7, 5, 1, 6)
+</span>
+      </choice>
+      <choice correct="true" explanation-id="solution3">
+        <span>(3, 1, 5, 8)
+</span>
+      </choice>
+      <choice correct="true" explanation-id="solution2">
+        <span>(2, 4, 3, 9)
+</span>
+      </choice>
+      <choice correct="false" explanation-id="solution5">
+        <span>(7, 1, 5, 8)
+</span>
+      </choice>
+      <choice correct="false" explanation-id="solution4">
+        <span>(6, 4, 3, 9)
+</span>
+      </choice>
+      <choice correct="false" explanation-id="solution6">
+        <span>(3, 5, 1, 6)
+</span>
+      </choice>
+      <choice correct="false" explanation-id="solution8">
+        <span>(2, 3, 1, 6)
+</span>
+      </choice>
+      <choice correct="false" explanation-id="solution7">
+        <span>(3, 3, 5, 8)
+</span>
+      </choice>
+      <choice correct="false" explanation-id="solution9">
+        <span>(5, 1, 6, 4)
+</span>
+      </choice>
+      <choice correct="true" explanation-id="solution1">
+        <span>(3, 4, 3, 9)
+</span>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <targetedfeedbackset>
+    <targetedfeedback explanation-id="solution4">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>This tuple would require (6,3) to be in R, which it is not.
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution5">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>This tuple would require (7,5) to be in R, which it is not.
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution6">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>This tuple would require (3,1) to be in R, which it is not.
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution7">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>This tuple would require (3,5,8) to be in S, which it is not.
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution8">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>This tuple would require (2,1) to be in R, which it is not.
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution9">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>This tuple would require (5,6) to be in R, which it is not.
+</span>
+      </div>
+    </targetedfeedback>
+  </targetedfeedbackset>
+  <solutionset>
+    <solution explanation-id="solution0">
+      <div class="detailed-solution">
+        <p>Problem Explanation</p>
+        <p>To compute the natural join, we must find tuples from R and S that agree on all common attributes. In this case, C is the only attribute appearing in both schemas, and the tuples in the join result have attributes A, B, C, and D -- the union of the attributes from R and S.
+</p>
+        <p>
+Tuple (3,3) from R(A,C) matches (4,3,9) from S(B,C,D), since they both have 3 in their C attributes. The resulting tuple, with schema (A,B,C,D), is (3,4,3,9). Similarly, (2,3) from R(A,B) matches both (4,3,9) from S yielding (2,4,3,9) in the result. R tuples (3,5) and (7,1) match S tuples (1,5,8) and (5,1,6) respectively, yielding result tuples (3,1,5,8) and (7,5,1,6). Tuple (6,4) from R matches nothing from S, so there are no more tuples in the result.</p>
+      </div>
+    </solution>
+    <solution explanation-id="solution1">
+      <div class="detailed-solution">
+        <p>Problem Explanation</p>
+        <p>To compute the natural join, we must find tuples from R and S that agree on all common attributes. In this case, C is the only attribute appearing in both schemas, and the tuples in the join result have attributes A, B, C, and D -- the union of the attributes from R and S.
+</p>
+        <p>
+Tuple (3,3) from R(A,C) matches (4,3,9) from S(B,C,D), since they both have 3 in their C attributes. The resulting tuple, with schema (A,B,C,D), is (3,4,3,9). Similarly, (2,3) from R(A,B) matches both (4,3,9) from S yielding (2,4,3,9) in the result. R tuples (3,5) and (7,1) match S tuples (1,5,8) and (5,1,6) respectively, yielding result tuples (3,1,5,8) and (7,5,1,6). Tuple (6,4) from R matches nothing from S, so there are no more tuples in the result.</p>
+      </div>
+    </solution>
+    <solution explanation-id="solution2">
+      <div class="detailed-solution">
+        <p>Problem Explanation</p>
+        <p>To compute the natural join, we must find tuples from R and S that agree on all common attributes. In this case, C is the only attribute appearing in both schemas, and the tuples in the join result have attributes A, B, C, and D -- the union of the attributes from R and S.
+</p>
+        <p>
+Tuple (3,3) from R(A,C) matches (4,3,9) from S(B,C,D), since they both have 3 in their C attributes. The resulting tuple, with schema (A,B,C,D), is (3,4,3,9). Similarly, (2,3) from R(A,B) matches both (4,3,9) from S yielding (2,4,3,9) in the result. R tuples (3,5) and (7,1) match S tuples (1,5,8) and (5,1,6) respectively, yielding result tuples (3,1,5,8) and (7,5,1,6). Tuple (6,4) from R matches nothing from S, so there are no more tuples in the result.</p>
+      </div>
+    </solution>
+    <solution explanation-id="solution3">
+      <div class="detailed-solution">
+        <p>Problem Explanation</p>
+        <p>To compute the natural join, we must find tuples from R and S that agree on all common attributes. In this case, C is the only attribute appearing in both schemas, and the tuples in the join result have attributes A, B, C, and D -- the union of the attributes from R and S.
+</p>
+        <p>
+Tuple (3,3) from R(A,C) matches (4,3,9) from S(B,C,D), since they both have 3 in their C attributes. The resulting tuple, with schema (A,B,C,D), is (3,4,3,9). Similarly, (2,3) from R(A,B) matches both (4,3,9) from S yielding (2,4,3,9) in the result. R tuples (3,5) and (7,1) match S tuples (1,5,8) and (5,1,6) respectively, yielding result tuples (3,1,5,8) and (7,5,1,6). Tuple (6,4) from R matches nothing from S, so there are no more tuples in the result.</p>
+      </div>
+    </solution>
+  </solutionset>
+</problem>

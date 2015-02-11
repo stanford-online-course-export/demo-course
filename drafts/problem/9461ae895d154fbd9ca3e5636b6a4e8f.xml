@@ -1,0 +1,14 @@
+<problem display_name="Text Input" markdown="A text input problem accepts a line of text from the student, and evaluates the input for correctness based on an expected answer.&#10;&#10;The answer is correct if it matches every character of the expected answer. This can be a problem with international spelling, dates, or anything where the format of the answer is not clear.&#10;&#10;&gt;&gt;What did astronomers recently discover around the asteroid Chariklo?&lt;&lt;&#10;&#10;= rings&#10;&#10;&#10;[explanation]&#10;Astronomers - by accident - recently discovered a ring system (consisting of 2 rings, one thinner, one thicker) around the rock named Chariklo.  This discovery was made when scientists were observing an occultation (when a star obstructs our view of a planet temporarily) of Jupiter by Chariklo in March 2014.  They noticed that the planet appeared to dim shortly before and after the occultation by Chariklo, indicating something else was passing between our view of the planet.   &#10;[explanation]&#10;">
+  <p>A text input problem accepts a line of text from the student, and evaluates the input for correctness based on an expected answer.</p>
+  <p>The answer is correct if it matches every character of the expected answer. This can be a problem with international spelling, dates, or anything where the format of the answer is not clear.</p>
+  <p>What did astronomers recently discover around the asteroid Chariklo?</p>
+  <stringresponse answer="rings" type="ci">
+    <textline label="What did astronomers recently discover around the asteroid Chariklo?" size="20"/>
+  </stringresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Astronomers - by accident - recently discovered a ring system (consisting of 2 rings, one thinner, one thicker) around the rock named Chariklo.  This discovery was made when scientists were observing an occultation (when a star obstructs our view of a planet temporarily) of Jupiter by Chariklo in March 2014.  They noticed that the planet appeared to dim shortly before and after the occultation by Chariklo, indicating something else was passing between our view of the planet.   </p>
+    </div>
+  </solution>
+</problem>

@@ -1,0 +1,380 @@
+0
+00:00:00,200 --> 00:00:02,700
+En esta sección le mostraremos un panorama general
+
+1
+00:00:02,700 --> 00:00:05,920
+de lo que es CLASlite, por qué es importante y cómo se originó.
+
+2
+00:00:07,230 --> 00:00:09,770
+CLASlite es un paquete de software creado por mi equipo
+
+3
+00:00:09,770 --> 00:00:13,110
+del Departamento de Ecología Global de la Institución Carnegie para la Ciencia.
+
+4
+00:00:14,180 --> 00:00:17,300
+Está diseñado para la identificación altamente automatizada
+
+5
+00:00:17,300 --> 00:00:21,659
+de la deforestación y degradación de bosques usando imágenes de sensores remotos.
+
+6
+00:00:23,520 --> 00:00:25,545
+Nuestra misión es proporcionar a gobiernos,
+
+7
+00:00:25,545 --> 00:00:28,770
+organizaciones no gubernamentales e instituciones académicas
+
+8
+00:00:28,770 --> 00:00:32,900
+una tecnología avanzada y científicamente sólida para el monitoreo de bosques
+
+9
+00:00:32,900 --> 00:00:35,830
+Nuestra meta es que, algun día, el monitoreo de bosques
+
+10
+00:00:35,830 --> 00:00:39,210
+con satélites sea una actividad cotidiana para personas no expertas.
+
+11
+00:00:39,210 --> 00:00:41,120
+Esperamos que CLASlite sea una herramienta común
+
+12
+00:00:41,120 --> 00:00:43,420
+para mejorar la conservación y manejo de los bosques
+
+13
+00:00:43,420 --> 00:00:45,460
+y para el desarrollo de políticas.
+
+14
+00:00:47,020 --> 00:00:50,760
+Los bosques tropicales cubren menos del 5% de toda el área terrestre, pero albergan
+
+15
+00:00:50,760 --> 00:00:52,830
+cerca de la mitad de las especies de la Tierra.
+
+16
+00:00:52,830 --> 00:00:55,030
+Además de ser el hogar de la biodiversidad más rica
+
+17
+00:00:55,030 --> 00:00:59,620
+del planeta, los bosques proveen combustible y sustento a los habitantes humanos.
+
+18
+00:00:59,620 --> 00:01:01,360
+También almacenan cantidades masivas de carbono,
+
+19
+00:01:01,360 --> 00:01:04,349
+que de otra forma acelerarían el calentamiento global.
+
+20
+00:01:05,440 --> 00:01:07,600
+Estos son solo algunos ejemplos del papel tan importante
+
+21
+00:01:07,600 --> 00:01:11,420
+que tienen los bosques en la regulación de los ambientes naturales e intervenidos.
+
+22
+00:01:11,420 --> 00:01:13,260
+Pero los bosques están amenazados.
+
+23
+00:01:13,260 --> 00:01:15,790
+Cada año, varios millones de hectareas son destruidas,
+
+24
+00:01:15,790 --> 00:01:19,660
+pues los bosques compiten con la expansión agrícola, la exploltación forestal,
+
+25
+00:01:19,660 --> 00:01:22,470
+la minería, la construcción de vías, y otros usos de la tierra.
+
+26
+00:01:24,010 --> 00:01:28,060
+Nos adentraremos en nuestra definición técnica de cobertura boscosa mas adelante en este curso.
+
+27
+00:01:28,060 --> 00:01:30,420
+Por ahora, cuando hablemos de cobertura boscosa,
+
+28
+00:01:30,420 --> 00:01:34,470
+nos referiremos al area terrestre dominada por el dosel.
+
+29
+00:01:34,470 --> 00:01:37,650
+Definimos deforestación como la conversión de tierras forestadas
+
+30
+00:01:37,650 --> 00:01:41,420
+en tierras sin bosque, y definimos perturbación
+
+31
+00:01:41,420 --> 00:01:44,250
+como la disminución difusa de la cobertura boscosa.
+
+32
+00:01:44,250 --> 00:01:48,330
+Esto podría ocurrir si algunos árboles viejos en un parche de bosque mueren,
+
+33
+00:01:48,330 --> 00:01:49,670
+o si son talados para madera.
+
+34
+00:01:50,770 --> 00:01:52,860
+Definimos la degradación del bosque como la
+
+35
+00:01:52,860 --> 00:01:56,140
+persistencia temporal o espacial de una perturbación.
+
+36
+00:01:56,140 --> 00:01:59,920
+Algunos ejemplos de degradación son incendios repetidos y tala selectiva.
+
+37
+00:01:59,920 --> 00:02:01,500
+Note que ninguna de estas definiciones de cambio
+
+38
+00:02:01,500 --> 00:02:04,550
+del bosque especifica la causa del cambio.
+
+39
+00:02:04,550 --> 00:02:07,240
+CLASlite detecta los cambios naturales
+
+40
+00:02:07,265 --> 00:02:10,509
+y antropogénicos, es decir, causados por el hombre.
+
+41
+00:02:10,509 --> 00:02:13,340
+Ante esta desalentadora pérdida del bosque, nosotros
+
+42
+00:02:13,340 --> 00:02:18,090
+en la Institución Carnegie, desarrollamos el Sistema de Análisis Landsat de Carnegie, o CLAS.
+
+43
+00:02:18,090 --> 00:02:20,190
+CLAS fue nuestro programa original para monitorear
+
+44
+00:02:20,190 --> 00:02:22,810
+el estado de los bosques usando imágenes de satélite.
+
+45
+00:02:22,810 --> 00:02:26,740
+Corría en super computadores durante varios días.
+
+46
+00:02:26,740 --> 00:02:29,290
+A partir de esta tecnología, desarrollammos CLASlite,
+
+47
+00:02:29,290 --> 00:02:33,050
+un software mas rápido, preciso, versatil y amigable.
+
+48
+00:02:33,050 --> 00:02:35,170
+CLASlite ya va por su tercera versión, y
+
+49
+00:02:35,170 --> 00:02:38,940
+ha tenido grandes mejoras en el tiempo de procesamiento y funcionalidad.
+
+50
+00:02:38,940 --> 00:02:41,470
+Esta tabla muestra el desarrollo.
+
+51
+00:02:41,470 --> 00:02:43,910
+Basicamente, la versión actual de CLASlite es mucho más
+
+52
+00:02:43,910 --> 00:02:47,790
+accesible para usuarios no expertos para uso rutinario,
+
+53
+00:02:47,790 --> 00:02:52,980
+empleando una variedad de satélites. Ahora, veamos un panorama de alto nivel
+
+54
+00:02:52,980 --> 00:02:58,560
+sobre los procesos y salidas de CLASlite. CLASlite ejecuta cuatro funciones principales,
+
+55
+00:02:58,560 --> 00:03:01,470
+cada una armada sobre las precedentes.
+
+56
+00:03:01,470 --> 00:03:02,830
+Son las siguientes,
+
+57
+00:03:02,830 --> 00:03:06,950
+explicaremos cada una en su propia sección de este curso.
+
+58
+00:03:06,950 --> 00:03:11,970
+La primera: Calibración Dos: Análisis espectral.
+
+59
+00:03:11,970 --> 00:03:17,340
+Tres: Clasificación de la cobertura boscosa. Y finalmente, cuatro: Detección del cambio
+
+60
+00:03:17,340 --> 00:03:20,180
+Esta es una ilustración de un procesamiento de CLASlite y
+
+61
+00:03:20,180 --> 00:03:21,970
+su salida para cada uno de los cuatro pasos.
+
+62
+00:03:23,320 --> 00:03:23,800
+Note que,
+
+63
+00:03:23,800 --> 00:03:26,370
+a los fines de este curso, las imagenes de ejemplo
+
+64
+00:03:26,370 --> 00:03:28,550
+que proporcionaremos serán de la serie
+
+65
+00:03:28,550 --> 00:03:31,320
+de satélites Landsat, pero los principios que discutiremos
+
+66
+00:03:31,320 --> 00:03:34,940
+son generales y deben aplicarse a todos los sensores satelitales compatibles.
+
+67
+00:03:34,940 --> 00:03:37,850
+En los raros casos en que hablemos de un proceso de CLASlite
+
+68
+00:03:37,850 --> 00:03:40,070
+que sea único para data de Landsat, se le haremos saber.
+
+69
+00:03:41,190 --> 00:03:45,430
+Ahora, aclaremos algunos de los aspectos confusos acerca de qué es y qué no es CLASlite.
+
+70
+00:03:46,520 --> 00:03:49,130
+CLASlite es altamente automatizado en el sentido de que corre
+
+71
+00:03:49,130 --> 00:03:53,940
+cada paso por si mismo. Solo hay que ingresar los archivos de entrada y la metadata.
+
+72
+00:03:53,940 --> 00:03:57,240
+Dicho esto, no es que le genere todas las respuestas que busca,
+
+73
+00:03:57,240 --> 00:03:59,790
+debe saber cómo interpretar las salidas de CLASlite
+
+74
+00:03:59,790 --> 00:04:02,260
+para que le sean de utilidad, y para que
+
+75
+00:04:02,260 --> 00:04:05,800
+pueda ajustar cualquiera de las configuraciones personalizables de CLASlite.
+
+76
+00:04:11,810 --> 00:04:14,130
+CLASlite realiza su mapeo con base en algoritmos
+
+77
+00:04:14,130 --> 00:04:16,459
+diseñados para trabajar en todo el mundo.
+
+78
+00:04:16,459 --> 00:04:18,110
+Por ello, puede que no capture
+
+79
+00:04:18,110 --> 00:04:21,700
+la intricada dinámica de un bosque en particular.
+
+80
+00:04:21,700 --> 00:04:25,720
+Pero como los algoritmos de CLASllite están enfocados en las características de los bosques tropicales,
+
+81
+00:04:25,720 --> 00:04:28,420
+varios de estos pasos funcionarán para cualquier ubicación del mundo.
+
+82
+00:04:30,690 --> 00:04:32,700
+El tercer punto es que las salidas de CLASlite
+
+83
+00:04:32,700 --> 00:04:35,260
+son una serie de imágenes con significado ecológico.
+
+84
+00:04:35,260 --> 00:04:38,670
+Puede usar estos resultados para inferir propiedades importantes del paisaje,
+
+85
+00:04:38,670 --> 00:04:43,260
+como biodiversidad, o reservas de carbono, pero CLASlite no hará esto por usted.
+
+86
+00:04:43,260 --> 00:04:47,910
+CLASlite evoluciona constantemente. Esto se debe a que seguimos trabajando en el desarrollo
+
+87
+00:04:47,910 --> 00:04:49,570
+técnico del software, a medida que construimos
+
+88
+00:04:49,570 --> 00:04:52,780
+la capacidad para hacerlo más ampliamente accesible.
+
+89
+00:04:52,780 --> 00:04:56,530
+A medida que producimos nuevas y mejores versiones para la comunidad
+
+90
+00:04:56,530 --> 00:04:58,200
+nos retroalimentamos de los usuarios
+
+91
+00:04:58,200 --> 00:05:01,490
+de CLASlite de diferentes geografías y para diferentes aplicaciones.
+
+92
+00:05:02,630 --> 00:05:06,600
+Esta retroalimentación guía la investigación para el desarrollo técnico.
+
+93
+00:05:06,600 --> 00:05:08,760
+Así, continuamente mejoramos nuestra
+
+94
+00:05:08,760 --> 00:05:11,450
+tecnología para apoyar el monitoreo forestal globalmente.
+

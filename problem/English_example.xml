@@ -1,0 +1,11 @@
+<problem url_name="English_example" display_name="English example" markdown="&lt;problem&gt; &#10;&lt;optionresponse&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;If someone wants to find another word for &quot;hierarchic&quot;, it would be reasonable to suggest  &lt;/p&gt; &#10;&lt;optioninput label=&quot;&quot; options=&quot;('stratified','vertical')&quot; correct=&quot;stratified&quot; inline=&quot;1&quot;&gt;&lt;/optioninput&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;or  &lt;/p&gt; &#10;&lt;optioninput label=&quot;&quot; options=&quot;('free-for-all','ordered')&quot; correct=&quot;ordered&quot; inline=&quot;1&quot;&gt;&lt;/optioninput&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;.&lt;/p&gt; &#10;&lt;/optionresponse&gt; &#10;&lt;/problem&gt;">
+  <problem>
+    <optionresponse>
+      <p style="display:inline">If someone wants to find another word for "hierarchic", it would be reasonable to suggest  </p>
+      <optioninput correct="stratified" inline="1" label="" options="('stratified','vertical')"/>
+      <p style="display:inline">or  </p>
+      <optioninput correct="ordered" inline="1" label="" options="('free-for-all','ordered')"/>
+      <p style="display:inline">.</p>
+    </optionresponse>
+  </problem>
+</problem>

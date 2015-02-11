@@ -1,0 +1,71 @@
+<problem url_name="Default_Drag_and_Drop_Problem_with_Outline" display_name="Default Drag and Drop Problem with Outline" markdown="null">
+  <customresponse>
+    <text>
+      <p>Please label hydrogen  atoms connected with left carbon atom.</p>
+      <p>Note that for this problem, there isn't a 1-to-1 ration.  This is still acceptable, so long as each target id has a location you've specified.  In this way, for this problem, we've been able to have multiple draggable Hydrogens which can be placed in a corresponding Hydrogen atom.</p>
+    </text>
+    <p>Click on <span onclick="unhide('calculations_2')" style="cursor: pointer; color: blue; text-decoration: underline;">this link</span> to display the code that created this problem:</p>
+    <p>
+      <div class="hidden" id="calculations_2" style="padding-bottom: 1em;">
+        <pre>
+          <code>
+ &lt;drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/ethglycol.jpg" target_outline="true" one_per_target="true" no_labels="true" label_bg_color="rgb(222, 139, 238)"&gt;
+            &lt;draggable id="1" label="Hydrogen" /&gt;
+            &lt;draggable id="2" label="Hydrogen" /&gt;
+
+            &lt;target id="t1_o" x="10" y="67" w="100" h="100"/&gt;
+            &lt;target id="t2" x="133" y="3" w="70" h="70"/&gt;
+            &lt;target id="t3" x="2" y="384" w="70" h="70"/&gt;
+            &lt;target id="t4" x="95" y="386" w="70" h="70"/&gt;
+            &lt;target id="t5_c" x="94" y="293" w="91" h="91"/&gt;
+            &lt;target id="t6_c" x="328" y="294" w="91" h="91"/&gt;
+            &lt;target id="t7" x="393" y="463" w="70" h="70"/&gt;
+            &lt;target id="t8" x="344" y="214" w="70" h="70"/&gt;
+            &lt;target id="t9_o" x="445" y="162" w="100" h="100"/&gt;
+            &lt;target id="t10" x="591" y="132" w="70" h="70"/&gt;
+        &lt;/drag_and_drop_input&gt;
+        &lt;answer type="loncapa/python"&gt;
+correct_answer = [{
+    'draggables': ['1', '2'],
+    'targets': ['t2', 't3', 't4' ],
+    'rule':'anyof'
+}]
+if draganddrop.grade(submission[0], correct_answer):
+    correct = ['correct']
+else:
+    correct = ['incorrect']
+        &lt;/answer&gt;
+    &lt;/customresponse&gt;</code>
+        </pre>
+        <p>
+          <span onclick="hide('calculations_2')" style="cursor: pointer; color: blue; text-decoration: underline;">Click here to hide this code.</span>
+        </p>
+      </div>
+    </p>
+    <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/ethglycol.jpg" label_bg_color="rgb(222, 139, 238)" no_labels="true" one_per_target="true" target_outline="true">
+      <draggable id="1" label="Hydrogen"/>
+      <draggable id="2" label="Hydrogen"/>
+      <target h="100" id="t1_o" w="100" x="10" y="67"/>
+      <target h="70" id="t2" w="70" x="133" y="3"/>
+      <target h="70" id="t3" w="70" x="2" y="384"/>
+      <target h="70" id="t4" w="70" x="95" y="386"/>
+      <target h="91" id="t5_c" w="91" x="94" y="293"/>
+      <target h="91" id="t6_c" w="91" x="328" y="294"/>
+      <target h="70" id="t7" w="70" x="393" y="463"/>
+      <target h="70" id="t8" w="70" x="344" y="214"/>
+      <target h="100" id="t9_o" w="100" x="445" y="162"/>
+      <target h="70" id="t10" w="70" x="591" y="132"/>
+    </drag_and_drop_input>
+    <answer type="loncapa/python">
+correct_answer = [{
+    'draggables': ['1', '2'],
+    'targets': ['t2', 't3', 't4' ],
+    'rule':'anyof'
+}]
+if draganddrop.grade(submission[0], correct_answer):
+    correct = ['correct']
+else:
+    correct = ['incorrect']
+        </answer>
+  </customresponse>
+</problem>

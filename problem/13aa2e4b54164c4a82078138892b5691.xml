@@ -1,0 +1,10 @@
+<problem display_name="Checkboxes" markdown="&gt;&gt;Check the box next to the following word that is also a kind of apple.&lt;&lt;&#10;&#10;[ ] Smith&#10;[ ] Gale&#10;[x] Jazz&#10;">
+  <p>Check the box next to the following word that is also a kind of apple.</p>
+  <choiceresponse>
+    <checkboxgroup label="Check the box next to the following word that is also a kind of apple." direction="vertical">
+      <choice correct="false">Smith</choice>
+      <choice correct="false">Gale</choice>
+      <choice correct="true">Jazz</choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

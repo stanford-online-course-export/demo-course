@@ -1,0 +1,4 @@
+<split_test group_id_to_child="{&quot;1&quot;: &quot;i4x://StanfordOnline/OpenEdX/vertical/group_1_0&quot;, &quot;2&quot;: &quot;i4x://StanfordOnline/OpenEdX/vertical/group_2_0&quot;}" user_partition_id="0">
+  <vertical url_name="group_1_0"/>
+  <vertical url_name="group_2_0"/>
+</split_test>

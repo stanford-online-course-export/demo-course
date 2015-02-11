@@ -1,0 +1,4 @@
+<split_test group_id_to_child="{&quot;1&quot;: &quot;i4x://StanfordOnline/OpenEdX/vertical/c8eb2e2296e348dca4debb6cafe41a7e&quot;, &quot;0&quot;: &quot;i4x://StanfordOnline/OpenEdX/problem/Checkboxes_1&quot;, &quot;2&quot;: &quot;i4x://StanfordOnline/OpenEdX/problem/Dropdown&quot;}" user_partition_id="0">
+  <problem url_name="Dropdown"/>
+  <vertical url_name="c8eb2e2296e348dca4debb6cafe41a7e"/>
+</split_test>

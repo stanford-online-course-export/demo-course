@@ -1,0 +1,10 @@
+<problem url_name="Checkboxes_5" display_name="Checkboxes" markdown="&gt;&gt;Check the box next to any word or phrase below that relates to math&lt;&lt;&#10;&#10;[x] fourth dimension&#10;[x] space&#10;[ ] potatoes&#10;">
+  <p>Check the box next to any word or phrase below that relates to math</p>
+  <choiceresponse>
+    <checkboxgroup direction="vertical" label="Check the box next to any word or phrase below that relates to math">
+      <choice correct="true">fourth dimension</choice>
+      <choice correct="true">space</choice>
+      <choice correct="false">potatoes</choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

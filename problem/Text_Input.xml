@@ -1,0 +1,15 @@
+<problem url_name="Text_Input" display_name="Text Input" markdown="null" rerandomize="onreset"><p>Regular expressions are useful for allowing varied response options.  One example where that might be useful is below.</p>  By switching from the simple editor to the advanced editor, changing the answer type from "ci" (which stands for "case insensitive") to "regexp ci" and then adding wildcard characters around the answer - like this: answer="limp" --&gt; answer=".*limp.*" - you add flexibility around what can be given in the answer input field.  This change should now allow you to give responses like "limping", "limps", "limped", "limp" or even "to limp". Here is how that looks in the Advanced Editor:<br/><br/>
+  <pre><code>
+  &lt;stringresponse answer=".*limp.*" type="regexp ci" &gt;
+  &lt;textline label="Give a different tense of the verb 'limp'" size="20"/&gt;
+&lt;/stringresponse&gt;
+  </code></pre>
+  <br/>
+<p>Give a different tense of the verb 'limp'.</p>
+
+<stringresponse answer=".*limp.*" type="regexp ci"><textline label="Give a different tense of the verb 'limp'" size="20"/></stringresponse>
+
+
+<solution><div class="detailed-solution"><p>Explanation</p><p>Accepted response options should be: limp, limping, limped, limps, to limp.</p></div></solution>
+
+</problem>

@@ -1,0 +1,23 @@
+<problem url_name="Math_Problem" display_name="Math Problem" markdown="null">
+  <p>
+Math stuff involving variables....
+</p>
+  <p>Compute \(\frac{\partial}{\partial x}y\sin^2 x\).</p>
+  <script type="loncapa/python">
+VoVi = "2*y*cos(x)*sin(x)"
+</script>
+  <p>The answer to this question is \(2y\sin x\cos x\), which is also \(y\sin(2x)\). But your solution will be marked incorrect if you forget to explicitly denote multiplication using "*". E.g., don't type "\(2x\)" if what you really mean is \(2\ast x\). </p>
+  <formularesponse answer="$VoVi" samples="x,y@1,2:4,5#10" type="ci">
+    <responseparam default="0.00001" type="tolerance"/>
+    <textline math="1" size="40"/>
+  </formularesponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>We're differentiating with respect to \(x\), so we treat \(y\) as a constant. Then we apply the chain rule to deal with the square, and recall that \(\frac{d}{dx}\sin x = \cos x.\) So
+\[\frac{\partial}{\partial x}y\sin^2 x = y\frac{\partial}{\partial x}\sin^2 x=y\cdot 2\sin x\cdot \frac{d}{dx}\sin x = 2y\sin x\cos x.\]
+Recalling the trig identity, \(\sin(2t) = 2\sin t \cos t\), we can
+rewrite our solution as \(y\sin(2x)\). (Did you remember to type "*" between \(y\) and \(\sin(2x)\)? Did you remember to type "*" between \(2\) and \(x\)?)</p>
+    </div>
+  </solution>
+</problem>

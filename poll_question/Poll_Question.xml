@@ -1,0 +1,5 @@
+<poll_question display_name="Poll Question">
+  <p>Do you understand the answer to life, the universe and everything?</p>
+  <answer id="yes">Yes</answer>
+  <answer id="no">No</answer>
+</poll_question>

@@ -1,0 +1,21 @@
+{
+    "GRADER": [
+        {
+            "drop_count": 0, 
+            "min_count": 5, 
+            "short_label": "HW", 
+            "type": "Homework", 
+            "weight": 0.9
+        }, 
+        {
+            "drop_count": 1, 
+            "min_count": 1, 
+            "short_label": "Participation", 
+            "type": "Class Participation", 
+            "weight": 0.1
+        }
+    ], 
+    "GRADE_CUTOFFS": {
+        "Pass": 0.44
+    }
+}

@@ -1,0 +1,18 @@
+<problem url_name="Q1_2" display_name="Q1" markdown="One of the main elements that goes into a good multiple choice question is the existence of good distractors. That is, each of the alternate responses presented to the student should be the result of a plausible mistake that a student might make.&#10;&#10;&gt;&gt;Which novel are Harrison Ford and Orson Scott Card connected through?&lt;&lt;&#10;     ( ) &lt;img src=&quot;/static/Runningman.jpg&quot; width=&quot;150&quot;/&gt; &quot;Running Man&quot;&#10;     ( ) &lt;img src=&quot;/static/Hitchhikers_Guide.jpg&quot; width=&quot;150&quot;/&gt; &quot;The Hitchhiker's Guide to the Galaxy&quot;&#10;     (x) &lt;img src=&quot;/static/endersgame.jpg&quot; width=&quot;150&quot;/&gt; &quot;Ender's Game&quot;&#10;     ( ) &lt;img src=&quot;/static/BladeRunnerPulp.jpg&quot; width=&quot;150&quot;/&gt; &quot;Blade Runner&quot;&#10;     &#10;[explanation]&#10;Harrison Ford was in both &quot;Blade Runner&quot; and &quot;Ender's Game&quot;.  Orson Scott Card wrote &quot;Ender's Game&quot;.&#10;[explanation]&#10;">
+  <p>One of the main elements that goes into a good multiple choice question is the existence of good distractors. That is, each of the alternate responses presented to the student should be the result of a plausible mistake that a student might make.</p>
+  <p>Which novel are Harrison Ford and Orson Scott Card connected through?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Which novel are Harrison Ford and Orson Scott Card connected through?" type="MultipleChoice">
+      <choice correct="false"><img src="/static/Runningman.jpg" width="150"/> "Running Man"</choice>
+      <choice correct="false"><img src="/static/Hitchhikers_Guide.jpg" width="150"/> "The Hitchhiker's Guide to the Galaxy"</choice>
+      <choice correct="true"><img src="/static/endersgame.jpg" width="150"/> "Ender's Game"</choice>
+      <choice correct="false"><img src="/static/BladeRunnerPulp.jpg" width="150"/> "Blade Runner"</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Harrison Ford was in both "Blade Runner" and "Ender's Game".  Orson Scott Card wrote "Ender's Game".</p>
+    </div>
+  </solution>
+</problem>

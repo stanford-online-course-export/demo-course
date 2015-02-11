@@ -1,0 +1,18 @@
+<problem display_name="Multiple Choice" markdown="&gt;&gt;What is the correct question to the answer &quot;42&quot;?&lt;&lt;&#10;     ( ) What is the square root of 1764?&#10;     ( ) How far away in light years is the nearest Earth-like planet?&#10;     ( ) In 1993, the newest president of the United States became the nth president. What is n?&#10;     ( ) What is the answer to life, the universe and everything?&#10;     ( ) All of the above&#10;     &#10;[explanation]&#10;While all are technically correct, the most correct is the fourth question. See &quot;The Hitch-Hiker's Guide to the Galaxy.&quot;&#10;[explanation]&#10;">
+  <p>What is the correct question to the answer "42"?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="What is the correct question to the answer &quot;42&quot;?" type="MultipleChoice">
+      <choice correct="false">What is the square root of 1764?</choice>
+      <choice correct="false">How far away in light years is the nearest Earth-like planet?</choice>
+      <choice correct="false">In 1993, the newest president of the United States became the nth president. What is n?</choice>
+      <choice correct="false">What is the answer to life, the universe and everything?</choice>
+      <choice correct="false">All of the above</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>While all are technically correct, the most correct is the fourth question. See "The Hitch-Hiker's Guide to the Galaxy."</p>
+    </div>
+  </solution>
+</problem>

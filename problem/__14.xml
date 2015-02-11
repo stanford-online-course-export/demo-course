@@ -1,0 +1,146 @@
+<problem url_name="__14" display_name="" markdown="null" max_attempts="null" rerandomize="always">
+  <p>[Q1] We're interested in well-formed XML that satisfies the following conditions:
+<ul><li>It has a root element "tasklist"</li><li>The root element has 3 "task" subelements</li><li>Each of the "task" subelements has an attribute named "name"</li><li>The values of the "name" attributes for the 3 tasks are "eat", "drink", and "play"</li></ul>
+Select, from the choices below, the well-formed XML that meets the above requirements.
+</p>
+  <multiplechoiceresponse targeted-feedback="">
+    <choicegroup answer-pool="4" type="MultipleChoice">
+      <choice correct="false" explanation-id="solution5">
+        <span>
+          <font color="blue">
+            <pre>
+&lt;tasklist&gt;
+  &lt;task name="eat"/&gt;
+&lt;/tasklist&gt;
+&lt;tasklist&gt;
+  &lt;task name="drink"/&gt;
+&lt;/tasklist&gt;
+&lt;tasklist&gt;
+  &lt;task name="play"/&gt;
+&lt;/tasklist&gt;
+</pre>
+          </font>
+        </span>
+      </choice>
+      <choice correct="false" explanation-id="solution2">
+        <span>
+          <font color="blue">
+            <pre>
+&lt;tasklist&gt;
+  &lt;task name="eat"&gt;
+  &lt;task name="drink"&gt;
+  &lt;task name="play"&gt;
+&lt;/tasklist&gt;
+</pre>
+          </font>
+        </span>
+      </choice>
+      <choice correct="true" explanation-id="solution0">
+        <span>
+          <font color="blue">
+            <pre>
+&lt;tasklist&gt;
+  &lt;task name="eat"/&gt;
+  &lt;task name="drink"/&gt;
+  &lt;task name="play"/&gt;
+&lt;/tasklist&gt;
+</pre>
+          </font>
+        </span>
+      </choice>
+      <choice correct="false" explanation-id="solution3">
+        <span>
+          <font color="blue">
+            <pre>
+&lt;tasklist&gt;
+  &lt;task name=eat/&gt;
+  &lt;task name=drink/&gt;
+  &lt;task name=play/&gt;
+&lt;/tasklist&gt;
+</pre>
+          </font>
+        </span>
+      </choice>
+      <choice correct="false" explanation-id="solution4">
+        <span>
+          <font color="blue">
+            <pre>
+&lt;tasklist&gt;
+  &lt;task name="eat"/&gt;
+  &lt;task name="drink"/&gt;
+  &lt;task name="play"/&gt;
+&lt;tasklist&gt;
+</pre>
+          </font>
+        </span>
+      </choice>
+      <choice correct="true" explanation-id="solution1">
+        <span>
+          <font color="blue">
+            <pre>
+&lt;tasklist&gt;
+  &lt;task name="eat"&gt;&lt;/task&gt;
+  &lt;task name="drink"&gt;&lt;/task&gt;
+  &lt;task name="play"&gt;&lt;/task&gt;
+&lt;/tasklist&gt;
+</pre>
+          </font>
+        </span>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <targetedfeedbackset>
+    <targetedfeedback explanation-id="solution2">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>
+In well-formed XML, all opening tags, such as the three "task" tags, must be closed.
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution3">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>
+In well-formed XML, all attribute values, such as "eat", "drink" and "play", must be enclosed in quotes.
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution4">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>
+In well-formed XML, all opening tags, such as "tasklist", must be closed properly.
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution5">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>
+In well-formed XML, there must be exactly one top level element. In this choice, we have three top level elements.
+</span>
+      </div>
+    </targetedfeedback>
+  </targetedfeedbackset>
+  <solutionset>
+    <solution explanation-id="solution0">
+      <div class="detailed-solution">
+        <p>Problem Explanation</p>
+        <p>Well-formed XML must follow these rules (along with others):
+<ul><li>There must be exactly one top level element.</li><li>All opening tags must be closed.</li><li>All elements are properly nested i.e., there are no interleaved elements.</li><li>Attribute values must be enclosed in single or double quotes.</li></ul>
+</p>
+      </div>
+    </solution>
+    <solution explanation-id="solution1">
+      <div class="detailed-solution">
+        <p>Problem Explanation</p>
+        <p>Well-formed XML must follow these rules (along with others):
+<ul><li>There must be exactly one top level element.</li><li>All opening tags must be closed.</li><li>All elements are properly nested i.e., there are no interleaved elements.</li><li>Attribute values must be enclosed in single or double quotes.</li></ul>
+</p>
+      </div>
+    </solution>
+  </solutionset>
+  <hr/>
+  <br/>
+</problem>

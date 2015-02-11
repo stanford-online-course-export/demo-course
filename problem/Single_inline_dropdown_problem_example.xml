@@ -1,0 +1,9 @@
+<problem url_name="Single_inline_dropdown_problem_example" display_name="Single inline dropdown problem example" markdown="&lt;problem&gt; &#10;&lt;optionresponse&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;Enter your question prompt here &lt;/p&gt; &#10;&lt;optioninput label=&quot;&quot; options=&quot;('enter-dropdown-response-option-1-here','enter-dropdown-response-option-2-here','add-more-between-single-quotes')&quot; correct=&quot;enter-the-correct-dropdown-response-option-here&quot; inline=&quot;1&quot;&gt;&lt;/optioninput&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;.&lt;/p&gt; &#10;&lt;/optionresponse&gt; &#10;&lt;/problem&gt; ">
+  <problem>
+    <optionresponse>
+      <p style="display:inline">Enter your question prompt here </p>
+      <optioninput correct="enter-the-correct-dropdown-response-option-here" inline="1" label="" options="('enter-dropdown-response-option-1-here','enter-dropdown-response-option-2-here','add-more-between-single-quotes')"/>
+      <p style="display:inline">.</p>
+    </optionresponse>
+  </problem>
+</problem>

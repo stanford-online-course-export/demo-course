@@ -1,0 +1,47 @@
+<problem url_name="Hot_Cold_hints" display_name="Hot/Cold hints" markdown="null" rerandomize="always" showanswer="finished" weight="10.0">
+  <text>
+    <p>
+      <h4>How Big Is Space?</h4>
+    </p>
+    <script system_path="python_lib" type="text/python">
+def test_str(expect, ans):
+  print expect, ans
+  ans = ans.strip("'")
+  ans = ans.strip('"')
+
+  ans = float(ans)
+  expect = float(expect)
+  if abs(ans-expect) &lt; 5:
+    return True
+  else:
+    return False
+ 
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  print 'hint_fn called, ans=', ans
+  hint = ''
+  if float(ans) &lt; 51:
+    hint = 'Much too low.'
+  elif float(ans) &lt;= 509:
+    hint = 'Too low.'
+  elif float(ans) &gt; 5140:
+    hint = 'Much too high.'
+  elif float(ans) &gt;= 519:
+    hint = 'Too high.'
+  else:
+      hint = 'Exact answer: 514 miles'
+  if hint:
+    hint = "&amp;lt;font color='blue'&amp;gt;Hint: {0}&amp;lt;/font&amp;gt;".format(hint) 
+    new_cmap.set_hint_and_mode(aid,hint,'always')
+</script>
+    <p>
+Imagine a scaled-down universe. If the sun is at one end of a football field and Neptune is at the other, how many miles away will the nearest star be? </p>
+    <p>
+      <customresponse cfn="test_str" expect="514">
+        <textline correct_answer="514"/>
+        <hintgroup hintfn="hint_fn"/>
+      </customresponse>
+    </p>
+  </text>
+</problem>

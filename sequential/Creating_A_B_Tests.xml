@@ -1,0 +1,6 @@
+<sequential display_name="Creating A/B Tests">
+  <vertical url_name="Basic_A_B_test_steps_plus_setting_up_an_A_B_test_policy_file"/>
+  <vertical url_name="How_to_create_an_A_B_test_between_components_in_a_unit"/>
+  <vertical url_name="How_to_create_an_A_B_test_between_units_in_a_subsection"/>
+  <vertical url_name="How_to_create_an_A_B_test_between_subsections_in_a_section"/>
+</sequential>

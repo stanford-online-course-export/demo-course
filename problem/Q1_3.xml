@@ -1,0 +1,29 @@
+<problem url_name="Q1_3" display_name="Q1" markdown="A numerical input problem accepts a line of text input from the student, and evaluates the input for correctness based on its numerical value.&#10;&#10;The answer is correct if it is within a specified numerical tolerance of the expected answer.&#10;&#10;&gt;&gt;Enter the approximate value of one-fiftieth of a percent:&lt;&lt;&#10;&lt;img src=&quot;http://a5.mzstatic.com/jp/r30/Purple/v4/34/d5/0e/34d50ea2-a52f-8e42-939b-79134612e545/icon_256.png&quot; width=&quot;128&quot; height=&quot;128&quot;/&gt;&#10;= 0.0002 +- 0.001&#10;&#10;&gt;&gt;Enter the number of eyes on a spider&lt;&lt;&#10;= 7 +- 1&#10;&#10;&gt;&gt;Enter the numerical value of Pi:&lt;&lt;&#10;&lt;img src=&quot;http://www.sailorpi.com/sign.gif&quot; width=&quot;128&quot; height=&quot;128&quot;/&gt;&#10;= 3.14159 +- .02&#10;&#10;[explanation]&#10;One-fiftieth of a percent is 0.0002.&#10;Spiders sometimes have 6 eyes, though most have 8. &#10;Pi, or the the ratio between a circle's circumference to its diameter, is an irrational number known to extreme precision. It is value is approximately equal to 3.14.&#10;[explanation]&#10;">
+  <p>A numerical input problem accepts a line of text input from the student, and evaluates the input for correctness based on its numerical value.</p>
+  <p>The answer is correct if it is within a specified numerical tolerance of the expected answer.</p>
+  <p>Enter the approximate value of one-fiftieth of a percent:</p>
+  <img height="128" src="http://a5.mzstatic.com/jp/r30/Purple/v4/34/d5/0e/34d50ea2-a52f-8e42-939b-79134612e545/icon_256.png" width="128"/>
+  <numericalresponse answer="0.0002">
+    <responseparam default="0.001" type="tolerance"/>
+    <formulaequationinput label="Enter the approximate value of one-fiftieth of a percent:"/>
+  </numericalresponse>
+  <p>Enter the number of eyes on a spider</p>
+  <numericalresponse answer="7">
+    <responseparam default="1" type="tolerance"/>
+    <formulaequationinput/>
+  </numericalresponse>
+  <p>Enter the numerical value of Pi:</p>
+  <img height="128" src="http://www.sailorpi.com/sign.gif" width="128"/>
+  <numericalresponse answer="3.14159">
+    <responseparam default=".02" type="tolerance"/>
+    <formulaequationinput label="Enter the numerical value of Pi:"/>
+  </numericalresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>One-fiftieth of a percent is 0.0002.</p>
+      <p>Spiders sometimes have 6 eyes, though most have 8. </p>
+      <p>Pi, or the the ratio between a circle's circumference to its diameter, is an irrational number known to extreme precision. It is value is approximately equal to 3.14.</p>
+    </div>
+  </solution>
+</problem>

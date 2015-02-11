@@ -1,0 +1,4 @@
+<split_test group_id_to_child="{&quot;1&quot;: &quot;i4x://StanfordOnline/OpenEdX/vertical/161b91370c814a61bd7dd72686a56525&quot;, &quot;0&quot;: &quot;i4x://StanfordOnline/OpenEdX/video/Default_Video_0&quot;, &quot;2&quot;: &quot;i4x://StanfordOnline/OpenEdX/video/High_Anxiety_Trailer&quot;}" user_partition_id="0">
+  <video url_name="High_Anxiety_Trailer"/>
+  <vertical url_name="161b91370c814a61bd7dd72686a56525"/>
+</split_test>

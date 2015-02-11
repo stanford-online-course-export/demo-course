@@ -1,0 +1,37 @@
+<p><em>This problem is adapted from an exercise that first appeared in MITx's 14.73x The Challenges of Global Poverty course, spring 2013.</em></p>
+<p>This also allows for any kind of response below to be counted as correct, *so long as* you include one of these phrases in your response somewhere:</p>
+<div>
+<ul style="list-style-type: none;">
+<li>- herd immunity</li>
+<li>- community immunity</li>
+<li>- population immunity</li>
+</ul>
+</div>
+<p>The code for the problem below looks like this:</p>
+<pre><span class="nt">&lt;problem&gt;</span>
+<span class="nt">&lt;stringresponse</span> <span class="na">answer=</span><span class="s">".*herd immunity.*"</span> <span class="na">type=</span><span class="s">"ci regexp"</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;additional_answer&gt;.*</span>community immunity.*<span class="nt">&lt;/additional_answer&gt;</span>
+        <span class="nt">&lt;additional_answer&gt;.*</span>population immunity.*<span class="nt">&lt;/additional_answer&gt;</span>
+        <span class="nt">&lt;<span class="highlighted">text</span>line</span> <span class="na">size=</span><span class="s">"20"</span> <span class="na">label=</span><span class="s">"What is the technical term that refers to the fact that, when enough people sleep under a bednet, the disease may altogether disappear?"</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;hintgroup&gt;</span>
+            <span class="nt">&lt;stringhint</span> <span class="na">answer=</span><span class="s">"contact immunity"</span> <span class="na">type=</span><span class="s">"ci"</span> <span class="na">name=</span><span class="s">"contact_immunity_hint"</span> <span class="nt">/&gt;</span>
+            <span class="nt">&lt;hintpart</span> <span class="na">on=</span><span class="s">"contact_immunity_hint"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;startout<span class="highlighted">text</span></span> <span class="nt">/&gt;</span>
+                In contact immunity, a vaccinated individual passes along his immunity to another person through contact with feces or bodily fluids. The answer to the question above refers to the form of immunity that occurs when so many members of a population are protected, an infectious disease is unlikely to spread to the unprotected population.
+                <span class="nt">&lt;endout<span class="highlighted">text</span></span> <span class="nt">/&gt;</span>
+            <span class="nt">&lt;/hintpart &gt;</span>
+            <span class="nt">&lt;stringhint</span> <span class="na">answer=</span><span class="s">"firewall immunity"</span> <span class="na">type=</span><span class="s">"ci"</span> <span class="na">name=</span><span class="s">"firewall_immunity_hint"</span> <span class="nt">/&gt;</span>
+            <span class="nt">&lt;hintpart</span> <span class="na">on=</span><span class="s">"firewall_immunity_hint"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;startout<span class="highlighted">text</span></span> <span class="nt">/&gt;</span>
+                Although a firewall provides protection for a population, the term "firewall" is used more in computing and technology than in epidemiology.
+                <span class="nt">&lt;endout<span class="highlighted">text</span></span> <span class="nt">/&gt;</span>
+            <span class="nt">&lt;/hintpart &gt;</span>
+        <span class="nt">&lt;/hintgroup&gt;</span>
+<span class="nt">&lt;/stringresponse&gt;</span>
+<span class="nt">&lt;solution&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"detailed-solution"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Explanation<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>The correct answer is <span class="nt">&lt;b&gt;</span>herd immunity<span class="nt">&lt;/b&gt;</span>. As more and more people use bednets, the risk of malaria begins to fall for everyone &ndash; users and non-users alike. This can fall to such a low probability that malaria is effectively eradicated from the group (even when the group does not have 100% bednet coverage).<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span></pre>

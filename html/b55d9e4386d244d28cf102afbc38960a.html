@@ -1,0 +1,36 @@
+<p>Conditionals allow you to display content to users based on their response to something, be it a problem or a poll, and on whether they answered correctly, incorrectly, or whether they answered at all. &nbsp;</p>
+<p>One way in which you might use conditionals in your course is to test out different versions of content on different participants. &nbsp;If you want one group to see one kind of content, and another group to see different content, it can be done by setting up this environment.</p>
+<h3>To create a conditional, follow these steps:</h3>
+<ol>
+<li>First create the question in one unit. &nbsp;</li>
+<li>Then create a second unit.</li>
+<li>Create the optional results (depending on what response is given to the question) in separate components in this second unit. &nbsp;</li>
+<li>Export your course by going to Tools &gt; Export.</li>
+<li>View your course in the live version, and find the unit that contains the question.</li>
+<li>Click on "Staff Debug Info" for that question component, and copy the location ID that you see in the window that pops up. &nbsp;<br /><br /><img alt="" src="/static/3_-_click_on_staff_debug_info_and_copy_location_id_from_unit_with_question.jpg" /></li>
+<li>Click to view the second unit, then click on "View unit in Studio".</li>
+<li>From Studio, note the Unit Identifer ID that displays in the Unit Location module on this page.<br /><br /><img alt="" src="/static/2_-_unit_id_for_the_vertical_containing_the_conditional_result_options.jpg" /></li>
+<li>Open your course file that you exported in a code-editing program.</li>
+<li>Find the vertical file with the Unit Identifer ID you noted from the second unit.<br /><br /><img alt="" src="/static/1_-_starting_vertical_file_containing_conditional_result_options.jpg" /></li>
+<li>Wrap the content that you want to have display for one response in conditional tags, like this:<br />
+<pre><code>&lt;conditional sources="i4x://StanfordOnline/OpenEdX/problem/4864f660de8a4123b148940fb95dfbc7" message="" correct="True"&gt;</code></pre>
+</li>
+<li>Be sure to close the conditional tag immediately after the content that you want to have display for this response.&nbsp;</li>
+<li>The location ID that you copied from earlier is what you will use as the conditional source ID. &nbsp;The message attribute can be left blank if you don't want any additional message to display when someone gives a correct or incorrect answer. &nbsp;The values for the correct attribute can be either "True" or "False", and will determine which answer response will give you which resulting conditional content.</li>
+<li>Do the same thing for the other content that you want to have display for the other response(s).</li>
+<li>The final code in the vertical file will probably look something like this:<br />
+<pre><code>&lt;vertical display_name="Here is the Result"&gt;
+&lt;conditional sources="i4x://StanfordOnline/OpenEdX/problem/4864f660de8a4123b148940fb95dfbc7" correct="True"&gt;
+  &lt;html url_name="73889e3f68924289832fce23005906ba"/&gt;
+  &lt;video url_name="0e5542ae425e439197224345e323b52d"/&gt;
+  &lt;video url_name="6c6fe4564b4e4dfcb2be2154d0f9e267"/&gt;
+&lt;/conditional&gt;
+&lt;conditional sources="i4x://StanfordOnline/OpenEdX/problem/4864f660de8a4123b148940fb95dfbc7" correct="False"&gt;
+  &lt;html url_name="f33404fe93ef4631afeb7530fa521536"/&gt;
+  &lt;discussion url_name="dee3604646d146e8ae966a07562c5a60"/&gt;
+&lt;/conditional&gt;
+&lt;/vertical&gt;</code></pre>
+</li>
+<li>Save your changes to the vertical file, zip up your course and import this back into your course by going to Tools &gt; Import. &nbsp;You should be all set after that. &nbsp;</li>
+</ol>
+<p>Click on the following units to see the end result.</p>

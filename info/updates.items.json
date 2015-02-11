@@ -1,0 +1,26 @@
+[
+    {
+        "content": "\n    <section class=\"update-description\"><p>Announcement text</p>\n    </section>", 
+        "date": "December 9", 
+        "id": 1, 
+        "status": "deleted"
+    }, 
+    {
+        "content": "<p>\nWelcome to <strong>Demo Course</strong>!  This course starts today, and will run indefinitely.</p>\n<p>\nPlease complete the <span style=\"font-style:italic\">pre-course survey</span> and then dive in!  Course content can be accessed through the Courseware tab.  The Courseware page is divided into sections, which you can view in the lefthand column.  Clicking on a section causes it to expand and display subsections within the section.  Click on a subsection to view units within the subsection.  A unit will contain various components of content, such as problems, text, videos, iframed PDFs, and so on.\n</p><p>\nFor those interested in more of a structured experience, click on the <a href=\"https://class.stanford.edu/courses/StanfordOnline/OpenEdX/Demo/4b33106cef2d4677931e6b01f31a608d/\">Syllabus</a> at the top of the page to view a proposed outline which you can follow as you see fit.\n</p>", 
+        "date": "April 30, 2014", 
+        "id": 2, 
+        "status": "visible"
+    }, 
+    {
+        "content": "<article><!-- This style sheet is necessary for the intro.js text blocks to work. -->\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/introjs.css\">\n<!-- So is this script. -->\n<script src=\"/static/intro.js\"></script>\n\n<script>\n  $(document).ready(function(){\n    \n    /*****************************************************\n    * This section enables the intro.js text blocks.\n    * They're set in the addNavData() function below.\n    *****************************************************/\n\n    addNavData();\n    \n    $('#navmaker').on('click tap', function(){\n    \tintroJs().start();\n    });\n    \n    // End of intro.js code.\n    \n  });\n  \n  /**************************************************************\n  * This function adds the data needed for the intro.js text blocks.\n  * We're doing it here rather than in the HTML directly.\n  **************************************************************/\n  function addNavData(){\n    var navmaker = $('#navmaker');\n    navmaker.attr(\"data-step\", \"1\");\n    navmaker.attr(\"data-intro\", \"Welcome to the Stanford Online Demo Course! Click on the 'next' button or press the right arrow key to continue.\");\n    navmaker.attr(\"data-position\", \"right\");\n\n    var courseware = $('.course-tabs').find('a:contains(\"Courseware\")');\n    courseware.attr(\"data-step\", \"2\");\n    courseware.attr(\"data-intro\", \"The course materials, including videos, problems, and more, are all right here in the Courseware tab.\");\n    courseware.attr(\"data-position\", \"right\");\n\n    var discussion = $('.course-tabs').find('a:contains(\"Discussion\")');\n    discussion.attr(\"data-step\", \"3\");\n    discussion.attr(\"data-intro\", \"This tab holds the Discussion boards, where you can talk to your fellow students.\");\n    discussion.attr(\"data-position\", \"right\");\n\n    var handouts = $('h1:contains(\"Handouts\")');\n    handouts.attr(\"data-step\", \"4\");\n    handouts.attr(\"data-intro\", \"Finally, here is where you can find links to important course handouts. Click the Done button and you're ready to go!\");\n    handouts.attr(\"data-position\", \"left\");\n\n  }\n</script>\n\n\n<p>Are you new to Stanford Online? Click on this button to get a quick tour of the most basic parts of the course.</p>\n\n<button id=\"navmaker\" style=\"color: white; font-size: medium; text-shadow: none; background: linear-gradient(to top, #0b0 0%,#080 20%,#0e0 100%); background-color:green;\" data-step=\"1\" data-intro=\"Welcome to the Stanford Online Public Demo Course! Click on the 'next' button or press the right arrow key to continue.\" data-position=\"right\">How Do I Use Stanford Online?</button>\n</article>", 
+        "date": "", 
+        "id": 3, 
+        "status": "visible"
+    }, 
+    {
+        "content": "helloooo, %%USER_FULLNAME%% !\n%%USER_ID%%\n%%COURSE_DISPLAY_NAME%%\n%%COURSE_END_DATE%%", 
+        "date": "February 5, 2015", 
+        "id": 4, 
+        "status": "visible"
+    }
+]

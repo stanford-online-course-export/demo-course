@@ -1,0 +1,80 @@
+<article><!-- This style sheet is necessary for the intro.js text blocks to work. -->
+<link rel="stylesheet" type="text/css" href="/static/introjs.css">
+<!-- So is this script. -->
+<script src="/static/intro.js"></script>
+
+<script>
+  $(document).ready(function(){
+    
+    /*****************************************************
+    * This section enables the intro.js text blocks.
+    * They're set in the addNavData() function below.
+    *****************************************************/
+
+    addNavData();
+    
+    $('#navmaker').on('click tap', function(){
+    	introJs().start();
+    });
+    
+    // End of intro.js code.
+    
+  });
+  
+  /**************************************************************
+  * This function adds the data needed for the intro.js text blocks.
+  * We're doing it here rather than in the HTML directly.
+  **************************************************************/
+  function addNavData(){
+    var navmaker = $('#navmaker');
+    navmaker.attr("data-step", "1");
+    navmaker.attr("data-intro", "Welcome to the Stanford Online Demo Course! Click on the 'next' button or press the right arrow key to continue.");
+    navmaker.attr("data-position", "right");
+
+    var courseware = $('.course-tabs').find('a:contains("Courseware")');
+    courseware.attr("data-step", "2");
+    courseware.attr("data-intro", "The course materials, including videos, problems, and more, are all right here in the Courseware tab.");
+    courseware.attr("data-position", "right");
+    
+    var toc = $('#ui-accordion-accordion-panel-0').find('a:contains("Course Intro / intent")');
+    toc.attr("data-step", "3");
+    toc.attr("data-intro", "This is the table of contents");
+    toc.attr("data-position", "right");
+
+    var toc2 = $('#ui-accordion-accordion-panel-0').find('a:contains("Navigation")');
+    toc2.attr("data-step", "4");
+    toc2.attr("data-intro", "You can click on these subsection names");
+    toc2.attr("data-position", "right");
+    
+    var newsec = $('#ui-accordion-accordion-header-1').find('a:contains("Videos")');
+    newsec.attr("data-step","5");
+    newsec.attr("data-intro","Or go to a new section");
+    newsec.attr("data-position","right");
+    
+    var discussion = $('.course-tabs').find('a:contains("Discussion")');
+    discussion.attr("data-step", "6");
+    discussion.attr("data-intro", "This tab holds the Discussion boards, where you can talk to your fellow students.");
+    discussion.attr("data-position", "right");
+
+    var wiki = $('.course-tabs').find('a:contains("Wiki")');
+    wiki.attr("data-step", "7");
+    wiki.attr("data-intro", "Wiki of collaboratively created content is here");
+    wiki.attr("data-position", "left");
+
+    var nextone=$('nav.sequence-bottom').find('li:contains("Next")');
+    nextone.attr("data-step", "8");
+    nextone.attr("data-intro","You can use these arrows to move around between units");
+    nextone.attr("data-position","top");
+    
+    var nexttab=$("#tab_1");
+    nexttab.attr("data-step", "9");
+    nexttab.attr("data-intro","You can use click on this ribbon to navigate");
+    nexttab.attr("data-position","left");
+  }
+</script>
+
+
+<p>Are you new to Stanford Online? Click on this button to get a quick tour of the most basic parts of the course.</p>
+
+<button id="navmaker" style="color: white; font-size: medium; text-shadow: none; background: linear-gradient(to top, #0b0 0%,#080 20%,#0e0 100%); background-color:green;" data-step="1" data-intro="Welcome to the Stanford Online Public Demo Course! Click on the 'next' button or press the right arrow key to continue." data-position="right">How Do I Find My Way Around This Course?</button>
+</article>

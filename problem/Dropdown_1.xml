@@ -1,0 +1,12 @@
+<problem url_name="Dropdown_1" display_name="Dropdown" markdown="&gt;&gt;An avocado is a ___________ .&lt;&lt;&#10;&#10;[[(fruit), nut, vegetable, legume]]&#10;&#10;[explanation]&#10;See: &lt;a href=&quot;http://en.wikipedia.org/wiki/Avocado&quot;&gt;http://en.wikipedia.org/wiki/Avocado&lt;/a&gt;&#10;[explanation]&#10;">
+  <p>An avocado is a ___________ .</p>
+  <optionresponse>
+    <optioninput correct="fruit" label="An avocado is a ___________ ." options="('fruit','nut','vegetable','legume')"/>
+  </optionresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>See: <a href="http://en.wikipedia.org/wiki/Avocado">http://en.wikipedia.org/wiki/Avocado</a></p>
+    </div>
+  </solution>
+</problem>

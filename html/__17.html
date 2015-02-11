@@ -1,0 +1,36 @@
+<p>
+<script>// <![CDATA[
+function unhide(spanID) {
+                                                    var item = document.getElementById(spanID);
+                                                         if (item) {
+                                                              item.className=(item.className=='hidden')?'unhidden':'hidden';
+                                                         }
+                                                }
+                                            
+                                            function hide(spanID) {
+                                                    var item = document.getElementById(spanID);
+                                                         if (item) {
+                                                            item.className='hidden';
+                                                         }
+                                                }
+                                                function check(RadioID)
+                                                {
+                                                  document.getElementById(RadioID).checked=true; 
+                                                }
+                                                
+                                                function changeHiddenInput (objDropDown, hiddenID)
+                                                {
+                                                var objHidden = document.getElementById(hiddenID);
+                                                var strUser = objDropDown.options[objDropDown.selectedIndex].value;
+                                                objHidden.value = strUser;
+                                                }
+// ]]></script>
+</p>
+<p>Para&nbsp;leer la introducci&oacute;n en Espa&ntilde;ol, por favor <span style="cursor: pointer; color: blue; text-decoration: underline;" onclick="unhide('calculations_2')">haga clic aqu&iacute; para ver el texto</span>.</p>
+<div id="calculations_2" class="hidden" style="padding-bottom: 1em;">Este curso est&aacute; aqu&iacute; con el prop&oacute;sito de ayudar a que la creaci&oacute;n de su propio curso y maniobrar alrededor de &eacute;l m&aacute;s f&aacute;cil. Muchos profesores optan por iniciar sus cursos con un video introductorio, la introducci&oacute;n de s&iacute; mismos y el personal del curso. Otros incluyen s&oacute;lo un peque&ntilde;o fragmento de texto explicando lo que se incluye en la p&aacute;gina de Informaci&oacute;n del Curso.<br /><br />Una herramienta &uacute;til a su disposici&oacute;n para asegurar que todas las cosas que hay que hacer - antes de la liberaci&oacute;n de su curso en l&iacute;nea para la naturaleza - se han hecho es la lista de verificaci&oacute;n, que se encuentra en el men&uacute; Herramientas en la parte superior de su p&aacute;gina de Studio.</div>
+<div class="hidden" style="padding-bottom: 1em;"><br />
+<p><span style="cursor: pointer; color: blue; text-decoration: underline;" onclick="hide('calculations_2')">Click here to hide this text.</span></p>
+</div>
+<p>&nbsp;</p>
+<p></p>
+<p></p>

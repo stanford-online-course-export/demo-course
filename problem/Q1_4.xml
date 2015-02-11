@@ -1,0 +1,14 @@
+<problem url_name="Q1_4" display_name="Q1" markdown="A text input problem accepts a line of text from the student, and evaluates the input for correctness based on an expected answer.&#10;&#10;The answer is correct if it matches every character of the expected answer. This can be a problem with international spelling, dates, or anything where the format of the answer is not clear.&#10;&#10;&gt;&gt;Spell 'envenomation'&lt;&lt;&#10;&#10;= envenomation&#10;&#10;&#10;[explanation]&#10;Envenomation is the process by which venom is injected into some animal by the bite (or sting) of a venomous animal.&#10;[explanation]&#10;">
+  <p>A text input problem accepts a line of text from the student, and evaluates the input for correctness based on an expected answer.</p>
+  <p>The answer is correct if it matches every character of the expected answer. This can be a problem with international spelling, dates, or anything where the format of the answer is not clear.</p>
+  <p>Spell 'envenomation'</p>
+  <stringresponse answer="envenomation" type="ci">
+    <textline label="Spell 'envenomation'" size="20"/>
+  </stringresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Envenomation is the process by which venom is injected into some animal by the bite (or sting) of a venomous animal.</p>
+    </div>
+  </solution>
+</problem>

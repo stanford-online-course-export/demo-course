@@ -1,0 +1,76 @@
+<p>
+<script type="text/javascript">// <![CDATA[
+function unhide(spanID) {
+                                                    var item = document.getElementById(spanID);
+                                                         if (item) {
+                                                              item.className=(item.className=='hidden')?'unhidden':'hidden';
+                                                         }
+                                                }
+                                            
+                                            function hide(spanID) {
+                                                    var item = document.getElementById(spanID);
+                                                         if (item) {
+                                                            item.className='hidden';
+                                                         }
+                                                }
+                                                function check(RadioID)
+                                                {
+                                                  document.getElementById(RadioID).checked=true; 
+                                                }
+                                                
+                                                function changeHiddenInput (objDropDown, hiddenID)
+                                                {
+                                                var objHidden = document.getElementById(hiddenID);
+                                                var strUser = objDropDown.options[objDropDown.selectedIndex].value;
+                                                objHidden.value = strUser;
+                                                }
+// ]]></script>
+</p>
+<p><strong>10. Processes with Recycle Streams: Ammonia Production</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Learning Objectives:</strong></p>
+<ul>
+<li>Understand PFD of an ammonia production process</li>
+<li>Understand the logic of recycle streams in steady state processes</li>
+<li>Analyze steady state processes with recycle streams</li>
+<li>Understand the logic of a purge stream in a steady state process</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Chemical Processes with Recycle Streams:</strong></p>
+<ul>
+<li>Typically comprised of reactor + separator.</li>
+<li>The products are separated from unused reactant(s), which are returned upstream.</li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Why recycle?</strong></p>
+<ul>
+<li>Reduce waste of unused reactants.&nbsp; One measure of the utilization of reactants that we can use is &ldquo;fractional conversion&rdquo;:</li>
+</ul>
+<p style="text-align: center;">\[ fractional\ conversion=\ \frac{moles\ reactant\ \bf{reacted}}{moles\ reactant\ \bf{fed}} \]</p>
+<ul>
+<li>Some reactions have unfavorable equilibrium constants. Even when run to their natural completion, the conversion of reactants to products is incomplete. One example is ammonia synthesis.</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Ammonia:</strong></p>
+<p><span style="text-decoration: underline;">What is Ammonia used for?</span></p>
+<ul>
+<li>Ammonia is commonly used in fertilizers, household cleaners, refrigeration, food preservatives, stimulants, textiles, lifting gas, and woodworking.</li>
+<li>To learn more about the properties and applications of ammonia and the history of its production, click <a href="http://en.wikipedia.org/wiki/Ammonia#Uses" target="_blank">here</a>.</li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Ammonia production</span>: Haber-Bosch process (recall the impact of this development on the nitrogen cycle discussed in <strong>Module 2</strong>)</p>
+<ul>
+<li>Reaction:&nbsp; N<sub>2</sub>&nbsp; + &nbsp;3H<sub>2</sub>&nbsp;&nbsp; &harr;&nbsp; 2NH<sub>3</sub></li>
+<li>To learn more about ammonia production and the Haber-Bosch process, click <a title="Haber Process" href="http://en.wikipedia.org/wiki/Haber_process" target="_blank">here</a>.</li>
+<li>To visualize the PFD for a typical ammonia production plant that includes production of the N<sub>2</sub> and H<sub>2</sub> reactants, click <a href="http://en.wikipedia.org/wiki/File:Haber-Bosch-En.svg" target="_blank">here</a>.&nbsp; This process typically runs at <em>steady state</em>.</li>
+<li>This is an equilibrium reaction and the equilibrium constant (K<sub>eq</sub>) under typical processing conditions is below: (see <strong>Module 7</strong> for discussion of equilibrium constant)</li>
+</ul>
+<p>\[ K_{eq}=\frac{{x_{{NH}_3}}^2}{x_{N_2}{x_{H_2}}^3}=0.35\ \ (at\ 450\ ℃\ and\ 300\ bar) \]</p>
+<p>&nbsp;</p>
+<p><strong>Consider: Ammonia synthesis (without recycle)</strong></p>
+<div style="text-align: center;"><img alt="Figure 10-1, Ammonia synthesis without recycle" src="/static/Figure_10-1.JPG" /></div>
+<p>Let&rsquo;s assume that we have a stoichiometric feed of N<sub>2</sub> and H<sub>2</sub>.&nbsp;&nbsp; We can determine that the <span style="text-decoration: underline;">maximum yield</span> (assuming equilibrium is achieved in the reactor) is 0.25 and the <span style="text-decoration: underline;">fractional conversion of N<sub>2</sub></span> for this process is also 0.25.&nbsp; To see these calculations, you can either watch the video below, or you can <span style="cursor: pointer; color: blue; text-decoration: underline;" onclick="unhide('calculations_1')">click here to see the text</span>.</p>
+<div id="calculations_1" class="hidden" style="padding-bottom: 1em;"><iframe src="https://prod-c2g.s3.amazonaws.com/ENGR20/Spring2013/files/Calculations%20for%20AmmWithoutRecycle.pdf?Signature=yRXS1jY5kVxys91OCJIEv8WX9Z8%3D&amp;Expires=1677766124&amp;AWSAccessKeyId=AKIAIINO3Q3NXKJA2PXQ" height="500" width="700"></iframe>
+<p><span style="cursor: pointer; color: blue; text-decoration: underline;" onclick="hide('calculations_1')">Click here to hide this text.</span></p>
+</div>
+<p>&nbsp;</p>

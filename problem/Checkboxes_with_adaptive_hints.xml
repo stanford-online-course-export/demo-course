@@ -1,0 +1,59 @@
+<problem url_name="Checkboxes_with_adaptive_hints" display_name="Checkboxes with adaptive hints" markdown="null" rerandomize="onreset" showanswer="always">
+  <p>If you want to give people hints based on their responses, and more than one response can be right, then this kind of problem might be for you. </p>
+  <script system_path="python_lib" type="text/python">
+def hint_fn1(answer_ids, student_answers, new_cmap, old_cmap):
+    aid = answer_ids[0]
+    ans = ''
+    hint = ''
+    if not aid in student_answers:
+    	hint = 'Looks like you didn\'t select an answer?'
+    else:
+    	ans = str(student_answers[aid]).lower() 
+    print 'hint_fn called, ans=', ans
+    if 'choice_0' in ans:
+    	hint = 'Red is one of them. Make sure to check the others noted above. If you see a green checkmark, then you\'ve gotten them all right.'
+    if 'choice_1' in ans:
+    	hint = 'Read the instructions again, then try again.'
+    if 'choice_2' in ans:
+    	hint = 'Nope, this is not one of the colors listed above. Please try again.'
+    if 'choice_3' in ans:
+    	hint = 'Sorry, try again.'
+    if 'choice_4' in ans:
+      	hint = 'Green is one of them. Make sure to check the others noted above. If you see a green checkmark, then you\'ve gotten them all right.'
+    if 'choice_5' in ans:
+      	hint = 'Gray is one of them. Make sure to check the others noted above. If you see a green checkmark, then you\'ve gotten them all right.' 
+    if 'choice_6' in ans:
+      	hint = 'Try again.'
+    if 'choice_7' in ans:
+      	hint = 'Blue is one of them. Make sure to check the others noted above. If you see a green checkmark, then you\'ve gotten them all right.'  
+    if 'choice_8' in ans:
+      	hint = 'Nope.'
+    if 'choice_9' in ans:
+      	hint = 'Please re-read the instructions, then try again.'   
+    if hint:
+    	hint = "&lt;font color='blue'&gt;Hint: {0}&lt;/font&gt;".format(hint)
+    	new_cmap.set_hint_and_mode(aid,hint,'always')
+  </script>
+  <p>Check the boxes that match the following words: red, blue, green, gray</p>
+  <choiceresponse>
+    <checkboxgroup direction="vertical" label="Select the answer that matches any of the following words: red, blue, green, gray">
+      <choice correct="true">red</choice>
+      <choice correct="false">orange</choice>
+      <choice correct="false">yellow</choice>
+      <choice correct="false">white</choice>
+      <choice correct="true">green</choice>
+      <choice correct="true">gray</choice>
+      <choice correct="false">black</choice>
+      <choice correct="true">blue</choice>
+      <choice correct="false">purple</choice>
+      <choice correct="false">pink</choice>
+    </checkboxgroup>
+    <hintgroup hintfn="hint_fn1"/>
+  </choiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>The correct answers are red, green, gray and blue.</p>
+    </div>
+  </solution>
+</problem>

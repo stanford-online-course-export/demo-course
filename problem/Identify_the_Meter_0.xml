@@ -1,0 +1,44 @@
+<problem url_name="Identify_the_Meter_0" display_name="Identify the Meter" markdown="null" rerandomize="onreset">
+  <script system_path="python_lib" type="text/python">
+def test_str(expect, ans):
+  print expect, ans
+  ans = ans.strip("'")
+  ans = ans.strip('"')
+  return expect == ans.lower()
+
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid]).lower()
+  print 'hint_fn called, ans=', ans
+  hint = ''
+  if 'tetrameter' in ans:
+     hint = 'Tetrameter has too few syllables.'
+  elif 'hexameter' in ans:
+     hint = 'Hexameter has too many syllables.'
+  elif 'heptameter' in ans:
+     hint = 'Heptameter has too many syllables.'
+  elif 'dactylic' in ans:
+     hint = 'This is a two-beat pattern.'
+  elif 'freeform' in ans:
+     hint = 'This has more structure than that.'
+  if hint:
+    hint = "&lt;font color='blue'&gt;Hint: {0}&lt;/font&gt;".format(hint)
+    new_cmap.set_hint_and_mode(aid,hint,'always')
+</script>
+  <text>
+    <p>Another decent use for problems with hints. What is the meter for the following piece?<br/>
+    (ie. tetrameter, hexameter, heptameter, dactylic, freeform, iambic pentameter)</p>
+    <p>
+      <i>And I do love thee: therefore, go with me; <br/>
+      I'll give thee fairies to attend on thee, <br/>
+      And they shall fetch thee jewels from the deep, <br/>
+      And sing while thou on pressed flowers dost sleep;</i>
+    </p>
+    <p>
+      <customresponse cfn="test_str" expect="iambic pentameter">
+        <textline correct_answer="python"/>
+        <hintgroup hintfn="hint_fn"/>
+      </customresponse>
+    </p>
+  </text>
+</problem>

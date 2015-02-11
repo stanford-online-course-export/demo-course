@@ -1,0 +1,52 @@
+<problem display_name="Multiple Choice with adaptive hints" markdown="null">
+<p>This should illustrate an adaptive hint function in a multiple choice question.</p>
+
+<p>Choose the right answer.</p>
+<script type="text/python" system_path="python_lib">
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = ''
+  feedback = ''
+  correctness = False
+  if not student_answers:
+  	feedback = 'Please select an answer'
+  else:
+    ans = str(student_answers[aid]).lower()
+  print 'hint_fn called, ans=', ans
+  if 'choice_0' in ans:
+    feedback = 'Incorrect.'
+  elif 'choice_1' in ans:
+    feedback = 'Not it.'
+  elif 'choice_2' in ans:
+    feedback = 'Correct.'
+    correctness = True  
+  elif 'choice_3' in ans:
+    feedback = 'Still not it but try again.'
+  if feedback:
+    if correctness is True:
+      feedback = "&lt;font color='green'&gt;{0}&lt;/font&gt;".format(feedback)
+    else:
+      feedback = "&lt;font color='red'&gt;{0}&lt;/font&gt;".format(feedback)
+    new_cmap.set_hint_and_mode(aid,feedback,'always')
+</script>
+  <multiplechoiceresponse>
+  <choicegroup label="Choose the right answer." type="MultipleChoice">
+    <choice correct="false">The wrong answer.</choice>
+    <choice correct="false">The write answer.</choice>
+    <choice correct="true">The right answer.</choice>
+    <choice correct="false">All of the above.</choice>
+  </choicegroup>
+  <hintgroup hintfn="hint_fn"/>  
+</multiplechoiceresponse>
+
+     
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>If you follow the directions exactly, you will get this question right.</p>
+
+</div>
+</solution>
+
+</problem>

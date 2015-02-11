@@ -1,0 +1,34 @@
+<problem url_name="Inline_English_synonym_example_using_Text_Input" display_name="Inline English synonym example using Text Input" markdown="&lt;problem&gt;&#10;&lt;script type=&quot;loncapa/python&quot;&gt; &#10;&#10;def check_function(expect,answer): &#10; expect = ['stratified','ordered'] #correct 'expected' answer &#10; acceptable = ['bugs','other'] &#10; ok = False #student is wrong by default &#10; overall_message = '' &#10;&#10;#check that inputs are of acceptable form &#10; if answer[0] not in acceptable or answer[1] not in acceptable: &#10;  overall_message = &quot;You must enter the words stratified and ordered, respectively, OR you can enter bugs and other, also respectively, to get your responses counted as correct.&quot; &#10; if answer == expect: &#10;  ok = True &#10;  input_list = [{'ok':ok},{'ok':ok}] # one dictionary for each inputfield &#10;  return {'overall_message':overall_message,'input_list':input_list} &#10; if answer == acceptable:&#10;  ok = True&#10;  input_list = [{'ok':ok},{'ok':ok}] # one dictionary for each inputfield &#10;  return {'overall_message':overall_message,'input_list':input_list} &#10;&#10;&lt;/script&gt; &#10;&lt;customresponse cfn=&quot;check_function&quot;&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;From our earlier English problem example, one other word for &quot;hierarchic&quot; would be something like &quot;stratified&quot;, so please enter that in the first text input field here: &lt;/p&gt; &#10;&lt;textline size=&quot;12&quot; inline=&quot;1&quot;/&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;, while another synonym would be &quot;ordered&quot;, so you can enter that response in this second text input field: &lt;/p&gt; &#10;&lt;textline size=&quot;12&quot; inline=&quot;1&quot;/&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;. &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#10;&lt;p style=&quot;display:inline; font-size:12px;&quot;&gt;(We've also made this problem slightly more flexible, so you can try entering &quot;bugs&quot; in the first text input field and &quot;other&quot; in the second, and if you click to submit, you should still see that you get the question right.)&lt;/p&gt; &#10;&lt;/customresponse&gt; &#10;&lt;/problem&gt;">
+  <problem>
+    <script type="loncapa/python"> 
+
+def check_function(expect,answer): 
+ expect = ['stratified','ordered'] #correct 'expected' answer 
+ acceptable = ['bugs','other'] 
+ ok = False #student is wrong by default 
+ overall_message = '' 
+
+#check that inputs are of acceptable form 
+ if answer[0] not in acceptable or answer[1] not in acceptable: 
+  overall_message = "You must enter the words stratified and ordered, respectively, OR you can enter bugs and other, also respectively, to get your responses counted as correct." 
+ if answer == expect: 
+  ok = True 
+  input_list = [{'ok':ok},{'ok':ok}] # one dictionary for each inputfield 
+  return {'overall_message':overall_message,'input_list':input_list} 
+ if answer == acceptable:
+  ok = True
+  input_list = [{'ok':ok},{'ok':ok}] # one dictionary for each inputfield 
+  return {'overall_message':overall_message,'input_list':input_list} 
+
+</script>
+    <customresponse cfn="check_function">
+      <p style="display:inline">From our earlier English problem example, one other word for "hierarchic" would be something like "stratified", so please enter that in the first text input field here: </p>
+      <textline inline="1" size="12"/>
+      <p style="display:inline">, while another synonym would be "ordered", so you can enter that response in this second text input field: </p>
+      <textline inline="1" size="12"/>
+      <p style="display:inline">. </p>
+      <p/>
+      <p style="display:inline; font-size:12px;">(We've also made this problem slightly more flexible, so you can try entering "bugs" in the first text input field and "other" in the second, and if you click to submit, you should still see that you get the question right.)</p>
+    </customresponse>
+  </problem>
+</problem>

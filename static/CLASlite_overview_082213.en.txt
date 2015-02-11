@@ -1,0 +1,189 @@
+In this section, we're going to provideyou with an overview
+
+of what CLASlite is, why it matters andhow it emerged.
+
+CLASlite is a software package created bymy team at
+
+the Department of Global Ecology of theCarnegie Institution for Science.
+
+It is designed for highly automatedidentification of
+
+deforestation and forest degradation,using remotely sensed satellite imagery.
+
+Our mission is to provide governments,
+
+non-government organizations, and academicinstitutions with
+
+advanced and scientifically soundforest-monitoring technology.
+
+We are working toward the goal that, oneday, forest-monitoring
+
+with satellites will be an every dayactivity for non-experts.
+
+We hope to make CLASlite a common tool
+
+for improving conservation, forest
+
+management and resource policydevelopment.
+
+Tropical forests cover less than 5% of allland but harbor about
+
+half of all species on earth.
+
+Aside from being home to the richestbiodiversity on
+
+the planet, forests provide fuel andsustenance to human inhabitants.
+
+They also store massive amounts of
+
+carbon that would otherwise accelerateglobal warming.
+
+These are just a few examples of theimmense
+
+role forests play in regulating thenatural and built environments.
+
+Yet forests are under threat.
+
+Several million hectares a year aredestroyed,
+
+as forests compete with agriculturalexpansion, logging,
+
+mining, road building, and other landuses.
+
+We'll get into our technical definition offorest cover later in this course.
+
+For now, just know that, when we refer toforest
+
+cover, we are talking about land dominatedby tree canopy.
+
+We define deforestation as the conversionof deforested
+
+land to non-forested land and we definedisturbance
+
+as diffuse thinning of the forest cover.
+
+This could occur if a handful of old treesin a patch of forest die,
+
+or if they're cut down for timber.
+
+We define forest degradation as the
+
+temporal or spatial persistence ofdisturbance.
+
+Examples of degradation are repeated firesand selective logging.
+
+Note that none of these forest change
+
+definitions specify the cause of thechange.
+
+CLASlite detects natural, as well asanthropogenic
+
+(in other words, human caused) changes.
+
+In the face of such daunting global forestloss, we at
+
+the Carnegie Institution developed theCarnegie Landsat Analysis System, or CLAS.
+
+CLAS was our original program formonitoring
+
+the state of forests using satelliteimagery.
+
+It could be run on super computers overthe course of several days.
+
+Out of this technology we developedCLASlite, a
+
+faster, more accurate, versatile and userfriendly software.
+
+CLASlite is now in its third version and has
+
+undergone great improvements in processingtime and functionality.
+
+This table illustrates these developments.
+
+Basically, we can see that the currentversion of CLASlite
+
+is much more accessible to non-expertusers for routine use
+
+using a variety of satellites.Now, let's provide a high-level overview
+
+of CLASlite's processes and outputs.CLASlite performs four basic functions,
+
+each one building on those that camebefore it.
+
+They are the following,
+
+each of which we'll explain in its ownsection of this course.
+
+Number one: Calibration.Number two: Spectral analysis.
+
+Three: Classification of forest cover.And finally, four: Change detection.
+
+Here's an illustration of CLASlite'sprocessing stream and
+
+its output for each of the four steps.
+
+Note that,
+
+for the purposes of this course, theexample imagery
+
+that we provide will be from from theLandsat
+
+series of satellites, but the principlesthat we discuss
+
+are general and should apply to allcompatible satellite sensors.
+
+In rare cases where we are talking about aCLASlite process
+
+that is unique to Landsat data, we willlet you know.
+
+Now let's clarify some of the confusingpoints about what CLASlite is, and is not.
+
+CLASlite is highly automated in the sensethat it runs
+
+each step by itself, you only have toenter input files and metadata.
+
+That said, it doesn't just give you all theanswers you're looking for.
+
+You need to know how to interpretCLASlite's outputs
+
+in order for them to be useful to you,
+
+and in order to tweak any of CLASlite'ssettings that are customizable.
+
+CLASlite does its mapping based onalgorithms
+
+that are designed to work throughout theworld.
+
+Because of this, it may not capture
+
+the intricate forest dynamics of aparticular location.
+
+Yet, although CLASlite's algorithms aretuned to tropical forest characteristics,
+
+several of the steps will work for anylocation on Earth.
+
+The third point is that CLASlite's outputs
+
+are a set of ecologically meaningfulimages.
+
+You can use these results to inferimportant landscape properties, such as
+
+biodiversity or carbon stocks, butCLASlite will not do this for you.
+
+CLASlite is constantly evolving. This isbecause we continue to work on technical
+
+development of the software as we build
+
+capacity to make it more broadlyaccessible.
+
+As we release new and enhanced versions ofthe software to the community,
+
+we gain feedback from users running
+
+CLASlite from various geographies and forvarious applications.
+
+This feedback guides further research intechnical development.
+
+As such, we are continually advancing
+
+our technology to support forestmonitoring globally.

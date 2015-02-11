@@ -1,0 +1,22 @@
+<problem url_name="Q4" display_name="Q4" markdown="&gt;&gt;How many eyes do spiders have?&lt;&lt;&#10;     ( ) 2&#10;     ( ) 4&#10;     ( ) 6&#10;     ( ) 8&#10;     ( ) 2 and 4, depending on the kind of spider&#10;     ( ) 2 and 6, depending on the kind of spider&#10;     ( ) 4 and 8, depending on the kind of spider&#10;     (x) 6 and 8, depending on the kind of spider&#10;     ( ) all of the above&#10;     &#10;[explanation]&#10;Depending on their hunting and habitat habits, sometimes spiders need a different arrangment and therefore a different number of eyes.&#10;[explanation]&#10;">
+  <p>How many eyes do spiders have?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="How many eyes do spiders have?" type="MultipleChoice">
+      <choice correct="false">2</choice>
+      <choice correct="false">4</choice>
+      <choice correct="false">6</choice>
+      <choice correct="false">8</choice>
+      <choice correct="false">2 and 4, depending on the kind of spider</choice>
+      <choice correct="false">2 and 6, depending on the kind of spider</choice>
+      <choice correct="false">4 and 8, depending on the kind of spider</choice>
+      <choice correct="true">6 and 8, depending on the kind of spider</choice>
+      <choice correct="false">all of the above</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Depending on their hunting and habitat habits, sometimes spiders need a different arrangment and therefore a different number of eyes.</p>
+    </div>
+  </solution>
+</problem>

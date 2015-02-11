@@ -1,0 +1,7 @@
+<vertical display_name="Calendar and Presentation">
+  <google-calendar url_name="533f973526fb4876b42bf2ff39135111" calendar_id="edx.org_lom804qe3ttspplj1bgeu1l3ak@group.calendar.google.com" default_view="2" display_name="My Google Calendar"/>
+  <google-document url_name="dfa59aff122c4cc6bcff3718f87a5c17" embed_code="&lt;iframe&#10;    src=&quot;https://docs.google.com/presentation/d/1lA0DaNrxn7d3iozeqJlbsrTkCIxw3_3H2lDSoGm4r5s/embed?start=true&amp;loop=true&amp;delayms=10000&quot;&#10;    frameborder=&quot;0&quot;&#10;    width=&quot;960&quot;&#10;    height=&quot;569&quot;&#10;    allowfullscreen=&quot;true&quot;&#10;    mozallowfullscreen=&quot;true&quot;&#10;    webkitallowfullscreen=&quot;true&quot;&gt;&#10;&lt;/iframe&gt;&#10;" display_name="Google Document"/>
+  <google-calendar url_name="3737667979bd48959ad083c2555e6ddd"/>
+  <google-document url_name="21567af66c254310aa5e1788e8ba6d4c"/>
+  <google-calendar url_name="2ad00aa3c20843c1a99df84dbdcbff38" calendar_id="keleos.maisie@gmail.com" default_view="1" display_name="Google Calendar"/>
+</vertical>

@@ -1,0 +1,35 @@
+<problem url_name="Inline_Math_problem_example_using_Text_Input" display_name="Inline Math problem example using Text Input" markdown="&lt;problem&gt; &lt;p&gt;The correct answer for both input fields is &quot;union&quot;.&lt;/p&gt;&#10;&lt;script type=&quot;loncapa/python&quot;&gt; &#10;&#10;def check_function(expect,answer): &#10; expect = ['union','union'] #correct 'expected' answer &#10; acceptable = ['union','intersection'] &#10; ok = False #student is wrong by default &#10; overall_message = '' &#10;&#10;#check that inputs are of acceptable form &#10; if answer[0] not in acceptable or answer[1] not in acceptable: &#10;  overall_message = &quot;You must enter &amp;lt;code&amp;gt;union&amp;lt;/code&amp;gt; or &amp;lt;code&amp;gt;intersection&amp;lt;/code&amp;gt;.&quot; &#10; if answer == expect: &#10;  ok = True &#10;  input_list = [{'ok':ok},{'ok':ok}] # one dictionary for each inputfield &#10;  return {'overall_message':overall_message,'input_list':input_list} &#10;&#10;&lt;/script&gt; &#10;&lt;customresponse cfn=&quot;check_function&quot;&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;\(Pr[F_s] = Pr\Big[ \big( F_1\)&lt;/p&gt; &#10;&lt;textline size=&quot;12&quot; inline=&quot;1&quot;/&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;\(F_2 \big) \)&lt;/p&gt; &#10;&lt;textline size=&quot;12&quot; inline=&quot;1&quot;/&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;\(F_3 \Big] \)&lt;/p&gt; &#10;&lt;/customresponse&gt; &#10;&#10;[explanation]&#10;Short explanation&#10;[explanation]&#10;&#10;&lt;/problem&gt;">
+  <problem>
+    <p>The correct answer for both input fields is "union".</p>
+    <script type="loncapa/python"> 
+
+def check_function(expect,answer): 
+ expect = ['union','union'] #correct 'expected' answer 
+ acceptable = ['union','intersection'] 
+ ok = False #student is wrong by default 
+ overall_message = '' 
+
+#check that inputs are of acceptable form 
+ if answer[0] not in acceptable or answer[1] not in acceptable: 
+  overall_message = "You must enter &lt;code&gt;union&lt;/code&gt; or &lt;code&gt;intersection&lt;/code&gt;." 
+ if answer == expect: 
+  ok = True 
+  input_list = [{'ok':ok},{'ok':ok}] # one dictionary for each inputfield 
+  return {'overall_message':overall_message,'input_list':input_list} 
+
+</script>
+    <customresponse cfn="check_function">
+      <p style="display:inline">\(Pr[F_s] = Pr\Big[ \big( F_1\)</p>
+      <textline inline="1" size="12"/>
+      <p style="display:inline">\(F_2 \big) \)</p>
+      <textline inline="1" size="12"/>
+      <p style="display:inline">\(F_3 \Big] \)</p>
+    </customresponse>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Short explanation</p>
+      </div>
+    </solution>
+  </problem>
+</problem>

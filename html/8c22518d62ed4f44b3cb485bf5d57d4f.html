@@ -1,0 +1,14 @@
+<p style="font-size: 16px;">If you are creating an A/B test between subsections in a section, you'll want to find the chapter file that corresponds to the section. &nbsp;This chapter will contain the sequential url names that will correspond to the subsections in that section. &nbsp;Click to expand detailed instructions for creating this kind of A/B test.</p>
+<h3>Creating an A/B test between subsections within a section:</h3>
+<blockquote><ol>
+<li><span style="line-height: 1.6;" data-mce-mark="1">Open the folder that contains all of your course's files in your editing program.</span></li>
+<li>In the live version of your course, click to view one of the subsections in question.</li>
+<li>Note the URL string has a format like this:&nbsp;https://class.stanford.edu/courses/StanfordOnline/OpenEdX/Demo/courseware/Section_one/16f7b57e80e445f9b77a5b9b0f4192b3/<br /><br />The slug that precedes the string of letters and numbers is what will correspond to the chapter file name in your course files, so for the above URL, what I will look for in my course files is a chapter file called Section_one. &nbsp;Find this file in the chapter folder and edit it.</li>
+<li>Wrap the two sequentials (which correspond to your subsections) in a &lt;split_test&gt; tag. &nbsp;The tag you create will look something like this, where you'll specify a user_partition_id value based on what you created in your policy.json file, and you'll specify which group will see which content by providing the location ID for that content. &nbsp;<br />
+<pre><code>&lt;split_test display_name="A/B Testing between Subsections" user_partition_id="0" group_id_to_child='{"0": "i4x://StanfordOnline/OpenEdX/sequential/621094f6b5294f7aa350511488bdf797", "2": "i4x://StanfordOnline/OpenEdX/sequential/5ee8f79a47674efb93841b88a4942b38"}'&gt;  </code></pre>
+Close the &lt;split_test&gt; tag after your two subsections / sequentials.<br />
+<pre><code>&lt;/split_test&gt;</code></pre>
+</li>
+<li>Also be sure to give your &lt;split_test&gt; tag a display_name attribute and value. &nbsp;The end result will look like this:<br /><br /><img alt="" src="/static/wrap_the_sequentials_in_a_split_test_tag.jpg" /></li>
+<li>Save your changes, and zip your course file back up, then import this file into your course by going to Tools &gt; Import.</li>
+</ol></blockquote>

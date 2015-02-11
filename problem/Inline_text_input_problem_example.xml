@@ -1,0 +1,28 @@
+<problem url_name="Inline_text_input_problem_example" display_name="Inline text input problem example" markdown="&lt;problem&gt; &#10;&lt;script type=&quot;loncapa/python&quot;&gt; &#10;def check_function(expect,answer): &#10; expect = ['answer1','answer2'] #correct 'expected' answer &#10; acceptable = ['answer3','answer4'] &#10; ok = False #student is wrong by default &#10; overall_message = '' &#10;&#10;#check that inputs are of acceptable form &#10; if answer[0] not in acceptable or answer[1] not in acceptable: &#10;  overall_message = &quot;You must enter answer1 and answer2, or answer3 and answer4 respectively.&quot; &#10; if answer == expect: &#10;  ok = True &#10;  input_list = [{'ok':ok},{'ok':ok}] # one dictionary for each inputfield &#10;  return {'overall_message':overall_message,'input_list':input_list} &#10;&lt;/script&gt; &#10;&#10;&lt;customresponse cfn=&quot;check_function&quot;&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;Staying in line with the code given above, your question prompt would display here for the first text input field, and if you enter &quot;answer1&quot; minus the quotes in the first text input field&lt;/p&gt; &#10;&lt;textline size=&quot;12&quot; inline=&quot;1&quot;/&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;and &quot;answer2&quot; minus the quotes in the second text input field,&lt;/p&gt; &#10;&lt;textline size=&quot;12&quot; inline=&quot;1&quot;/&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;you will get this problem right after you click &quot;Submit&quot;.&lt;/p&gt; &lt;p&gt;&lt;/p&gt;&#10;&lt;p style=&quot;display:inline; font-size:12px;&quot;&gt;Alternatively, you can enter &quot;answer3&quot; in the first input field and &quot;answer4&quot; in the second input field, and still get this question right, due to the &quot;acceptable&quot; attribute in the code above.&lt;/p&gt;&#10;&lt;/customresponse&gt; &#10;&#10;&lt;/problem&gt;">
+  <problem>
+    <script type="loncapa/python"> 
+def check_function(expect,answer): 
+ expect = ['answer1','answer2'] #correct 'expected' answer 
+ acceptable = ['answer3','answer4'] 
+ ok = False #student is wrong by default 
+ overall_message = '' 
+
+#check that inputs are of acceptable form 
+ if answer[0] not in acceptable or answer[1] not in acceptable: 
+  overall_message = "You must enter answer1 and answer2, or answer3 and answer4 respectively." 
+ if answer == expect: 
+  ok = True 
+  input_list = [{'ok':ok},{'ok':ok}] # one dictionary for each inputfield 
+  return {'overall_message':overall_message,'input_list':input_list} 
+</script>
+    <customresponse cfn="check_function">
+      <p style="display:inline">Staying in line with the code given above, your question prompt would display here for the first text input field, and if you enter "answer1" minus the quotes in the first text input field</p>
+      <textline inline="1" size="12"/>
+      <p style="display:inline">and "answer2" minus the quotes in the second text input field,</p>
+      <textline inline="1" size="12"/>
+      <p style="display:inline">you will get this problem right after you click "Submit".</p>
+      <p/>
+      <p style="display:inline; font-size:12px;">Alternatively, you can enter "answer3" in the first input field and "answer4" in the second input field, and still get this question right, due to the "acceptable" attribute in the code above.</p>
+    </customresponse>
+  </problem>
+</problem>

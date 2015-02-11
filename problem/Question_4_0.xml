@@ -1,0 +1,12 @@
+<problem url_name="Question_4_0" display_name="Question #4" markdown="&gt;&gt;Which US state has the longest known cave in the world?&lt;&lt;&#10;&#10;= Kentucky&#10;&#10;&#10;[explanation]&#10;Mammoth Cave in Kentucky is the longest known cave in the world. See http://www.nps.gov/maca/index.htm for more information.&#10;[explanation]&#10;">
+  <p>Which US state has the longest known cave in the world?</p>
+  <stringresponse answer="Kentucky" type="ci">
+    <textline label="Which US state has the longest known cave in the world?" size="20"/>
+  </stringresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Mammoth Cave in Kentucky is the longest known cave in the world. See http://www.nps.gov/maca/index.htm for more information.</p>
+    </div>
+  </solution>
+</problem>

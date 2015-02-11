@@ -1,0 +1,14 @@
+<problem url_name="Q2_0" display_name="Q2" markdown="Dropdown problems give a limited set of options for students to respond with, and present those options in a format that encourages them to search for a specific answer rather than being immediately presented with options from which to recognize the correct answer.&#10;&#10;The answer options and the identification of the correct answer is defined in the &lt;b&gt;optioninput&lt;/b&gt; tag.&#10;&#10;&gt;&gt;The Chinese word Nǐ means __________ in English&lt;&lt;&#10;&#10;[[(You (informal)), You (formal), You (plural), Ewe]]&#10;&#10;[explanation]&#10;&quot;You (informal)&quot; is the correct selection.  The Chinese character for this word is 你.  A dropdown selection gives students time to think of an answer and then search for it rather than relying purely on recognition to answer the question.&#10;[explanation]&#10;">
+  <p>Dropdown problems give a limited set of options for students to respond with, and present those options in a format that encourages them to search for a specific answer rather than being immediately presented with options from which to recognize the correct answer.</p>
+  <p>The answer options and the identification of the correct answer is defined in the <b>optioninput</b> tag.</p>
+  <p>The Chinese word Nǐ means __________ in English</p>
+  <optionresponse>
+    <optioninput correct="You (informal)" label="The Chinese word Nǐ means __________ in English" options="('You (informal)','You (formal)','You (plural)','Ewe')"/>
+  </optionresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>"You (informal)" is the correct selection.  The Chinese character for this word is 你.  A dropdown selection gives students time to think of an answer and then search for it rather than relying purely on recognition to answer the question.</p>
+    </div>
+  </solution>
+</problem>

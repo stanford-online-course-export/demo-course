@@ -1,0 +1,29 @@
+<course advanced_modules="[&quot;lti&quot;, &quot;word_cloud&quot;, &quot;edx_sga&quot;, &quot;split_test&quot;, &quot;done&quot;, &quot;google-calendar&quot;, &quot;google-document&quot;, &quot;submit-and-compare&quot;, &quot;imagemodal&quot;]" advertised_start="null" annotation_storage_url="http://catch-load-balancer-192292975.us-west-2.elb.amazonaws.com/catch/annotator" annotation_token_secret="1e4019b6-86b0-42be-963c-cb5ffdba9bb3" certificates_display_behavior="early_with_info" cohort_config="{&quot;auto_cohort_groups&quot;: [&quot;Good students&quot;, &quot;OK students&quot;], &quot;cohorted_discussions&quot;: [&quot;i4x-StanfordOnline-OpenEdX-course-Demo-Cohort-A&quot;, &quot;i4x-StanfordOnline-OpenEdX-course-Demo-Cohort-B&quot;], &quot;cohorted&quot;: true}" course_image="stanford-hills-small.jpg" css_class="" days_early_for_beta="365.0" disable_progress_graph="false" discussion_sort_alpha="true" display_coursenumber="Feature" display_name="Demo Course" enable_enrollment_email="true" end="2017-09-04T23:30:00Z" enrollment_end="null" enrollment_start="2013-04-04T16:00:00Z" giturl="https://stanford-online-course-export:testing123@github.com/stanford-online-course-export/demo-course.git" graceperiod="2 days" ispublic="true" lti_passports="[&quot;piazza_id:stanford.edu:piazza_sf1-5jo6&quot;, &quot;imathas_test:cid_1_1:secret&quot;, &quot;chuckpython:12345:secret&quot;, &quot;120988f929-274612:12345:secret&quot;, &quot;cerego:130qMVoRYQV1lHBppme2EpkyqyW2TndEloQERPFsoaLSu30yaO3EP7MbeGqmJRjb:usgHARyvReymu40nPQfB8Jt3eqC63whzL9ujSzR6PMA2HlZBdErZN55DBgXNY156hUl2rIXgOZQLQCFHott9P1odfgkrU5mYMilW3LLki6J9XCS1lycEahhz1N5z6TWzlir2xVO4MLDoTQSTAhq3sAeZcvHqYvADt5IhKjgKMj4=&quot;, &quot;edcast:3a342a91b977a2569a63d58f07f93231:b0530a9a6b8fd0f0e5101eeb79e5e89d5a6bdc015e0cecb80244884ec8b66512&quot;]" pdf_textbooks="[{&quot;tab_title&quot;: &quot;Navigating Your Course&quot;, &quot;id&quot;: &quot;0Navigating_Your_Course&quot;, &quot;chapters&quot;: [{&quot;url&quot;: &quot;/static/NAVIGATING_YOUR_COURSE_-_chapter_1.pdf&quot;, &quot;title&quot;: &quot;Chapter 1&quot;}, {&quot;url&quot;: &quot;/static/Navigating_your_Course_-_chapter_2.pdf&quot;, &quot;title&quot;: &quot;Chapter 2&quot;}, {&quot;url&quot;: &quot;/static/Navigating_your_Course_-_chapter_3.pdf&quot;, &quot;title&quot;: &quot;Chapter 3&quot;}]}]" start="2013-04-05T05:00:00Z" use_latex_compiler="false" user_partitions="[{&quot;name&quot;: &quot;Experiment 1&quot;, &quot;version&quot;: 1, &quot;description&quot;: &quot;Content experiment 1&quot;, &quot;groups&quot;: [{&quot;version&quot;: 1, &quot;id&quot;: 1, &quot;name&quot;: &quot;group 1&quot;}, {&quot;version&quot;: 1, &quot;id&quot;: 2, &quot;name&quot;: &quot;group 2&quot;}], &quot;id&quot;: 0}]">
+  <chapter url_name="Introduction"/>
+  <chapter url_name="Videos"/>
+  <chapter url_name="Displaying_Images"/>
+  <chapter url_name="Discussions"/>
+  <chapter url_name="Basic_Questions"/>
+  <chapter url_name="Advanced_Questions_Built_in"/>
+  <chapter url_name="Math_Problems"/>
+  <chapter url_name="Inline_Problems"/>
+  <chapter url_name="Graded_free_text_based_response"/>
+  <chapter url_name="A_B_Testing_in_Studio"/>
+  <chapter url_name="A_B_Testing_with_XML"/>
+  <chapter url_name="Conditionals"/>
+  <chapter url_name="Polls"/>
+  <chapter url_name="Word_Cloud"/>
+  <chapter url_name="ORA_Peer_Assessment"/>
+  <chapter url_name="Staff_Graded_Assignment"/>
+  <chapter url_name="LTI_Learning_Tools_Interoperability_Component"/>
+  <chapter url_name="Hidden_Content"/>
+  <chapter url_name="Hidden_Timed_Exams"/>
+  <chapter url_name="Flexibility_of_Displayed_Content"/>
+  <chapter url_name="Annotation_Tools_Test"/>
+  <chapter url_name="Completion_Checkbox"/>
+  <chapter url_name="73894735b4fc48429d87f78805366126"/>
+  <chapter url_name="5c0d8e9b3aba4e7d99240d2697bf16dd"/>
+  <chapter url_name="2394d17754514bfeb0c8bc05b17fffa4"/>
+  <chapter url_name="a427e46e9cfc4159a432a339915d9940"/>
+  <wiki slug="StanfordOnline.OpenEdX.Demo"/>
+</course>

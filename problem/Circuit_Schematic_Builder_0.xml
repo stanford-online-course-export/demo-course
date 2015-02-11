@@ -1,0 +1,77 @@
+<problem url_name="Circuit_Schematic_Builder_0" display_name="Circuit Schematic Builder" markdown="null">
+  Please make a voltage divider that splits the provided voltage evenly.
+  
+  Below you'll see the code that was used to create this example problem.  
+  
+    <p><pre><code>
+&lt;schematicresponse&gt;
+&lt;center&gt;
+&lt;schematic height="500" width="600" parts="g,r" analyses="dc"
+initial_value="[[&amp;quot;v&amp;quot;,[168,144,0],{&amp;quot;value&amp;quot;:&amp;quot;dc(1)&amp;quot;,&amp;quot;_json_&amp;quot;:0},[&amp;quot;1&amp;quot;,&amp;quot;0&amp;quot;]],[&amp;quot;r&amp;quot;,[296,120,0],{&amp;quot;r&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;_json_&amp;quot;:1},[&amp;quot;1&amp;quot;,&amp;quot;output&amp;quot;]],[&amp;quot;L&amp;quot;,[296,168,3],{&amp;quot;label&amp;quot;:&amp;quot;output&amp;quot;,&amp;quot;_json_&amp;quot;:2},[&amp;quot;output&amp;quot;]],[&amp;quot;w&amp;quot;,[296,216,168,216]],[&amp;quot;w&amp;quot;,[168,216,168,192]],[&amp;quot;w&amp;quot;,[168,144,168,120]],[&amp;quot;w&amp;quot;,[168,120,296,120]],[&amp;quot;g&amp;quot;,[168,216,0],{&amp;quot;_json_&amp;quot;:7},[&amp;quot;0&amp;quot;]],[&amp;quot;view&amp;quot;,-67.49999999999994,-78.49999999999994,1.6000000000000003,&amp;quot;50&amp;quot;,&amp;quot;10&amp;quot;,&amp;quot;1G&amp;quot;,null,&amp;quot;100&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;1000&amp;quot;]]"
+/&gt;
+&lt;/center&gt;
+&lt;answer type="loncapa/python"&gt;
+dc_value = "dc analysis not found"
+for response in submission[0]:
+  if response[0] == 'dc':
+      for node in response[1:]:
+          dc_value = node['output']
+
+if dc_value == .5:
+  correct = ['correct']
+else:
+  correct = ['incorrect']
+&lt;/answer&gt;
+&lt;/schematicresponse&gt;
+&lt;schematicresponse&gt;
+&lt;p&gt;Make a high pass filter&lt;/p&gt;
+&lt;center&gt;
+&lt;schematic height="500" width="600" parts="g,r,s,c" analyses="ac"
+submit_analyses="{&amp;quot;ac&amp;quot;:[[&amp;quot;NodeA&amp;quot;,1,9]]}"
+initial_value="[[&amp;quot;v&amp;quot;,[160,152,0],{&amp;quot;name&amp;quot;:&amp;quot;v1&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;sin(0,1,1,0,0)&amp;quot;,&amp;quot;_json_&amp;quot;:0},[&amp;quot;1&amp;quot;,&amp;quot;0&amp;quot;]],[&amp;quot;w&amp;quot;,[160,200,240,200]],[&amp;quot;g&amp;quot;,[160,200,0],{&amp;quot;_json_&amp;quot;:2},[&amp;quot;0&amp;quot;]],[&amp;quot;L&amp;quot;,[240,152,3],{&amp;quot;label&amp;quot;:&amp;quot;NodeA&amp;quot;,&amp;quot;_json_&amp;quot;:3},[&amp;quot;NodeA&amp;quot;]],[&amp;quot;s&amp;quot;,[240,152,0],{&amp;quot;color&amp;quot;:&amp;quot;cyan&amp;quot;,&amp;quot;offset&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;_json_&amp;quot;:4},[&amp;quot;NodeA&amp;quot;]],[&amp;quot;view&amp;quot;,64.55878906250004,54.114697265625054,2.5000000000000004,&amp;quot;50&amp;quot;,&amp;quot;10&amp;quot;,&amp;quot;1G&amp;quot;,null,&amp;quot;100&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;1000&amp;quot;]]"/&gt;
+&lt;/center&gt;
+&lt;answer type="loncapa/python"&gt;
+ac_values = None
+for response in submission[0]:
+  if response[0] == 'ac':
+      for node in response[1:]:
+          ac_values = node['NodeA']
+print "the ac analysis value:", ac_values
+if ac_values == None:
+  correct = ['incorrect']
+elif ac_values[0][1] &amp;lt; ac_values[1][1]:
+  correct = ['correct']
+else:
+  correct = ['incorrect']
+&lt;/answer&gt;
+&lt;/schematicresponse&gt;</code></pre></p>
+
+<schematicresponse><center><schematic analyses="dc" height="500" initial_value="[[&quot;v&quot;,[168,144,0],{&quot;value&quot;:&quot;dc(1)&quot;,&quot;_json_&quot;:0},[&quot;1&quot;,&quot;0&quot;]],[&quot;r&quot;,[296,120,0],{&quot;r&quot;:&quot;1&quot;,&quot;_json_&quot;:1},[&quot;1&quot;,&quot;output&quot;]],[&quot;L&quot;,[296,168,3],{&quot;label&quot;:&quot;output&quot;,&quot;_json_&quot;:2},[&quot;output&quot;]],[&quot;w&quot;,[296,216,168,216]],[&quot;w&quot;,[168,216,168,192]],[&quot;w&quot;,[168,144,168,120]],[&quot;w&quot;,[168,120,296,120]],[&quot;g&quot;,[168,216,0],{&quot;_json_&quot;:7},[&quot;0&quot;]],[&quot;view&quot;,-67.49999999999994,-78.49999999999994,1.6000000000000003,&quot;50&quot;,&quot;10&quot;,&quot;1G&quot;,null,&quot;100&quot;,&quot;1&quot;,&quot;1000&quot;]]" parts="g,r" width="600"/></center><answer type="loncapa/python">
+dc_value = "dc analysis not found"
+for response in submission[0]:
+  if response[0] == 'dc':
+      for node in response[1:]:
+          dc_value = node['output']
+
+if dc_value == .5:
+  correct = ['correct']
+else:
+  correct = ['incorrect']
+</answer></schematicresponse>
+<schematicresponse><p>Make a high pass filter</p><center><schematic analyses="ac" height="500" initial_value="[[&quot;v&quot;,[160,152,0],{&quot;name&quot;:&quot;v1&quot;,&quot;value&quot;:&quot;sin(0,1,1,0,0)&quot;,&quot;_json_&quot;:0},[&quot;1&quot;,&quot;0&quot;]],[&quot;w&quot;,[160,200,240,200]],[&quot;g&quot;,[160,200,0],{&quot;_json_&quot;:2},[&quot;0&quot;]],[&quot;L&quot;,[240,152,3],{&quot;label&quot;:&quot;NodeA&quot;,&quot;_json_&quot;:3},[&quot;NodeA&quot;]],[&quot;s&quot;,[240,152,0],{&quot;color&quot;:&quot;cyan&quot;,&quot;offset&quot;:&quot;0&quot;,&quot;_json_&quot;:4},[&quot;NodeA&quot;]],[&quot;view&quot;,64.55878906250004,54.114697265625054,2.5000000000000004,&quot;50&quot;,&quot;10&quot;,&quot;1G&quot;,null,&quot;100&quot;,&quot;1&quot;,&quot;1000&quot;]]" parts="g,r,s,c" submit_analyses="{&quot;ac&quot;:[[&quot;NodeA&quot;,1,9]]}" width="600"/></center><answer type="loncapa/python">
+ac_values = None
+for response in submission[0]:
+  if response[0] == 'ac':
+      for node in response[1:]:
+          ac_values = node['NodeA']
+print "the ac analysis value:", ac_values
+if ac_values == None:
+  correct = ['incorrect']
+elif ac_values[0][1] &lt; ac_values[1][1]:
+  correct = ['correct']
+else:
+  correct = ['incorrect']
+</answer></schematicresponse>
+
+    <solution><div class="detailed-solution"><p>Explanation</p><p>A voltage divider that evenly divides the input voltage can be formed with two identically valued resistors, with the sampled voltage taken in between the two.</p><p><img src="/static/images/voltage_divider.png"/></p><p>A simple high-pass filter without any further constaints can be formed by simply putting a resister in series with a capacitor. The actual values of the components do not really matter in order to meet the constraints of the problem.</p><p><img src="/static/images/high_pass_filter.png"/></p></div></solution>
+</problem>

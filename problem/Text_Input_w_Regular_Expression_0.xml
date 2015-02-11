@@ -1,0 +1,42 @@
+<problem url_name="Text_Input_w_Regular_Expression_0" display_name="Text Input w/ Regular Expression" markdown="null" rerandomize="onreset">
+  <script type="loncapa/python">
+
+import re  
+  
+def quiz1_2(expect, ans):
+  response = re.search('^[Ii]ndoctrinated|[Ii]ndoctenated|[Ii]ndontrenate|[Ee]ndoctrinate*|[Ee]ndoctrinate', ans)
+  if response:
+  	return 1
+  else:
+  	return 0
+
+  
+</script>
+  <p>One thing that isn't handled by the regexp answer type that you see in the previous regular expression example is the handling of misspelled words.  As a result, you would perhaps want to handle that with a regular expression script.  This could be added to the Advanced Editor screen.</p>
+  <p>The following regular expression script accounts for case insensitivity by placing an upper- and lower-case letter within square brackets like so: [Mm]. The carrot ^ before the word indicates that this is the start of the word. An asterisk at the end of a word indicates a wildcard character, and would allow for anything to be in that space in the word. The vertical line break between each word has the same meaning as "or". <pre><code>
+  &lt;script type="loncapa/python"&gt;
+
+import re  
+  
+def quiz1_2(expect, ans):
+  response = re.search('^[Ii]ndoctrinated|[Ii]ndoctenated|[Ii]ndontrenate|[Ee]ndoctrinate*|[Ee]ndoctrinate', ans)
+  if response:
+  	return 1
+  else:
+  	return 0
+  
+&lt;/script&gt;
+  </code></pre>
+  </p>
+  <p>When creating your own regular expression script, the words in between the parentheses are all you should need to change.</p>
+  <p>How do you spell indoctrinated?</p>
+  <customresponse cfn="quiz1_2">
+    <textline size="40"/>
+  </customresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Answer</p>
+      <p>"Mañana"</p>
+    </div>
+  </solution>
+</problem>

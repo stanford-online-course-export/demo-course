@@ -1,0 +1,17 @@
+<problem url_name="Multiple_Choice_0" display_name="Multiple Choice" markdown="&gt;&gt;Which killed the radio star?&lt;&lt;&#10;     (x) Video&#10;     ( ) Phonograph&#10;     ( ) Greek theater&#10;     ( ) Professor Plum&#10;     &#10;[explanation]&#10;Video killed the radio star.&#10;[explanation]&#10;">
+  <p>Which killed the radio star?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Which killed the radio star?" type="MultipleChoice">
+      <choice correct="true">Video</choice>
+      <choice correct="false">Phonograph</choice>
+      <choice correct="false">Greek theater</choice>
+      <choice correct="false">Professor Plum</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Video killed the radio star.</p>
+    </div>
+  </solution>
+</problem>

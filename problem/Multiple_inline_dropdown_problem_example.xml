@@ -1,0 +1,11 @@
+<problem url_name="Multiple_inline_dropdown_problem_example" display_name="Multiple inline dropdown problem example" markdown="&lt;problem&gt; &#10;&lt;optionresponse&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;Enter your first question prompt here &lt;/p&gt; &#10;&lt;optioninput label=&quot;&quot; options=&quot;('enter-dropdown-response-option-1-here','enter-dropdown-response-option-2-here','add-more-between-single-quotes','this-one-is-the-right-answer-option')&quot; correct=&quot;this-one-is-the-right-answer-option&quot; inline=&quot;1&quot;&gt;&lt;/optioninput&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;and if you want a second dropdown problem in the same question, add the second part of your question prompt here&lt;/p&gt; &#10;&lt;optioninput label=&quot;&quot; options=&quot;('and-enter-the-right-dropdown-response-option-here','and-enter-another-dropdown-response-option-here')&quot; correct=&quot;and-enter-the-right-dropdown-response-option-here&quot; inline=&quot;1&quot;&gt;&lt;/optioninput&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;and end your question here, as you see fit.&lt;/p&gt; &#10;&lt;/optionresponse&gt; &#10;&lt;/problem&gt; ">
+  <problem>
+    <optionresponse>
+      <p style="display:inline">Enter your first question prompt here </p>
+      <optioninput correct="this-one-is-the-right-answer-option" inline="1" label="" options="('enter-dropdown-response-option-1-here','enter-dropdown-response-option-2-here','add-more-between-single-quotes','this-one-is-the-right-answer-option')"/>
+      <p style="display:inline">and if you want a second dropdown problem in the same question, add the second part of your question prompt here</p>
+      <optioninput correct="and-enter-the-right-dropdown-response-option-here" inline="1" label="" options="('and-enter-the-right-dropdown-response-option-here','and-enter-another-dropdown-response-option-here')"/>
+      <p style="display:inline">and end your question here, as you see fit.</p>
+    </optionresponse>
+  </problem>
+</problem>

@@ -1,0 +1,18 @@
+<problem url_name="Multiple_Choice_2" display_name="Multiple Choice" markdown="null" rerandomize="always" show_reset_button="true">
+  <p>A logician's wife has just given birth. The doctor hands the newborn to the logician. The wife asks, "Is it a boy or a girl?"</p>
+  <p>The logician says _________:</p>
+  <multiplechoiceresponse>
+    <choicegroup label="The logician says _________:" type="MultipleChoice">
+      <choice correct="false">A boy</choice>
+      <choice correct="false">A girl</choice>
+      <choice correct="true">Yes</choice>
+      <choice correct="false">No</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>The question allows for either option to be true. As long as one of the options can be true, then the answer to the question of whether or not it is a boy or a girl will be true. The correct answer, then, is "Yes".</p>
+    </div>
+  </solution>
+</problem>

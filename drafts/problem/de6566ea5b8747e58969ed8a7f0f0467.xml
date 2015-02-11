@@ -1,0 +1,28 @@
+<problem display_name="Blank Common Problem" markdown="&lt;table bgcolor=&quot;#999999&quot;&gt;&#10;  &lt;tr&gt;&#10;    &lt;th&gt;Month&lt;/th&gt;&#10;    &lt;th&gt;Number of days&lt;/th&gt;&#10;  &lt;/tr&gt;&#10;  &lt;tr&gt;&#10;    &lt;td&gt;January&lt;/td&gt;&#10;    &lt;td&gt;31&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;  &lt;tr&gt;&#10;    &lt;td&gt;February&lt;/td&gt;&#10;    &lt;td&gt;31&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;  &lt;tr&gt;&#10;  &#9;&lt;td&gt;March&lt;/td&gt;&#10;    &lt;td&gt;31&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;&lt;/table&gt;&#10;&#10;Which of the months listed above is not displaying the correct number of days in that month?&#10;&#10;( ) January&#10;(x) February&#10;( ) March">
+  <table bgcolor="#999999">
+    <tr>
+      <th>Month</th>
+      <th>Number of days</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td>31</td>
+    </tr>
+  </table>
+  <p>Which of the months listed above is not displaying the correct number of days in that month?</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">January</choice>
+      <choice correct="true">February</choice>
+      <choice correct="false">March</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

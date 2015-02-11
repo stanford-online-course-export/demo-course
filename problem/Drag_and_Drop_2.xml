@@ -1,0 +1,27 @@
+<problem url_name="Drag_and_Drop_2" display_name="Drag and Drop" markdown="null" rerandomize="onreset" show_reset_button="true" showanswer="finished">
+  <p>Here's an example of a "Drag and Drop" question set where each draggable text corresponds to only one item in the image. </p>
+  <p>Match the provided Spanish nouns with the right objects. Click and drag the word up to the corresponding item.</p>
+  <customresponse>
+    <drag_and_drop_input img="https://class.stanford.edu/c4x/StanfordOnline/OpenEdX/asset/clothing-items.jpg" label_bg_color="rgb(222, 222, 222)" no_labels="true" one_per_target="true" target_outline="false">
+      <draggable id="1" label="cinturón"/>
+      <draggable id="2" label="camisa"/>
+      <draggable id="3" label="camiseta sin mangas"/>
+      <draggable id="4" label="cigarillo"/>
+      <draggable id="5" label="cuchillo"/>
+      <draggable id="6" label="gafas"/>
+      <target h="100" id="t1" w="130" x="485" y="215"/>
+      <target h="130" id="t2" w="138" x="34" y="5"/>
+      <target h="170" id="t3" w="100" x="505" y="5"/>
+      <target h="70" id="t4" w="70" x="65" y="180"/>
+      <target h="198" id="t5" w="30" x="0" y="70"/>
+      <target h="80" id="t6" w="180" x="280" y="135"/>
+    </drag_and_drop_input>
+    <answer type="loncapa/python">
+correct_answer = {'1': 't1', '2': 't2', '3': 't3', '4': 't4', '5': 't5', '6': 't6'}
+if draganddrop.grade(submission[0], correct_answer):
+    correct = ['correct']
+else:
+    correct = ['incorrect']       
+     </answer>
+  </customresponse>
+</problem>

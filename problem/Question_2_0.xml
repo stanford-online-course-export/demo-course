@@ -1,0 +1,17 @@
+<problem url_name="Question_2_0" display_name="Question #2" markdown="&gt;&gt;What does alcazar mean?&lt;&lt;&#10;     ( ) headache relief&#10;     ( ) captive&#10;     (x) fortress or castle&#10;     ( ) vegetable peeler&#10;     &#10;[explanation]&#10;In Spain, many places have alcazars.  The word comes from the Arabic &quot;Al-Qasr&quot; (I think).&#10;[explanation]&#10;">
+  <p>What does alcazar mean?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="What does alcazar mean?" type="MultipleChoice">
+      <choice correct="false">headache relief</choice>
+      <choice correct="false">captive</choice>
+      <choice correct="true">fortress or castle</choice>
+      <choice correct="false">vegetable peeler</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>In Spain, many places have alcazars.  The word comes from the Arabic "Al-Qasr" (I think).</p>
+    </div>
+  </solution>
+</problem>

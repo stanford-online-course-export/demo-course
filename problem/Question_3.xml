@@ -1,0 +1,52 @@
+<problem url_name="Question_3" display_name="Question 3" markdown="&lt;div class=&quot;problem-description&quot;&gt;&#10;&lt;p&gt;This particular free response problem enables you to have a text input field where any response is counted as correct, as long as some response is submitted in the text input field. &lt;/p&gt;&#10;&lt;p&gt;What are some things you would like to see happen in online education? Write a paragraph, please.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;problem markdown=&quot;null&quot; max_attempts=&quot;5&quot;&gt;&#10;&lt;label&gt;Please type your response here.&lt;/label&gt;&#10;&lt;script type=&quot;loncapa/python&quot;&gt;&#10;import re&#10;  &#10;def short_response3(expect, ans):&#10;  words = ans.split()&#10;  return len(words) &gt;= 1&#10;  &#10;&lt;/script&gt;&#10;  &lt;span id=&quot;short_response_question_3_online_ed_feedback&quot;/&gt;&#10;  &lt;script type=&quot;text/javascript&quot;&gt;&#10;    /* The object here is to replace the single line input with a textarea */&#10;  (function() {&#10;    var elem = $(&quot;#short_response_question_3_online_ed_feedback&quot;)&#10;        .closest(&quot;div.problem&quot;)&#10;        .find(&quot;:text&quot;);&#10;    var label = $(&quot;#short_response_question_3_online_ed_feedback&quot;)&#10;        .closest(&quot;div.problem&quot;)&#10;        .find('label');&#10;    label.attr('for', elem.attr('id'));&#10;    var description = $(&quot;#short_response_question_3_online_ed_feedback&quot;)&#10;        .closest(&quot;div.problem&quot;)&#10;        .find('.problem-description');&#10;    description.attr('id', elem.attr('id')+'-description');&#10;    /* There's CSS in the LMS that controls the height, so we have to override here */&#10;    var textarea = $('&lt;textarea style=&quot;height:150px&quot; rows=&quot;20&quot; cols=&quot;70&quot;/&gt;');&#10;    &#10;    //This is just another way to do an iterator in JS&#10;    for (attrib in {'id':null, 'name':null}) {&#10;        textarea.attr(attrib, elem.attr(attrib));&#10;    }&#10;    textarea.attr('aria-describedby', elem.attr('id')+'-description');&#10;    /* copy over the submitted value */&#10;    textarea.val(elem.val());&#10;    elem.replaceWith(textarea);&#10;    /* clear out echoed text */&#10;    textarea.siblings(&quot;.status&quot;).text(&quot;&quot;);&#10;    &#10;  })();&#10;  &lt;/script&gt;&#10;  &lt;customresponse cfn=&quot;short_response3&quot;&gt;&#10;    &lt;textline/&gt;&#10;  &lt;/customresponse&gt;&#10;&lt;/problem&gt;">
+  <div class="problem-description">
+    <p>This particular free response problem enables you to have a text input field where any response is counted as correct, as long as some response is submitted in the text input field. </p>
+    <p>What are some things you would like to see happen in online education? Write a paragraph, please.</p>
+  </div>
+  <problem markdown="null" max_attempts="5">
+    <label>Please type your response here.</label>
+    <script type="loncapa/python">
+import re
+  
+def short_response3(expect, ans):
+  words = ans.split()
+  return len(words) &gt;= 1
+  
+</script>
+    <span id="short_response_question_3_online_ed_feedback"/>
+    <p>  </p>
+    <script type="text/javascript">
+    /* The object here is to replace the single line input with a textarea */
+  (function() {
+    var elem = $("#short_response_question_3_online_ed_feedback")
+        .closest("div.problem")
+        .find(":text");
+    var label = $("#short_response_question_3_online_ed_feedback")
+        .closest("div.problem")
+        .find('label');
+    label.attr('for', elem.attr('id'));
+    var description = $("#short_response_question_3_online_ed_feedback")
+        .closest("div.problem")
+        .find('.problem-description');
+    description.attr('id', elem.attr('id')+'-description');
+    /* There's CSS in the LMS that controls the height, so we have to override here */
+    var textarea = $('<textarea cols="70" rows="20" style="height:150px"/>');
+    
+    //This is just another way to do an iterator in JS
+    for (attrib in {'id':null, 'name':null}) {
+        textarea.attr(attrib, elem.attr(attrib));
+    }
+    textarea.attr('aria-describedby', elem.attr('id')+'-description');
+    /* copy over the submitted value */
+    textarea.val(elem.val());
+    elem.replaceWith(textarea);
+    /* clear out echoed text */
+    textarea.siblings(".status").text("");
+    
+  })();
+  </script>
+    <customresponse cfn="short_response3">
+      <textline/>
+    </customresponse>
+  </problem>
+</problem>

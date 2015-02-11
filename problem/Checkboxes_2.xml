@@ -1,0 +1,17 @@
+<problem url_name="Checkboxes_2" display_name="Checkboxes" markdown="&gt;&gt;An avocado is a:&lt;&lt;&#10;&#10;[ ] nut&#10;[x] fruit&#10;[ ] legume&#10;[ ] vegetable&#10;&#10;[explanation]&#10;See: &lt;a href=&quot;http://en.wikipedia.org/wiki/Avocado&quot;&gt;http://en.wikipedia.org/wiki/Avocado&lt;/a&gt;&#10;[explanation]&#10;">
+  <p>An avocado is a:</p>
+  <choiceresponse>
+    <checkboxgroup direction="vertical" label="An avocado is a:">
+      <choice correct="false">nut</choice>
+      <choice correct="true">fruit</choice>
+      <choice correct="false">legume</choice>
+      <choice correct="false">vegetable</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>See: <a href="http://en.wikipedia.org/wiki/Avocado">http://en.wikipedia.org/wiki/Avocado</a></p>
+    </div>
+  </solution>
+</problem>

@@ -1,0 +1,12 @@
+<problem url_name="Dropdown_0" display_name="Dropdown" markdown="&gt;&gt;Wolverine is part of the __________ .&lt;&lt;&#10;&#10;[[(X-Men), Wolf Pack, Teen Wolves, Twilight Saga, Sin City]]&#10;&#10;[explanation]&#10;Wolverine is reluctantly a member of the X-Men.&#10;[explanation]&#10;">
+  <p>Wolverine is part of the __________ .</p>
+  <optionresponse>
+    <optioninput correct="X-Men" label="Wolverine is part of the __________ ." options="('X-Men','Wolf Pack','Teen Wolves','Twilight Saga','Sin City')"/>
+  </optionresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Wolverine is reluctantly a member of the X-Men.</p>
+    </div>
+  </solution>
+</problem>

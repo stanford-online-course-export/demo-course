@@ -1,0 +1,26 @@
+<problem url_name="Text_Input_with_RegEx_and_Additional_Answer_Options" display_name="Text Input with RegEx and Additional Answer Options" markdown="null">
+  <p>What is the technical term that refers to the fact that, when enough people sleep under a bednet, the disease may altogether disappear?</p>
+  <stringresponse answer=".*herd immunity.*" type="ci regexp">
+    <additional_answer>.*community immunity.*</additional_answer>
+    <additional_answer>.*population immunity.*</additional_answer>
+    <textline label="What is the technical term that refers to the fact that, when enough people sleep under a bednet, the disease may altogether disappear?" size="20"/>
+    <hintgroup>
+      <stringhint answer="contact immunity" name="contact_immunity_hint" type="ci"/>
+      <hintpart on="contact_immunity_hint"><startouttext/>
+                In contact immunity, a vaccinated individual passes along his immunity to another person through contact with feces or bodily fluids. The answer to the question above refers to the form of immunity that occurs when so many members of a population are protected, an infectious disease is unlikely to spread to the unprotected population.
+                <endouttext/>
+            </hintpart>
+      <stringhint answer="firewall immunity" name="firewall_immunity_hint" type="ci"/>
+      <hintpart on="firewall_immunity_hint"><startouttext/>
+                Although a firewall provides protection for a population, the term "firewall" is used more in computing and technology than in epidemiology.
+                <endouttext/>
+            </hintpart>
+    </hintgroup>
+  </stringresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>The correct answer is <b>herd immunity</b>. As more and more people use bednets, the risk of malaria begins to fall for everyone – users and non-users alike. This can fall to such a low probability that malaria is effectively eradicated from the group (even when the group does not have 100% bednet coverage).</p>
+    </div>
+  </solution>
+</problem>

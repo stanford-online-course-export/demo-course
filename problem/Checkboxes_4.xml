@@ -1,0 +1,12 @@
+<problem url_name="Checkboxes_4" display_name="Checkboxes" markdown="Here's a different joke for you.&#10;&#10;The chemistry students played on their phones, chatted with each other, and otherwise generally ignored their poor professor.  What did the professor do? &#10;&#10;&gt;&gt;Select the answer that matches&lt;&lt;&#10;&#10;[x] He looked at his inattentive students, sighed, frowned, looked into the camera and said, 'Nitride.'&quot;&#10;[ ] He threw his shoe at them.&#10;[ ] He got out his phone and read the news.&#10;">
+  <p>Here's a different joke for you.</p>
+  <p>The chemistry students played on their phones, chatted with each other, and otherwise generally ignored their poor professor.  What did the professor do? </p>
+  <p>Select the answer that matches</p>
+  <choiceresponse>
+    <checkboxgroup direction="vertical" label="Select the answer that matches">
+      <choice correct="true">He looked at his inattentive students, sighed, frowned, looked into the camera and said, 'Nitride.'"</choice>
+      <choice correct="false">He threw his shoe at them.</choice>
+      <choice correct="false">He got out his phone and read the news.</choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

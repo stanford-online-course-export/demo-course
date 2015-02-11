@@ -1,0 +1,28 @@
+<p>
+<script type="text/javascript">// <![CDATA[
+function unhide(spanID) {
+                                                    var item = document.getElementById(spanID);
+                                                         if (item) {
+                                                              item.className=(item.className=='hidden')?'unhidden':'hidden';
+                                                         }
+                                                }
+                                            
+                                            function hide(spanID) {
+                                                    var item = document.getElementById(spanID);
+                                                         if (item) {
+                                                            item.className='hidden';
+                                                         }
+                                                }
+                                                function check(RadioID)
+                                                {
+                                                  document.getElementById(RadioID).checked=true; 
+                                                }
+                                                
+                                                function changeHiddenInput (objDropDown, hiddenID)
+                                                {
+                                                var objHidden = document.getElementById(hiddenID);
+                                                var strUser = objDropDown.options[objDropDown.selectedIndex].value;
+                                                objHidden.value = strUser;
+                                                }
+// ]]></script>
+For more information on how to create your own custom JavaScript problem, see the documentation at&nbsp;<a href="http://edx.readthedocs.org/projects/ca/en/latest/exercises_tools/custom_javascript.html">http://edx.readthedocs.org/projects/ca/en/latest/exercises_tools/custom_javascript.html</a>.</p>

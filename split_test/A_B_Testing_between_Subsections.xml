@@ -1,0 +1,4 @@
+<split_test group_id_to_child="{&quot;1&quot;: &quot;i4x://StanfordOnline/OpenEdX/sequential/A_B_Test_with_a_Subsection_containing_a_quiz&quot;, &quot;2&quot;: &quot;i4x://StanfordOnline/OpenEdX/sequential/A_B_Test_with_a_Subsection_containing_a_quiz_plus_discussion_component&quot;}" user_partition_id="0" display_name="A/B Testing between Subsections">
+  <sequential url_name="A_B_Test_with_a_Subsection_containing_a_quiz"/>
+  <sequential url_name="A_B_Test_with_a_Subsection_containing_a_quiz_plus_discussion_component"/>
+</split_test>

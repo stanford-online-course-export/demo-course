@@ -1,0 +1,18 @@
+<problem url_name="Q2_2" display_name="Q2" markdown="&gt;&gt;Enter the approximate value of 502*9:&lt;&lt;&#10;= 4518 +- 15%&#10;&#10;&gt;&gt;Enter the number of fingers on a human hand&lt;&lt;&#10;= 5&#10;&#10;[explanation]&#10;Although you can get an exact value by typing 502*9 into a calculator, the result will be close to 500*10, or 5,000. The grader accepts any response within 15% of the true value, 4518, so that you can use any estimation technique that you like.&#10;&#10;If you look at your hand, you can count that you have five fingers.&#10;[explanation]&#10;">
+  <p>Enter the approximate value of 502*9:</p>
+  <numericalresponse answer="4518">
+    <responseparam default="15%" type="tolerance"/>
+    <formulaequationinput label="Enter the approximate value of 502*9:"/>
+  </numericalresponse>
+  <p>Enter the number of fingers on a human hand</p>
+  <numericalresponse answer="5">
+    <formulaequationinput/>
+  </numericalresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Although you can get an exact value by typing 502*9 into a calculator, the result will be close to 500*10, or 5,000. The grader accepts any response within 15% of the true value, 4518, so that you can use any estimation technique that you like.</p>
+      <p>If you look at your hand, you can count that you have five fingers.</p>
+    </div>
+  </solution>
+</problem>

@@ -1,0 +1,11 @@
+<problem url_name="Math_example_using_Latex" display_name="Math example using Latex" markdown="&lt;problem&gt; &#10;&lt;optionresponse&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;\(Pr[F_s] = Pr\Big[ \big( F_1\)&lt;/p&gt; &#10;&lt;optioninput label=&quot;&quot; options=&quot;('&amp;#x2229;','&amp;#x222a;')&quot; correct=&quot;&amp;#x2229;&quot; inline=&quot;1&quot;&gt;&lt;/optioninput&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;\(F_2 \big) \)&lt;/p&gt; &#10;&lt;optioninput label=&quot;&quot; options=&quot;('&amp;#x2229;','&amp;#x222a;')&quot; correct=&quot;&amp;#x2229;&quot; inline=&quot;1&quot;&gt;&lt;/optioninput&gt; &#10;&lt;p style=&quot;display:inline&quot;&gt;\(F_3 \Big] \)&lt;/p&gt; &#10;&lt;/optionresponse&gt; &#10;&lt;/problem&gt;">
+  <problem>
+    <optionresponse>
+      <p style="display:inline">\(Pr[F_s] = Pr\Big[ \big( F_1\)</p>
+      <optioninput correct="∩" inline="1" label="" options="('∩','∪')"/>
+      <p style="display:inline">\(F_2 \big) \)</p>
+      <optioninput correct="∩" inline="1" label="" options="('∩','∪')"/>
+      <p style="display:inline">\(F_3 \Big] \)</p>
+    </optionresponse>
+  </problem>
+</problem>

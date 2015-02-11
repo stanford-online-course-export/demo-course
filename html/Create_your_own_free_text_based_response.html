@@ -1,0 +1,13 @@
+<h2>Create your own free text-based response questions</h2>
+<p>To create these kinds of problems in your course, you'll want to go to a unit in Studio and select the "Problem" component.&nbsp; Choose the "Blank Common Problem" component from the list, then click to edit it. &nbsp;Copy one of the two chunks of code lower down on this page and paste it in your blank problem component.</p>
+<p>The&nbsp;first chunk&nbsp;is the code that was used to create the graded, free text response that has no maximum or minimum word or character requirement.&nbsp; The parts you'll need to change are:</p>
+<p style="padding-left: 30px;">def&nbsp;short_response(expect, ans)<br />&lt;span id="short_response_question_1"/&gt;<br />var elem = $("#short_response_question_1")<br />var label = $("#short_response_question_1")<br />var description = $("#short_response_question_1")<br />&lt;customresponse cfn="<span face="monospace, serif" style="font-family: monospace, serif;">short_response</span>"&gt;</p>
+<p>and</p>
+<p style="padding-left: 30px;">&nbsp; &lt;p&gt;Please enter your response here.&lt;/p&gt;</p>
+<p>Where you see "short_response" as the value for the def and customresponse cfn tags, replace them with an easy-to-understand&nbsp;name.&nbsp; Make sure there are no spaces, and that the&nbsp;names match each other. &nbsp;</p>
+<p>The span id, var elem, var label and var description should match each other. &nbsp;In the code template, they currently have a value of "short_response_question_1". &nbsp;Change these values&nbsp;in&nbsp;your own questions to something else, but make sure the&nbsp;four values all match each other and contain no spaces.</p>
+<p><span style="font-size: 1em; line-height: 1.6em;">If you have more than one of this kind&nbsp;of problem on a page, the names for&nbsp;above-noted attributes should be unique&nbsp;from one problem to&nbsp;the next.</span></p>
+<p>Where you see &nbsp; &lt;p&gt;Please enter your response&nbsp;here.&lt;/p&gt;, replace the text between the &lt;p&gt; tags with your question prompt.</p>
+<p>An additional location that you might want to customize is this:</p>
+<p style="padding-left: 30px;">&lt;textarea style="height:150px" rows="20" cols="70"/&gt;</p>
+<p>This attribute specifies the size of the input field.&nbsp; Change the height, rows and cols to different values to shrink or expand the space of the input field.</p>

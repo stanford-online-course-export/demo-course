@@ -1,0 +1,57 @@
+<h2>free text-based response with no maximum or minimum word requirement</h2>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&lt;div class=</code><span style="font-family: monospace, serif;">"problem-description</span><span style="font-family: monospace, serif;">"&gt;</span></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><span style="font-family: monospace, serif; line-height: 1.6em;">&nbsp; &lt;!-- This is the problem description, that instructs students on what to write about. --&gt;</span></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&lt;p&gt;Problem description text goes here...&lt;/p&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&lt;p&gt;More description text, if needed.&lt;/p&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&lt;/div&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica; min-height: 14px;"></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&lt;problem markdown="null" max_attempts="5"&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&lt;label&gt;Please enter your response here.&lt;/label&gt; &lt;!-- You can change this text, but this is a reasonable default. --&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&lt;script type="loncapa/python"&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code># The block below is the grading function for this problem.&nbsp;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code># The name you assign it here will be used below.</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica; min-height: 14px;"></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>import re</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>def short_response(expect, ans):</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; response = re.search('', ans)</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; if response:</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp;&nbsp; return 1</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; else:</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp;&nbsp; return 0</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica; min-height: 14px;"><code>&nbsp;&nbsp;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&lt;/script&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &lt;span id="short_response_question_1"/&gt; &lt;!-- Edit this id, for each problem --&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &lt;script type="text/javascript"&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; /* The object here is to replace the single line input with a textarea */</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; (function() {</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; var elem = $("#short_response_question_1")</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; &nbsp; &nbsp; .closest("div.problem")</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; &nbsp; &nbsp; .find(":text");</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; var label = $("#short_response_question_1")</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; &nbsp; &nbsp; .closest("div.problem")</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; &nbsp; &nbsp; .find('label');</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; label.attr('for', elem.attr('id'));</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; var description = $("#short_response_question_1")</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; &nbsp; &nbsp; .closest("div.problem")</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; &nbsp; &nbsp; .find('.problem-description');</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; description.attr('id', elem.attr('id')+'-description');</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; /* There's CSS in the LMS that controls the height, so we have to override here */</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; var textarea = $('&lt;textarea style="height:150px" rows="20" cols="70"/&gt;');</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica; min-height: 14px;"><code>&nbsp;&nbsp; &nbsp;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; //This is just another way to do an iterator in JS</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; for (attrib in {'id':null, 'name':null}) {</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; &nbsp; &nbsp; textarea.attr(attrib, elem.attr(attrib));</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; }</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; textarea.attr('aria-describedby', elem.attr('id')+'-description');</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; /* copy over the submitted value and give an aria description*/</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; textarea.val(elem.val());</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; elem.replaceWith(textarea);</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; /* clear out echoed text */</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; textarea.siblings(".status").text("");</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica; min-height: 14px;"><code>&nbsp;&nbsp; &nbsp;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; })();</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &lt;/script&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &lt;customresponse cfn="short_response"&gt;&lt;!-- This 'cfn' name is the name of the python grading function above --&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &nbsp; &lt;textline/&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&nbsp; &lt;/customresponse&gt;</code></p>
+<p style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica;"><code>&lt;/problem&gt;</code></p>

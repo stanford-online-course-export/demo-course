@@ -1,0 +1,21 @@
+<p>Before you can create an A/B test, you'll need to set up the group configuration you plan on using. You do this by changing the "Experiment Group Configurations" Advanced Setting.&nbsp;See below for sample code used in this demo course. This creates a configuration with two groups, with students split evenly between them. If you plan on having more than one group configuration, make&nbsp;sure the description and name are different. Otherwise, you can just copy this code into your course.</p>
+<pre><code>[</code></pre>
+<pre><code>&nbsp; &nbsp; {</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; "description": "Content experiment 1",</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; "version": 1,</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; "id": 0,</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; "groups": [</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "version": 1,</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "id": 1,</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "name": "group 1"</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "version": 1,</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "id": 2,</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "name": "group 2"</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; ],</code></pre>
+<pre><code>&nbsp; &nbsp; &nbsp; &nbsp; "name": "Experiment 1"</code></pre>
+<pre><code>&nbsp; &nbsp; }</code></pre>
+<pre><code>]</code></pre>

@@ -1,0 +1,43 @@
+<problem url_name="Instructions_and_a_hidden_link_using_an_Adaptive_Hint_problem" display_name="Instructions and a hidden link using an Adaptive Hint problem" markdown="null">
+  <text>
+    <p>
+      <h4>
+        <span style="font-weight:bold; font-size:14px; color:blue;">PLEASE READ BEFORE TAKING YOUR TIMED EXAM</span>
+      </h4>
+      <p/>
+      <p>The exam in the following unit is timed.  The clock starts ticking the second you open that page, or in other words, as soon as the HTML renders on the page.  This means closing the window, going back to the previous page, and so on, will not stop the clock from counting down.  Only click on the next unit when you are really ready.  You get one attempt at this exam. </p>
+      <p><span style="font-weight:bold;">You will have 90 minutes to complete and click the "Submit" button at the bottom of the subsequent Midterm Exam page</span>.</p>
+      <p>Note that <span style="font-weight:bold;">you can only submit ONCE</span>.  Be conservative and mindful of the time: if your 1 and a half hours run out, there will be no way for you to submit and you will get a 0. </p>
+      <p>Once you're finished reading these instructions and you're ready to start the 1 and a half hour timer to take the exam, you should correctly answer the question below to obtain a link to the Exam.</p>
+      <p>
+        Good luck!
+    </p>
+      <script system_path="python_lib" type="text/python">
+def test_str(expect, ans):
+  print expect, ans
+  ans = ans.strip("'")
+  ans = ans.strip('"')
+  return expect == ans.lower().strip()
+
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid]).lower()
+  print 'hint_fn called, ans=', ans
+  hint = ''
+  if 'yes' in ans:
+     hint = 'Thank you for confirming that you understand the instructions and agree to the Honor Code. Please click &lt;a href="https://class.stanford.edu/courses/MonX/007/2014Summer/courseware/b8bd8341841c4e1f8eaacaad6e6be14b/3bdd1b47239f47ad8b563aa3b4171cb7/"&gt;this link&lt;/a&gt; to go to the timed exam.'
+  else:
+      hint = 'Try again'
+  if hint:
+    hint = "&lt;font color='black'&gt; {0}&lt;/font&gt;".format(hint)
+    new_cmap.set_hint_and_mode(aid,hint,'always')
+</script>
+      <p>
+Do you understand these instructions and agree to the honor code? Answer in one word.</p>
+      <customresponse cfn="test_str" expect="yes">
+        <textline correct_answer="yes" label="Confirmed?"/>
+        <hintgroup hintfn="hint_fn"/>
+      </customresponse>
+    </p>
+  </text>
+</problem>

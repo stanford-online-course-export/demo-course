@@ -1,0 +1,12 @@
+<problem url_name="Dropdown" display_name="Dropdown" markdown="&#10;&gt;&gt;This word __________ is also the name for a kind of apple.&lt;&lt;&#10;&#10;[[(Jazz), Gale, Smith]]&#10;&#10;[explanation]&#10;Jazz is the right answer here.&#10;[explanation]&#10;">
+  <p>This word __________ is also the name for a kind of apple.</p>
+  <optionresponse>
+    <optioninput correct="Jazz" label="This word __________ is also the name for a kind of apple." options="('Jazz','Gale','Smith')"/>
+  </optionresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Jazz is the right answer here.</p>
+    </div>
+  </solution>
+</problem>

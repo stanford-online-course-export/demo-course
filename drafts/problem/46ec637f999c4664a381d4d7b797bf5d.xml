@@ -1,0 +1,17 @@
+<problem display_name="Checkboxes" markdown="A checkbox &lt;img src=&quot;http://ecoballot.com/images/ltgreen_50px_checkbox.png&quot; width=&quot;50&quot; height=&quot;50&quot;/&gt; marks the spot! You can select more than one option presented.&#10;&#10;&gt;&gt;Select the items that you see correctly listed in the translation table below:&lt;&lt;&#10;[x] orange = narañja&#10;[ ] red = rosa&#10;[x] blue = azul&#10;&#10;[explanation]&#10;&quot;Rosa&quot; in Spanish is &quot;pink&quot;.&#10;[explanation]&#10;" max_attempts="2" minutes_allowed="10" showanswer="answered">
+  <p>A checkbox <img src="http://ecoballot.com/images/ltgreen_50px_checkbox.png" width="50" height="50"/> marks the spot! You can select more than one option presented.</p>
+  <p>Select the items that you see correctly listed in the translation table below:</p>
+  <choiceresponse>
+    <checkboxgroup label="Select the items that you see correctly listed in the translation table below:" direction="vertical">
+      <choice correct="true">orange = narañja</choice>
+      <choice correct="false">red = rosa</choice>
+      <choice correct="true">blue = azul</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>"Rosa" in Spanish is "pink".</p>
+    </div>
+  </solution>
+</problem>

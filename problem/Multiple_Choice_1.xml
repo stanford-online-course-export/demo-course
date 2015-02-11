@@ -1,0 +1,18 @@
+<problem url_name="Multiple_Choice_1" display_name="Multiple Choice" markdown="&gt;&gt;Wolverine is part of the:&lt;&lt;&#10;     ( ) Wolf Pack&#10;     (x) X-Men&#10;     ( ) Teen Wolves&#10;     ( ) Twilight Saga&#10;     ( ) Sin City&#10;     &#10;[explanation]&#10;Wolverine is reluctantly a member of the X-Men.&#10;[explanation]&#10;">
+  <p>Wolverine is part of the:</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Wolverine is part of the:" type="MultipleChoice">
+      <choice correct="false">Wolf Pack</choice>
+      <choice correct="true">X-Men</choice>
+      <choice correct="false">Teen Wolves</choice>
+      <choice correct="false">Twilight Saga</choice>
+      <choice correct="false">Sin City</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Wolverine is reluctantly a member of the X-Men.</p>
+    </div>
+  </solution>
+</problem>

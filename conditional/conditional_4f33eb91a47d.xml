@@ -1,0 +1,6 @@
+<conditional sources="i4x://StanfordOnline/OpenEdX/problem/4864f660de8a4123b148940fb95dfbc7" message="" correct="True">
+  <html url_name="d49b91f3add64cc58417e8ea4eedc6e1"/>
+  <video url_name="Event_Horizon"/>
+  <video url_name="Aliens"/>
+  <video url_name="Moon"/>
+</conditional>

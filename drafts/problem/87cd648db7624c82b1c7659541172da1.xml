@@ -1,0 +1,15 @@
+<problem display_name="Dropdown" markdown="null">
+  <p>What is the most natural habitat for this animal?</p>
+  <p>
+    <image src="/static/601578_10152125660995162_1468211866_n.jpg" width="400" height="500"/>
+  </p>
+  <optionresponse>
+    <optioninput options="('Desert','Jungle','Plains','Ocean','City', 'Zoo')" correct="Jungle"/>
+  </optionresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>While some primates live in the plains, the vast majority of monkeys live in jungles. </p>
+    </div>
+  </solution>
+</problem>

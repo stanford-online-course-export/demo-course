@@ -1,0 +1,12 @@
+<problem url_name="Image_Mapped_Input_1" display_name="Image Mapped Input" markdown="null">
+  <p>Click on the monkey to get this problem right.</p>
+  <imageresponse>
+    <imageinput height="400" rectangle="(150,10)-(430,400)" src="/static/601578_10152125660995162_1468211866_n.jpg" width="640"/>
+  </imageresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>If you click outside the image of the monkey, the parameters are set so that this would be recognized as a wrong response. </p>
+    </div>
+  </solution>
+</problem>

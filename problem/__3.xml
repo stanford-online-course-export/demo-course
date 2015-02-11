@@ -1,0 +1,17 @@
+<problem url_name="__3" display_name="" markdown="null">
+  <p>The speed option allows you to speed up or slow down the video.</p>
+  <p>Which of the following is not one of the speed options you can choose from?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="Which of the following is *not* one of the speed options you can choose from?" type="MultipleChoice">
+      <choice correct="false">1.5oX</choice>
+      <choice correct="true">2.5X</choice>
+      <choice correct="false">1.0X</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>The speed option does not provide a speed option of 2 and a half times faster than the normal speed. It does, however, often provide a speed option of 2 times faster than the normal speed, which is not visible in the video.</p>
+    </div>
+  </solution>
+</problem>

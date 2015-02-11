@@ -1,0 +1,4 @@
+<conditional sources="i4x://StanfordOnline/OpenEdX/problem/Multiple_Choice_2" message="This message is editable in the corresponding conditional file for the vertical" correct="True">
+  <html url_name="d16db011499949f9acd6ad6f8cf8d19f"/>
+  <problem url_name="Checkboxes_4"/>
+</conditional>

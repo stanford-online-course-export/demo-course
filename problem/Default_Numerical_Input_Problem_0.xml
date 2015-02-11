@@ -1,0 +1,42 @@
+<problem url_name="Default_Numerical_Input_Problem_0" display_name="Default Numerical Input Problem" markdown="null">
+  <p>A numerical input problem accepts a line of text input from the student, and evaluates the input for correctness based on its numerical value.</p>
+  <p>The answer is correct if it is within a specified numerical tolerance of the expected answer.</p>
+  <p>To write a numerical input question from scratch, you can use the following template, where what follows the equals sign is the correct answer, and what follows the plus and minus signs is the range of tolerance for that particular numerical input response:</p>
+  <p>
+    <pre>
+      <code>
+       &gt;&gt;Enter the numerical value of Pi:&lt;&lt;
+= 3.14159 +- .02
+
+&gt;&gt;Enter the approximate value of 502*9:&lt;&lt;
+= 4518 +- 15%
+
+&gt;&gt;Enter the number of fingers on a human hand&lt;&lt;
+= 5   
+     </code>
+    </pre>
+  </p>
+  <p>    </p>
+  <p>Enter the numerical value of Pi:</p>
+  <numericalresponse answer="3.14159">
+    <responseparam default=".02" type="tolerance"/>
+    <formulaequationinput label="Enter the numerical value of Pi:"/>
+  </numericalresponse>
+  <p>Enter the approximate value of 502*9:</p>
+  <numericalresponse answer="4518">
+    <responseparam default="15%" type="tolerance"/>
+    <formulaequationinput/>
+  </numericalresponse>
+  <p>Enter the number of fingers on a human hand</p>
+  <numericalresponse answer="5">
+    <formulaequationinput label="Enter the number of fingers on a human hand"/>
+  </numericalresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Pi, or the the ratio between a circle's circumference to its diameter, is an irrational number known to extreme precision. It is value is approximately equal to 3.14.</p>
+      <p>Although you can get an exact value by typing 502*9 into a calculator, the result will be close to 500*10, or 5,000. The grader accepts any response within 15% of the true value, 4518, so that you can use any estimation technique that you like.</p>
+      <p>If you look at your hand, you can count that you have five fingers.</p>
+    </div>
+  </solution>
+</problem>

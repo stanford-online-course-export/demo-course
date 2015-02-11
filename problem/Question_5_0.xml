@@ -1,0 +1,12 @@
+<problem url_name="Question_5_0" display_name="Question #5" markdown="null">
+  <p>Which animal shown below is a cat?</p>
+  <imageresponse>
+    <imageinput height="375" rectangle="(15,125)-(325,337)" src="/static/66812520c44ab2d12e.jpg" width="500"/>
+  </imageresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>The animal on the left is a cat. The animal on the right is a monster.</p>
+    </div>
+  </solution>
+</problem>

@@ -1,0 +1,408 @@
+<style type="text/css"><!--
+#dashboard_tabs {
+}
+
+#dashboard_tabs a, #dashboard_tabs a:visited, #dashboard_tabs a:active, #dashboard_tabs a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.dashboard_tab {
+    color: black;
+    display: block;
+    float: left;
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    background: #eee;
+    border: 1px solid #999;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+    -moz-box-shadow: 0px 0px 10px #ccc;
+    -webkit-box-shadow: 0px 0px 10px #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.tab_active {
+    background: #fff;
+}
+
+.tab_inactive:hover {
+    background: #fea;
+}
+
+#dashboard_sort_control {
+    float: right;
+}
+
+
+/* Dashboards list */
+
+#dashboard_list_container {
+    width: 930px;
+    clear: both;
+    padding: 20px;
+    border: 1px solid #999;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #ccc;
+    margin-bottom: 13px;
+    background-color: white;
+}
+
+#dashboard_list_container_unsorted {
+    display: none;
+}
+
+.dashboard_item {
+    border-bottom: 1px solid #999;
+    padding: 20px 0px 40px 0px;
+    overflow: hidden;
+}
+
+
+.dashboard_item:first-child {
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.dashboard_item:last-child {
+    border-bottom: none;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+}
+
+
+.dashboard_icon {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin: 0px 20px 0px 10px;
+		position: absolute;
+}
+
+
+.dashboard_text_container {
+    float: left;
+    width: 388px;
+}
+
+.dashboard_text_title {
+    font-weight: bold;
+    font-size: 125%;
+		display: inline;
+		margin-left: 5px;
+}
+
+.dashboard_text_submission {
+}
+
+.dashboard_text_details {
+    font-size: 70%;
+}
+
+.dashboard_text_details div {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid black;
+}
+
+.dashboard_text_details div:first-child {
+    padding-left: 0px;
+    border-left: none;
+}
+
+.dashboard_data_container {
+    display: none;
+}
+
+.dashboard_downloads {
+    display: inline-block;
+		padding-left: 10px;
+		float:right;
+		margin-top: 7px;
+}
+
+.dashboard_other {
+	font-size: 95%;
+	margin-left: 5px;
+	font-weight: normal;
+	margin-top: 6px;
+	width: 620px;
+}
+
+.dashboard_download {
+    display: inline-block;
+		padding-right: 4px;
+}
+
+.dashboard_readings {
+	width:633px;
+	float:left;
+	display: inline-block;
+	font-size:125%;
+}
+
+.dashboard_reading {
+	display: inline-block;
+	padding: 0px 6px 0px 6px;
+	text-align: center;
+	font-size: 60%;
+	margin: 5px;
+	width: 70px;
+}
+
+.dashboard_reading_range {
+	font-weight: normal;
+}
+
+.UW {
+	font-weight: bold;
+	background-color: #FFA6A6;
+	color: black;
+}
+
+.RG {
+	font-weight: bold;
+	background-color: #B9FAE0;
+	color: black;
+}
+
+.EN {
+	font-weight: bold;
+	background-color: #B9EAFA;
+	color: black;
+}
+
+.SKS {
+	font-weight: bold;
+	background-color: #FAF6C8;
+	color: black;
+} 
+
+.schedule_date {
+	text-align: center;
+	font-size: 160%;
+	margin-bottom: 12px;
+}
+
+.schedule_videos {
+	font-size:100%;
+	float:left;	
+	font-weight: normal;
+	width: 285px;
+}
+
+.schedule_video {
+	font-size:13px;
+	margin-top: 6px;
+}
+
+.schedule_assignments {
+	float:left;
+	font-size: 100%;
+	font-weight: normal;
+	width: 350px;
+}
+
+.schedule_assignment {
+	font-size: 13px;
+	margin-top: 6px;
+}
+
+.schedule_extras {
+	float:left;
+	font-size: 100%;
+	font-weight: normal;
+	width: 290px;
+}
+
+.schedule_extra {
+	font-size: 13px;
+	margin-top: 6px;
+}
+
+.schedule_title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.schedule_border {
+	border-bottom: 1px dotted black;
+	margin-left: 160px;
+	margin-right: 160px;
+	margin-top: -3px;
+	margin-bottom: 10px;
+}
+
+.dashboard_optional_bullet {
+	font-size: 13px;
+	line-height: 1.5em;
+	margin-bottom: 4px;
+	font-weight: normal;
+	width: 559px;
+}
+--></style>
+<p>Demo Syllabus</p>
+<div id="content">
+<div>
+<div id="dashboard_list_container">
+<div class="dashboard_item">
+<div class="schedule_date">Week 1</div>
+<div class="schedule_border">&nbsp;</div>
+<div class="schedule_videos">
+<div class="schedule_title">Section: Introduction</div>
+<ul>
+<li class="schedule_video">Course Intro/ Intent</li>
+<li class="schedule_video">Pre-Course Survey</li>
+<li class="schedule_video">Course Navigation</li>
+</ul>
+</div>
+<div class="schedule_assignments">
+<div class="schedule_title">Assignments</div>
+</div>
+</div>
+<div class="dashboard_item">
+<div class="schedule_date">Week 2</div>
+<div class="schedule_border">&nbsp;</div>
+<div class="schedule_videos">
+<div class="schedule_title">Section: Videos</div>
+<ul>
+<li class="schedule_video">Download Options</li>
+<li class="schedule_video">Translated Captions<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Prerequisite: Relational Databases</i></li>
+</ul>
+</div>
+<div class="schedule_assignments">
+<div class="schedule_title">Assignments</div>
+<ul>
+<li class="schedule_assignment">Resource</li>
+<li class="schedule_assignment">In-Video Quizzes</li>
+</ul>
+</div>
+</div>
+<div class="dashboard_item">
+<div class="schedule_date">Week 3</div>
+<div class="schedule_border">&nbsp;</div>
+<div class="schedule_videos">
+<div class="schedule_title">Section: Displaying Images</div>
+<ul>
+<li class="schedule_video">Images <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Subsection: Zooming &amp; Full Screen Image Options</i> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Subsection: Custom Full Screen Image</i> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Subsection: Custom Zooming Image</i></li>
+</ul>
+</div>
+<div class="schedule_assignments">
+<div class="schedule_title">Assignments</div>
+<ul>
+<li class="schedule_assignment">Post a discussion in the Discussion forum</li>
+<li class="schedule_assignment">Attach a file to your discussion</li>
+<li class="schedule_assignment">Respond to someone else's discussion</li>
+</ul>
+</div>
+<div class="schedule_extras">
+<div class="schedule_title">Additional Exercises</div>
+<ul>
+<li class="schedule_extra">Find a typo and let us know</li>
+<li class="schedule_extra">Add something useful to the wiki</li>
+</ul>
+</div>
+</div>
+<div class="dashboard_item">
+<div class="schedule_date">Week 4</div>
+<div class="schedule_border">&nbsp;</div>
+<div class="schedule_videos">
+<div class="schedule_title">Section: Basic Questions</div>
+<ul>
+<li class="schedule_video">Default Basic Problem Components</li>
+<li class="schedule_video">Custom Basic Problem Components</li>
+</ul>
+</div>
+<div class="schedule_assignments">
+<div class="schedule_title">Assignments</div>
+<ul>
+<li class="schedule_assignment">Attempt the Default Basic Problem Components</li>
+<li class="schedule_assignment">Attempt the Custom Basic Problem Components</li>
+</ul>
+</div>
+<div class="schedule_extras">
+<div class="schedule_title">Additional Exercises</div>
+<ul>
+<li class="schedule_extra">Click "Show Answer" for problems you submit answers to</li>
+<li class="schedule_extra">Find a problem that lets you submit an answer more than once, and submit your response again</li>
+</ul>
+</div>
+</div>
+<div class="dashboard_item">
+<div class="schedule_date">Week 5</div>
+<div class="schedule_border">&nbsp;</div>
+<div class="schedule_videos">
+<div class="schedule_title">Section: Advanced Questions</div>
+<ul>
+<li class="schedule_video">Default Advanced Problem Components</li>
+</ul>
+</div>
+<div class="schedule_assignments">
+<div class="schedule_title">Assignments</div>
+<ul>
+<li class="schedule_assignment">Attempt the Default Advanced Problem Components</li>
+</ul>
+</div>
+<div class="schedule_extras">
+<div class="schedule_title">Additional Exercises</div>
+<ul>
+<li class="schedule_assignment">Attempt the Custom JS Display &amp; Grading Problem</li>
+<li class="schedule_assignment">Attempt the Custom Drag &amp; Drop</li>
+<li class="schedule_assignment">Attempt the Text Input with Regular Expression</li>
+<li class="schedule_assignment">Attempt the Adaptive Hint Questions</li>
+<li class="schedule_assignment">Attempt the Targeted Feedback</li>
+</ul>
+</div>
+</div>
+<div class="dashboard_item">
+<div class="schedule_date">Week 6</div>
+<div class="schedule_border">&nbsp;</div>
+<div class="schedule_videos">
+<div class="schedule_title">Section: A/B Testing</div>
+<ul>
+<li class="schedule_video">Attempt A/B Tests</li>
+</ul>
+</div>
+</div>
+<div class="dashboard_item">
+<div class="schedule_date">Week 7</div>
+<div class="schedule_border">&nbsp;</div>
+<div class="schedule_videos">
+<div class="schedule_title">Section: Conditionals</div>
+<ul>
+<li class="schedule_video">Conditional content</li>
+</ul>
+</div>
+</div>
+<div class="dashboard_item">
+<div class="schedule_date">Week 8</div>
+<div class="schedule_border">&nbsp;</div>
+<div class="schedule_videos">
+<div class="schedule_title">Section: Polls</div>
+<ul>
+<li class="schedule_video">Hitchhiker Poll</li>
+</ul>
+</div>
+</div>
+<div class="dashboard_item">
+<div class="schedule_date">Week 9</div>
+<div class="schedule_border">&nbsp;</div>
+<div class="schedule_videos">
+<div class="schedule_title">Section: ORA / Peer Assessment</div>
+<ul>
+<li class="schedule_video">Complete Writing Assignment 1</li>
+<li class="schedule_video">Complete Writing Assignment 2</li>
+</ul>
+</div>
+</div>
+<div class="dashboard_item">&nbsp;</div>
+</div>
+</div>

@@ -1,0 +1,12 @@
+<problem display_name="Checkboxes" markdown="What do astronomers classify Pluto as? Students can select more than one option presented.&#10;&gt;&gt;Select the answer that matches&lt;&lt;&#10;&#10;[ ] planet&#10;[x] minor planet&#10;[ ] exo-planet&#10;[x] former planet&#10;">
+  <p>What do astronomers classify Pluto as? Students can select more than one option presented.</p>
+  <p>Select the answer that matches</p>
+  <choiceresponse>
+    <checkboxgroup label="Select the answer that matches" direction="vertical">
+      <choice correct="false">planet</choice>
+      <choice correct="true">minor planet</choice>
+      <choice correct="false">exo-planet</choice>
+      <choice correct="true">former planet</choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

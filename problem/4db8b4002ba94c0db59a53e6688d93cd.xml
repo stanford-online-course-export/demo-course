@@ -1,0 +1,34 @@
+<problem url_name="4db8b4002ba94c0db59a53e6688d93cd" markdown="null">
+  <script type="loncapa/python">
+n1 = random.randrange(5,89,19)
+n2 = random.randrange(2,10,5)
+total = n1 / n2
+  </script>
+  <p>Use randomized variables n1 and n2 in any part of this exercise to create a randomized question for your students, where the randomized variables will differ when a student either submits their response, clicks to reset the problem, or when a different student looks at the same problem (depending on how you've set it up).</p>
+  <p>Make sure to have at least two randrange values, and also to visit the Settings section of your problem, and set the "Randomization" value to something other than "Never."</p>
+  <p>
+    <pre>
+      <code>
+      &lt;script type="loncapa/python"&gt;
+		n1 = random.randrange(5,89,19)
+		n2 = random.randrange(2,10,5)
+		total = n1 / n2
+     &lt;/script&gt;
+      </code>
+    </pre>
+  </p>
+  <p>For this particular problem, the "Randomization" value is set to "On Reset."</p>
+  <p>
+    <img height="150" src="/static/randomization_setting_in_problem.jpg" width="600"/>
+  </p>
+  <p>What is $n1 divided by $n2?</p>
+  <numericalresponse answer="$total">
+    <responseparam default="2%" type="tolerance"/>
+    <textline/>
+  </numericalresponse>
+  <solution>
+    <div><p>Using MathJax, you can see the correct corresponding randomized answer below:</p>
+       \[ $n1 / $n2 = $total \]
+     </div>
+  </solution>
+</problem>

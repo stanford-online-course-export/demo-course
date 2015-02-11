@@ -1,0 +1,9 @@
+<problem url_name="Q3_Inline_dropdown" display_name="Q3: Inline dropdown" markdown="null">
+  <optionresponse>
+    <p style="display:inline">Cows eat </p>
+    <optioninput correct="grass" inline="1" label="" options="('grass','hay','birdseed')"/>
+    <p style="display:inline">. Horses eat </p>
+    <optioninput correct="small children" inline="1" label="" options="('grass','hay','birdseed')"/>
+    <p style="display:inline">. Horses are gross.</p>
+  </optionresponse>
+</problem>

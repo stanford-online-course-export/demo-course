@@ -1,0 +1,420 @@
+{
+    "course/Demo": {
+        "advanced_modules": [
+            "lti", 
+            "word_cloud", 
+            "edx_sga", 
+            "split_test", 
+            "done", 
+            "google-calendar", 
+            "google-document", 
+            "submit-and-compare", 
+            "imagemodal"
+        ], 
+        "advertised_start": null, 
+        "annotation_storage_url": "http://catch-load-balancer-192292975.us-west-2.elb.amazonaws.com/catch/annotator", 
+        "annotation_token_secret": "1e4019b6-86b0-42be-963c-cb5ffdba9bb3", 
+        "certificates_display_behavior": "early_with_info", 
+        "checklists": [
+            {
+                "items": [
+                    {
+                        "action_external": false, 
+                        "action_text": "Edit Course Team", 
+                        "action_url": "ManageUsers", 
+                        "is_checked": true, 
+                        "long_description": "Give other users staff access so they can edit course material.", 
+                        "short_description": "Add course team members"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "Edit Course Schedule &amp; Details", 
+                        "action_url": "SettingsDetails", 
+                        "is_checked": true, 
+                        "long_description": "Set the start and end dates that students can enroll in the course, and the launch date for the course.", 
+                        "short_description": "Set enrollment and launch dates"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "Edit Grading Settings", 
+                        "action_url": "SettingsGrading", 
+                        "is_checked": true, 
+                        "long_description": "Set up your assignment types and grading policy even if you haven't created all your assignments.", 
+                        "short_description": "Create grading policy"
+                    }
+                ], 
+                "short_description": "Putting the structure in place"
+            }, 
+            {
+                "items": [
+                    {
+                        "action_external": false, 
+                        "action_text": "Create Course Outline", 
+                        "action_url": "CourseOutline", 
+                        "is_checked": true, 
+                        "long_description": "Use your course outline to create the structure that will hold course content.", 
+                        "short_description": "Create sections, subsections, and units"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "Add your Content", 
+                        "action_url": "CourseOutline", 
+                        "is_checked": true, 
+                        "long_description": "Systematically go through your sections and subsections, and add your content.", 
+                        "short_description": "Add your content to the outline"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "Add Static Pages", 
+                        "action_url": "StaticPages", 
+                        "is_checked": true, 
+                        "long_description": "These appear as 'tabs' horizontally at the top of your course.", 
+                        "short_description": "Create any static pages"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "Set Up Graded Items", 
+                        "action_url": "CourseOutline", 
+                        "is_checked": false, 
+                        "long_description": "Set grading categories for subsections, decide on settings for problems.", 
+                        "short_description": "Configure graded items"
+                    }, 
+                    {
+                        "action_external": true, 
+                        "action_text": "File a ticket", 
+                        "action_url": "http://stanfordonline.zendesk.com", 
+                        "is_checked": false, 
+                        "long_description": "Some of the tabs in your course are optional and renamable (e.g. 'Progress').", 
+                        "short_description": "Request course 'tab' changes"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "Edit Content Names", 
+                        "action_url": "CourseOutline", 
+                        "is_checked": false, 
+                        "long_description": "Make sure any usage report items (e.g. videos, problems, etc...), have meaningful names (e.g. 'Matrix multiplication' rather than 'Video 16').", 
+                        "short_description": "Give items meaningful names"
+                    }, 
+                    {
+                        "action_external": true, 
+                        "action_text": "File a ticket", 
+                        "action_url": "http://stanfordonline.zendesk.com", 
+                        "is_checked": false, 
+                        "long_description": "Work with courseops to create and incorporate pre/post course surveys", 
+                        "short_description": "(MOOCs only) Incorporate Pre/Post Course Surveys"
+                    }
+                ], 
+                "short_description": "Populating your course with content"
+            }, 
+            {
+                "items": [
+                    {
+                        "action_external": true, 
+                        "action_text": "Add Videos", 
+                        "action_url": "http://www.youtube.com", 
+                        "is_checked": false, 
+                        "long_description": "Log on to YouTube and upload high-resolution videos to a course account.", 
+                        "short_description": "Upload videos to YouTube"
+                    }, 
+                    {
+                        "action_external": true, 
+                        "action_text": "File a Ticket", 
+                        "action_url": "http://stanfordonline.zendesk.com", 
+                        "is_checked": false, 
+                        "long_description": "You'll want captions for your videos.", 
+                        "short_description": "Request an account for creating captions"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "", 
+                        "action_url": "", 
+                        "is_checked": false, 
+                        "long_description": "", 
+                        "short_description": "Upload YouTube video links to caption provider"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "", 
+                        "action_url": "", 
+                        "is_checked": false, 
+                        "long_description": "", 
+                        "short_description": "Confirm that captions are on YouTube"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "", 
+                        "action_url": "", 
+                        "is_checked": false, 
+                        "long_description": "", 
+                        "short_description": "Import YouTube captions to course"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "", 
+                        "action_url": "", 
+                        "is_checked": false, 
+                        "long_description": "", 
+                        "short_description": "Create smaller versions of videos for download"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "", 
+                        "action_url": "", 
+                        "is_checked": false, 
+                        "long_description": "Upload downloadable videos to an appropriate file hosting location (e.g. to stanford.box.com)", 
+                        "short_description": "Upload downloadable videos"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "", 
+                        "action_url": "", 
+                        "is_checked": false, 
+                        "long_description": "", 
+                        "short_description": "Create download links for smaller videos"
+                    }
+                ], 
+                "short_description": "Special handling for videos"
+            }, 
+            {
+                "items": [
+                    {
+                        "action_external": true, 
+                        "action_text": "File a Ticket", 
+                        "action_url": "http://stanfordonline.zendesk.com", 
+                        "is_checked": false, 
+                        "long_description": "Make sure the enrollment policy is correct for your course (public? SUnet ID? Invite only?).", 
+                        "short_description": "Confirm enrollment policy is correct"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "Edit About Page", 
+                        "action_url": "SettingsDetails", 
+                        "is_checked": true, 
+                        "long_description": "Add any information about your course for your perspective students to read before registering (Course description, Staff bios, Syllabus, FAQs, Promo video, Course image, Start date, End date, Effort estimate, and Prerequisites).", 
+                        "short_description": "Populate the 'About' page for your course"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "Edit Mouseover Text", 
+                        "action_url": "SettingsDetails", 
+                        "is_checked": true, 
+                        "long_description": "Create 150-character 'Mouseover' description for home page", 
+                        "short_description": "Add short description for course 'Tile'"
+                    }, 
+                    {
+                        "action_external": true, 
+                        "action_text": "File a Ticket", 
+                        "action_url": "http://stanfordonline.zendesk.com", 
+                        "is_checked": false, 
+                        "long_description": "Contact CourseOps to get your course listed on the Stanford OpenEdX home page (1 week lead time).", 
+                        "short_description": "Request listing your course on class.stanford.edu "
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "", 
+                        "action_url": "", 
+                        "is_checked": false, 
+                        "long_description": "You may want to create a Facebook page, twitter hashtag, etc.", 
+                        "short_description": "Set up any other social media "
+                    }
+                ], 
+                "short_description": "Getting ready to allow enrollment (MOOC only)"
+            }, 
+            {
+                "items": [
+                    {
+                        "action_external": false, 
+                        "action_text": "Edit Advanced Settings", 
+                        "action_url": "SettingsAdvanced", 
+                        "is_checked": false, 
+                        "long_description": "Forum topics are created/edited in the Advanced Settings. Let us know if you need assistance.", 
+                        "short_description": "Forum topics"
+                    }, 
+                    {
+                        "action_external": false, 
+                        "action_text": "Edit Course Outline", 
+                        "action_url": "CourseOutline", 
+                        "is_checked": false, 
+                        "long_description": "Decide on whether and where to include in-line discussion links, and create them.", 
+                        "short_description": "Inline Discussion Sections"
+                    }, 
+                    {
+                        "action_external": true, 
+                        "action_text": "Create initial wiki post", 
+                        "action_url": "Wiki", 
+                        "is_checked": false, 
+                        "long_description": "Create initial wiki post to welcome students.", 
+                        "short_description": "The Course Wiki"
+                    }, 
+                    {
+                        "action_external": true, 
+                        "action_text": "Create forum welcome post", 
+                        "action_url": "Forum", 
+                        "is_checked": false, 
+                        "long_description": "Create forum welcome post to set forum tone for students.", 
+                        "short_description": "The Course Forum"
+                    }
+                ], 
+                "short_description": "Getting ready to launch"
+            }
+        ], 
+        "cohort_config": {
+            "auto_cohort_groups": [
+                "Good students", 
+                "OK students"
+            ], 
+            "cohorted": true, 
+            "cohorted_discussions": [
+                "i4x-StanfordOnline-OpenEdX-course-Demo-Cohort-A", 
+                "i4x-StanfordOnline-OpenEdX-course-Demo-Cohort-B"
+            ]
+        }, 
+        "course_image": "stanford-hills-small.jpg", 
+        "css_class": "", 
+        "days_early_for_beta": 365.0, 
+        "disable_progress_graph": false, 
+        "discussion_sort_alpha": true, 
+        "discussion_topics": {
+            " General (public)": {
+                "id": "i4x-StanfordOnline-OpenEdX-course-Demo"
+            }, 
+            "Advanced Topics (public)": {
+                "id": "i4x-StanfordOnline-OpenEdX-course-Demo_advanced"
+            }, 
+            "Cohort A (private)": {
+                "id": "i4x-StanfordOnline-OpenEdX-course-Demo-Cohort-A"
+            }, 
+            "Cohort B (private)": {
+                "id": "i4x-StanfordOnline-OpenEdX-course-Demo-Cohort-B"
+            }, 
+            "Suggestions (public)": {
+                "id": "i4x-StanfordOnline-OpenEdX-course-Demo_suggestions"
+            }
+        }, 
+        "display_coursenumber": "Feature", 
+        "display_name": "Demo Course", 
+        "enable_enrollment_email": true, 
+        "end": "2017-09-04T23:30:00Z", 
+        "enrollment_end": null, 
+        "enrollment_start": "2013-04-04T16:00:00Z", 
+        "giturl": "https://stanford-online-course-export:testing123@github.com/stanford-online-course-export/demo-course.git", 
+        "graceperiod": "2 days", 
+        "ispublic": true, 
+        "lti_passports": [
+            "piazza_id:stanford.edu:piazza_sf1-5jo6", 
+            "imathas_test:cid_1_1:secret", 
+            "chuckpython:12345:secret", 
+            "120988f929-274612:12345:secret", 
+            "cerego:130qMVoRYQV1lHBppme2EpkyqyW2TndEloQERPFsoaLSu30yaO3EP7MbeGqmJRjb:usgHARyvReymu40nPQfB8Jt3eqC63whzL9ujSzR6PMA2HlZBdErZN55DBgXNY156hUl2rIXgOZQLQCFHott9P1odfgkrU5mYMilW3LLki6J9XCS1lycEahhz1N5z6TWzlir2xVO4MLDoTQSTAhq3sAeZcvHqYvADt5IhKjgKMj4=", 
+            "edcast:3a342a91b977a2569a63d58f07f93231:b0530a9a6b8fd0f0e5101eeb79e5e89d5a6bdc015e0cecb80244884ec8b66512"
+        ], 
+        "pdf_textbooks": [
+            {
+                "chapters": [
+                    {
+                        "title": "Chapter 1", 
+                        "url": "/static/NAVIGATING_YOUR_COURSE_-_chapter_1.pdf"
+                    }, 
+                    {
+                        "title": "Chapter 2", 
+                        "url": "/static/Navigating_your_Course_-_chapter_2.pdf"
+                    }, 
+                    {
+                        "title": "Chapter 3", 
+                        "url": "/static/Navigating_your_Course_-_chapter_3.pdf"
+                    }
+                ], 
+                "id": "0Navigating_Your_Course", 
+                "tab_title": "Navigating Your Course"
+            }
+        ], 
+        "start": "2013-04-05T05:00:00Z", 
+        "tabs": [
+            {
+                "name": "Courseware", 
+                "type": "courseware"
+            }, 
+            {
+                "name": "Course Info", 
+                "type": "course_info"
+            }, 
+            {
+                "name": "Syllabus", 
+                "type": "static_tab", 
+                "url_slug": "4b33106cef2d4677931e6b01f31a608d"
+            }, 
+            {
+                "name": "Textbooks", 
+                "type": "pdf_textbooks"
+            }, 
+            {
+                "name": "Discussion", 
+                "type": "discussion"
+            }, 
+            {
+                "name": "Progress", 
+                "type": "progress"
+            }, 
+            {
+                "name": "EdX Course Documentation", 
+                "type": "static_tab", 
+                "url_slug": "3ebb43b737ce4bed8ce9eb35635a845f"
+            }, 
+            {
+                "name": "Piazza", 
+                "type": "static_tab", 
+                "url_slug": "c8ff4fe551784532b8a7188b359b62ee"
+            }, 
+            {
+                "name": "Chat", 
+                "type": "static_tab", 
+                "url_slug": "8ff83ae451c24111b4f2a1d5d9b410f6"
+            }, 
+            {
+                "name": "Hangout", 
+                "type": "static_tab", 
+                "url_slug": "58360a72b762425b8c6c9dd8b1d3cb90"
+            }, 
+            {
+                "name": "Search", 
+                "type": "static_tab", 
+                "url_slug": "ec2239de0f514afdbdde2e4042ae6bf8"
+            }, 
+            {
+                "name": "Textbooks", 
+                "type": "textbooks"
+            }, 
+            {
+                "name": "Wiki", 
+                "type": "wiki"
+            }
+        ], 
+        "use_latex_compiler": false, 
+        "user_partitions": [
+            {
+                "description": "Content experiment 1", 
+                "groups": [
+                    {
+                        "id": 1, 
+                        "name": "group 1", 
+                        "version": 1
+                    }, 
+                    {
+                        "id": 2, 
+                        "name": "group 2", 
+                        "version": 1
+                    }
+                ], 
+                "id": 0, 
+                "name": "Experiment 1", 
+                "version": 1
+            }
+        ], 
+        "xml_attributes": {
+            "filename": [
+                "course/Demo.xml", 
+                "course/Demo.xml"
+            ]
+        }
+    }
+}

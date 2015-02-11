@@ -1,0 +1,81 @@
+<problem url_name="__12" display_name="" markdown="null" rerandomize="always">
+  <p>What color is the sky?</p>
+  <multiplechoiceresponse targeted-feedback="">
+    <choicegroup answer-pool="4" type="MultipleChoice">
+      <choice correct="true" explanation-id="solution0">
+        <span>blue</span>
+      </choice>
+      <choice correct="false" explanation-id="solution1">
+        <span>green</span>
+      </choice>
+      <choice correct="false" explanation-id="solution2">
+        <span>orange and purple polka dot</span>
+      </choice>
+      <choice correct="true" explanation-id="solution3">
+        <span>purple</span>
+      </choice>
+      <choice correct="false" explanation-id="solution4">
+        <span>black and white striped</span>
+      </choice>
+      <choice correct="true" explanation-id="solution5">
+        <span>orange</span>
+      </choice>
+      <choice correct="false" explanation-id="solution6">
+        <span>yellow</span>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <targetedfeedbackset>
+    <targetedfeedback explanation-id="solution1">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>Maybe if green house gases actually become green?
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution2">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>Maybe in a Dr Suess story, but not under normal circumstances.
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution4">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>You mean like the TV test pattern before color television?
+</span>
+      </div>
+    </targetedfeedback>
+    <targetedfeedback explanation-id="solution6">
+      <div class="detailed-targeted-feedback">
+        <p>Answer-Selection Feedback</p>
+        <span>You might get some yellow during sunrise or sunset, but not really....
+</span>
+      </div>
+    </targetedfeedback>
+  </targetedfeedbackset>
+  <solutionset>
+    <solution explanation-id="solution0">
+      <div class="detailed-solution">
+        <p>Problem Explanation</p>
+        <p>Yes. The sky is often blue! <img height="150" src="/static/Along_Route_1__Pigeon_Point_Lighthouse__5572314215_.jpg" width="150"/>
+</p>
+      </div>
+    </solution>
+    <solution explanation-id="solution3">
+      <div class="detailed-solution">
+        <p>Problem Explanation</p>
+        <p>I'd call that purple! <img height="150" src="/static/Sunset__Purple-Red.jpg" width="150"/>
+</p>
+      </div>
+    </solution>
+    <solution explanation-id="solution5">
+      <div class="detailed-solution">
+        <p>Problem Explanation</p>
+        <p>I've definitely seen orange! <img height="150" src="/static/Sunsets_La_Jolla_beaches_clouds_orange.jpg" width="150"/>
+</p>
+      </div>
+    </solution>
+  </solutionset>
+</problem>

@@ -1,0 +1,17 @@
+<problem url_name="Q1_1" display_name="Q1" markdown="&lt;problem&gt;&#10;&lt;p&gt;What is the most natural habitat for this animal?&lt;/p&gt;&#10;  &lt;p&gt;  &lt;image src=&quot;/static/601578_10152125660995162_1468211866_n.jpg&quot; width=&quot;400&quot; height=&quot;500&quot;/&gt;&lt;/p&gt;&#10;&lt;optionresponse&gt;&#10;  &lt;optioninput options=&quot;('Desert','Jungle','Plains','Ocean','City', 'Zoo')&quot; correct=&quot;Jungle&quot;&gt;&lt;/optioninput&gt;&#10;&lt;/optionresponse&gt;&#10;&#10;&lt;solution&gt;&#10;&lt;div class=&quot;detailed-solution&quot;&gt;&#10;&lt;p&gt;Explanation&lt;/p&gt;&#10;&#10;&lt;p&gt;While some primates live in the plains, the vast majority of monkeys live in jungles. &lt;/p&gt;&#10;&#10;&lt;/div&gt;&#10;&lt;/solution&gt;&#10;&#10;&lt;/problem&gt;" rerandomize="never">
+  <problem>
+    <p>What is the most natural habitat for this animal?</p>
+    <p>
+      <image height="500" src="/static/601578_10152125660995162_1468211866_n.jpg" width="400"/>
+    </p>
+    <optionresponse>
+      <optioninput correct="Jungle" options="('Desert','Jungle','Plains','Ocean','City', 'Zoo')"/>
+    </optionresponse>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>While some primates live in the plains, the vast majority of monkeys live in jungles. </p>
+      </div>
+    </solution>
+  </problem>
+</problem>

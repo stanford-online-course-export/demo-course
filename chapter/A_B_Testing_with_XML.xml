@@ -1,0 +1,8 @@
+<chapter display_name="A/B Testing with XML">
+  <sequential url_name="Introduction_6"/>
+  <sequential url_name="A_B_Tests_with_Components"/>
+  <sequential url_name="A_B_Tests_with_Units"/>
+  <sequential url_name="A_B_Tests_with_Subsections"/>
+  <split_test url_name="A_B_Testing_between_Subsections"/>
+  <sequential url_name="Creating_A_B_Tests"/>
+</chapter>

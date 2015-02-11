@@ -1,0 +1,17 @@
+<problem url_name="Default_Text_Input_Problem_0" display_name="Default Text Input Problem" markdown="null"><p>A text input problem accepts a line of text from the student, and evaluates the input for correctness based on an expected answer.</p><p>The answer is correct if it matches every character of the expected answer. This can be a problem with international spelling, dates, or anything where the format of the answer is not clear.</p>
+  
+  To create a problem like this, click on the problem component in a unit, select "Text Input", and you'll be started off with this example problem.  Edit the content to create your custom problem.  The markdown for this problem looks like this:
+    <p><pre><code>
+      &gt;&gt;Which US state has Lansing as its capital?&lt;&lt;
+
+= Michigan
+      </code></pre></p>
+
+<p>Which US state has Lansing as its capital?</p>
+
+<stringresponse answer="Michigan" type="ci"><textline label="Which US state has Lansing as its capital?" size="20"/></stringresponse>
+
+
+<solution><div class="detailed-solution"><p>Explanation</p><p>Lansing is the capital of Michigan, although it is not Michgan's largest city, </p><p>or even the seat of the county in which it resides.</p></div></solution>
+
+</problem>

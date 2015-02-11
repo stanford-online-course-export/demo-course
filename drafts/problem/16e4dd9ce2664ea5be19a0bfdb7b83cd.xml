@@ -1,0 +1,7 @@
+<problem display_name="Blank Common Problem" markdown="null" max_attempts="2" weight="0.5">
+How do you get from point A to point C?
+<multiplechoiceresponse><choicegroup type="MultipleChoice"><choice correct="true">Point B</choice><choice correct="false">A hop and a skip</choice><choice correct="false">Carefully</choice></choicegroup></multiplechoiceresponse>
+  
+<solution><div class="detailed-solution"><p>Explanation</p><p>Point B.</p><p>Short explanation</p></div></solution>
+
+</problem>

@@ -1,0 +1,16 @@
+<p>The LTI tool can be added to your course by doing two main things. &nbsp;The first is by adding "lti" as an advanced module, which will allow you to see this as a component which can then be added to a unit. &nbsp;If you are solely using this tool as a way of linking to external content, that should be enough. &nbsp;</p>
+<p>If, however, you want to use this Learning Tool Interoperability component to integrate with external services (such as a manual grading tool), you'll additionally need to obtain a key and secret from the LTI provider. &nbsp;Once you have a key and secret provided to you from the organization, you can set this up in your course.</p>
+<p>From Studio, click on Settings &gt; Advanced Settings.&nbsp; Note the first Policy Key in there, which is for "advanced_modules".&nbsp;</p>
+<p><img alt="" src="/static/edit_advanced_modules_lti.jpg" /></p>
+<p>Most courses will see an empty Policy Value for this key:</p>
+<p>[]</p>
+<p>Add "lti" between the two brackets and save your changes. Additional values added here should be separated by a comma following the closing quotation mark.</p>
+<p>If you are integrating the LTI with an external service, you'll register this LTI by providing a key and secret in this page. &nbsp;Find the Policy Key for "lti_passports". &nbsp;Between the two [] brackets, paste in something that looks like the following: </p>
+<p>"test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret"</p>
+<p>Note that test_lti_id will correspond to the LTI ID name that you give this particular tool. &nbsp;The string that follows the colon will be the key. &nbsp;The final string following the last colon will be the secret you were provided with. &nbsp;If you are integrating with multiple external services, you'll be able to paste in multiple strings like this, as long as each one is separated by a comma.</p>
+<p><img alt="" src="/static/lti_in_the_advanced_component.jpg" /></p>
+<p>The "advanced_modules" Policy Key refers to a component that will now display as an option when you go to add content to a unit you have created.</p>
+<p><img alt="" src="/static/select_LTI.jpg" /></p>
+<p>The required fields to edit are:</p>
+<p>Display Name - what you want this component's name to display as<br />launch_url - where you want this component to link people to<br />lti_id - a string of characters (letters or numbers, no spaces) to uniquely identify this particular LTI component</p>
+<p>In some instances - when you want to utilize the greater functionality of LTI, the lti_id value will be a string provided to you by the external service you are integrating your course with.</p>

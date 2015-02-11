@@ -1,0 +1,17 @@
+<problem url_name="Checkboxes_3" display_name="Checkboxes" markdown="&gt;&gt;Which killed the radio star?&lt;&lt;&#10;&#10;[x] Video&#10;[ ] Phonograph&#10;[ ] Greek theater&#10;[ ] Professor Plum&#10;&#10;[explanation]&#10;Video killed the radio star.&#10;[explanation]&#10;">
+  <p>Which killed the radio star?</p>
+  <choiceresponse>
+    <checkboxgroup direction="vertical" label="Which killed the radio star?">
+      <choice correct="true">Video</choice>
+      <choice correct="false">Phonograph</choice>
+      <choice correct="false">Greek theater</choice>
+      <choice correct="false">Professor Plum</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Video killed the radio star.</p>
+    </div>
+  </solution>
+</problem>

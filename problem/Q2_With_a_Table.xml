@@ -1,0 +1,28 @@
+<problem url_name="Q2_With_a_Table" display_name="Q2 - With a Table" markdown="&lt;table bgcolor=&quot;#FCFCCC&quot; border-style=&quot;solid&quot; border-color=&quot;#000000&quot; border-width=&quot;1px&quot;&gt;&#10;  &lt;tr&gt;&#10;    &lt;th bgcolor=&quot;#ddd999&quot;&gt; Month&lt;/th&gt;&#10;    &lt;th bgcolor=&quot;#ddd999&quot;&gt; Number of days&lt;/th&gt;&#10;  &lt;/tr&gt;&#10;  &lt;tr&gt;&#10;    &lt;td&gt; January&lt;/td&gt;&#10;    &lt;td&gt; 31&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;  &lt;tr&gt;&#10;    &lt;td&gt; February&lt;/td&gt;&#10;    &lt;td&gt; 31&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;  &lt;tr&gt;&#10;   &lt;td&gt; March&lt;/td&gt;&#10;    &lt;td&gt; 31&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;&lt;/table&gt;&#10;&#10;Which of the months listed above is not displaying the correct number of days in that month?&#10;&#10;( ) January&#10;(x) February&#10;( ) March">
+  <table bgcolor="#FCFCCC" border-color="#000000" border-style="solid" border-width="1px">
+    <tr>
+      <th bgcolor="#ddd999"> Month</th>
+      <th bgcolor="#ddd999"> Number of days</th>
+    </tr>
+    <tr>
+      <td> January</td>
+      <td> 31</td>
+    </tr>
+    <tr>
+      <td> February</td>
+      <td> 31</td>
+    </tr>
+    <tr>
+      <td> March</td>
+      <td> 31</td>
+    </tr>
+  </table>
+  <p>Which of the months listed above is not displaying the correct number of days in that month?</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">January</choice>
+      <choice correct="true">February</choice>
+      <choice correct="false">March</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,20 @@
+<problem url_name="Question_1" display_name="Question #1" markdown="This quiz will illustrate a conditional quiz, where in order for you to see the following unit with the next quiz question, you first need to attempt this question. If you don't attempt it, you won't see the next quiz question in the following unit.&#10;&#10;&gt;&gt;Check the box(es) next to correct geographic locations.&lt;&lt;&#10;&#10;[x] Guadalajara, Spain&#10;[ ] Guadalajara, Ghana&#10;[x] Guadalajara, Mexico&#10;[ ] Paris, New Mexico&#10;[x] Paris, Texas&#10;[x] Paris, France&#10;&#10;[explanation]&#10;Many names of places get reused everywhere you go. &#10;[explanation]&#10;">
+  <p>This quiz will illustrate a conditional quiz, where in order for you to see the following unit with the next quiz question, you first need to attempt this question. If you don't attempt it, you won't see the next quiz question in the following unit.</p>
+  <p>Check the box(es) next to correct geographic locations.</p>
+  <choiceresponse>
+    <checkboxgroup direction="vertical" label="Check the box(es) next to correct geographic locations.">
+      <choice correct="true">Guadalajara, Spain</choice>
+      <choice correct="false">Guadalajara, Ghana</choice>
+      <choice correct="true">Guadalajara, Mexico</choice>
+      <choice correct="false">Paris, New Mexico</choice>
+      <choice correct="true">Paris, Texas</choice>
+      <choice correct="true">Paris, France</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Many names of places get reused everywhere you go. </p>
+    </div>
+  </solution>
+</problem>

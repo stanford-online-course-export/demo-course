@@ -1,0 +1,71 @@
+<vertical display_name="Human Cell Cloning">
+  <openassessment url_name="bdb10e5302c64229b897f8a2e9110293" allow_file_upload="False" allow_latex="False">
+    <title>Human Cell Cloning</title>
+    <assessments>
+      <assessment name="peer-assessment" must_grade="1" must_be_graded_by="1" track_changes=""/>
+      <assessment name="self-assessment" track_changes=""/>
+    </assessments>
+    <rubric>
+      <prompt>
+    'They look like the cells in a human embryo — in fact, they're called embryonic stem cells. And with a bit of coaxing, these cells could, theoretically, be prodded to turn into any sort of human cell — nerve, heart, liver and pancreas, for example. That's what makes them potentially useful for treating all sorts of diseases.' - Richard Harris, writing for NPR News (full article available at http://www.npr.org/blogs/health/2014/04/17/303658757/first-embryonic-stem-cells-cloned-from-a-mans-skin)
+
+    Scientists in Oregon have now successfully cloned adult human skin cells.  Previously the most that had been done was cloning sheep cells.  While that was a valuable development, it didn't have quite the same far-reaching possibilities that this month's discovery does.
+      
+      Write a persuasive essay reflecting your views on this development. How will this potentially change our world, for better or worse? Support your position with convincing arguments from your own experience, observations, and/or reading.
+
+    Read for conciseness, clarity of thought, and form.
+</prompt>
+      <criterion>
+        <name>Ideas</name>
+        <label>Ideas</label>
+        <prompt>Determine if there is a unifying theme or main idea.</prompt>
+        <option points="0">
+          <name>Weak</name>
+          <label>Weak</label>
+          <explanation>Difficult for the reader to discern the main idea.  Too brief or too repetitive to establish or maintain a focus.</explanation>
+        </option>
+        <option points="3">
+          <name>Pretty Good</name>
+          <label>Pretty Good</label>
+          <explanation>Presents a unifying theme or main idea, but may include minor tangents.  Stays somewhat focused on topic and task.</explanation>
+        </option>
+        <option points="5">
+          <name>Fantastic</name>
+          <label>Fantastic</label>
+          <explanation>Presents a unifying theme or main idea without going off on tangents.  Stays completely focused on topic and task.</explanation>
+        </option>
+      </criterion>
+      <criterion>
+        <name>Content</name>
+        <label>Content</label>
+        <prompt>Assess the content of the essay</prompt>
+        <option points="0">
+          <name>Weak</name>
+          <label>Weak</label>
+          <explanation>Includes little information with few or no details or unrelated details.  Unsuccessful in attempts to explore any facets of the topic.</explanation>
+        </option>
+        <option points="1">
+          <name>Not Bad</name>
+          <label>Not Bad</label>
+          <explanation>Includes little information and few or no details, but does partially explore at least one facet of the topic.</explanation>
+        </option>
+        <option points="3">
+          <name>Good</name>
+          <label>Good</label>
+          <explanation>Includes sufficient information and supporting details. (Details may not be fully developed; ideas may be listed.)  Explores some facets of the topic.</explanation>
+        </option>
+        <option points="3">
+          <name>Excellent</name>
+          <label>Excellent</label>
+          <explanation>Includes in-depth information and analysis, as well as exceptional supporting details that are fully developed.  Explores all facets of the topic.</explanation>
+        </option>
+      </criterion>
+      <feedbackprompt>
+(Optional) What aspects of this response stood out to you? What did it do well? How could it improve?
+</feedbackprompt>
+      <feedback_default_text>
+I noticed that this response...
+</feedback_default_text>
+    </rubric>
+  </openassessment>
+</vertical>

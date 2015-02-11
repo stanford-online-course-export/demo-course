@@ -1,0 +1,35 @@
+<problem display_name="Timed exam with multiple questions" markdown="Select the correct response.&#10;&#10;( ) incorrect&#10;( ) incorrect&#10;(x) correct&#10;&#10;Now select the incorrect responses.&#10;&#10;(x) incorrect&#10;(x) incorrect&#10;( ) correct&#10;&#10;Check all of the boxes below.&#10;&#10;[x] this&#10;[x] that&#10;[x] the other&#10;&#10;Fill in the blank:  Snow is [[red, blue, black, (white)]]&#10;&#10;" minutes_allowed="3">
+<p>Select the correct response.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">incorrect</choice>
+    <choice correct="false">incorrect</choice>
+    <choice correct="true">correct</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Now select the incorrect responses.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">incorrect</choice>
+    <choice correct="true">incorrect</choice>
+    <choice correct="false">correct</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Check all of the boxes below.</p>
+<choiceresponse>
+  <checkboxgroup direction="vertical">
+    <choice correct="true">this</choice>
+    <choice correct="true">that</choice>
+    <choice correct="true">the other</choice>
+  </checkboxgroup>
+</choiceresponse>
+
+<p>Fill in the blank:  Snow is </p>
+<optionresponse>
+  <optioninput options="('red','blue','black','white')" correct="white"/>
+</optionresponse>
+
+
+</problem>

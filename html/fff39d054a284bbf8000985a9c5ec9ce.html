@@ -1,0 +1,31 @@
+<p style="font-size: 16px; margin-top: 20px;">Setting up A/B tests requires the following:</p>
+<p style="font-size: 16px;">1. creating the content in Studio<br />2.&nbsp;exporting your course file<br />3. editing two XML files&nbsp;<br />4. re-importing your course file</p>
+<h3>1. Create your Content</h3>
+<p style="font-size: 16px;">Go to the section, subsection or unit where you want this test to exist. Create your content.&nbsp;</p>
+<h3>2. Export your Course File</h3>
+<p style="font-size: 16px;">Go to Tools &gt; Export and click on the button to export your course in its entirety.</p>
+<h3>3. Edit Two XML Files</h3>
+<p style="font-size: 16px;">This is the meat of the process.</p>
+<p style="font-size: 16px;"><strong>3a. Edit the Policy.json file<br /><br /></strong>First, find the policy.json file in the "policies" folder, and click to edit it. It should initially look something like this:</p>
+<p style="font-size: 16px;"><img alt="" src="/static/find_your_policy_json_file.jpg" /></p>
+<p style="font-size: 16px;">Then add tags to define your user groups. &nbsp;This code will look something like this:</p>
+<pre style="font-size: 16px;"><code>"user_partitions": [
+	{"description": "My A/B Test Groups", 
+	 "version": 1, 
+	 "id": 0, 
+	 "groups": [
+	 	{"version": 1, "id": 0, "name": "group 0"}, 
+	 	{"version": 1, "id": 2, "name": "group 2"}
+	 			], 
+	 "name": "Experiment 0"}
+	 				]</code></pre>
+<p style="font-size: 16px;">In here, give your user partition a description, and have two versions, which will be your two different groups of users. &nbsp;The end result in your policy.json file will look something like this:</p>
+<p style="font-size: 16px;"><img alt="" src="/static/add_user_partitions_to_your_policy_json_file.jpg" />&nbsp;</p>
+<p style="font-size: 16px;"><strong>3b. Edit your content files.</strong></p>
+<p style="font-size: 16px;">Find the file that contains the two items you want to A/B test. &nbsp;By default, that file should look something like this:</p>
+<p style="font-size: 16px;">&lt;vertical display_name="something"&gt;<br />&nbsp; &nbsp; &nbsp;&lt;html url_name="1235iasnh3012somethingelse"/&gt;<br />&nbsp; &nbsp; &nbsp;&lt;problem url_name="345690hwaejucsomethingelse"/&gt;<br />&lt;/vertical&gt;</p>
+<p style="font-size: 16px;">You'll want to wrap the content you want to test in a split_test tag. &nbsp;That split_test tag should contain details that specify which content will appear to which group. &nbsp;That tag will look like this:</p>
+<p style="font-size: 16px;">&lt;split_test user_partition_id="0" group_id_to_child='{"0": "i4x://StanfordOnline/OpenEdX/problem/821c9feed6594c0b8fea90e97a7b33bd", "2": "i4x://StanfordOnline/OpenEdX/problem/50938f7b9ca64d0d9956f8ff46f781f4"}'&gt;</p>
+<p style="font-size: 16px;">Its values will depend on what you entered in your policy.json file, and also on the location IDs for the items you are testing between. Component location IDs are found by clicking on the "Staff Debug Info" that displays beneath each component, while unit IDs are found by clicking to view the unit in Studio and noting the Unit Identifier ID. &nbsp;A subsection's ID can be seen by noting the string of numbers and letters in the URL on that page. &nbsp;</p>
+<h3>4. Import your Course File</h3>
+<p style="font-size: 16px;">Once you have edited these two files, save your changes, zip the file back up, and import back into your course. Go to Tools &gt; Import and click to select the file from your computer. You should be all set after that!</p>

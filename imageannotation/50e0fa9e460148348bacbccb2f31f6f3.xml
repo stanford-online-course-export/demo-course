@@ -1,0 +1,18 @@
+<imageannotation url_name="50e0fa9e460148348bacbccb2f31f6f3">
+  <instructions>
+    <p>
+            Add the instructions to the assignment here.
+        </p>
+  </instructions>
+  <p>
+        Lorem ipsum dolor sit amet, at amet animal petentium nec. Id augue nemore postulant mea. Ex eam dicant noluisse expetenda, alia admodum abhorreant qui et. An ceteros expetenda mea, tale natum ipsum quo no, ut pro paulo alienum noluisse.
+    </p>
+  <json>
+        navigatorSizeRatio: 0.25,
+        wrapHorizontal:     false,
+        showNavigator: true,
+        navigatorPosition: "BOTTOM_LEFT",
+        showNavigationControl: true,
+        tileSources:    [{"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2", "scale_factors": [1, 2, 4, 8, 16, 32, 64], "tile_height": 1024, "height": 3466, "width": 113793, "tile_width": 1024, "qualities": ["native", "bitonal", "grey", "color"], "formats": ["jpg", "png", "gif"], "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json", "@id": "http://static.class.stanford.edu/stanford-hills-big.jpg"}],
+    </json>
+</imageannotation>

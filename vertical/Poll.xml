@@ -1,0 +1,6 @@
+<vertical display_name="Poll">
+  <html url_name="Poll_Regarding_the_Answer_to_Life_the_Universe_and_Everything"/>
+  <video url_name="The_Hitchhiker_s_Guide_to_the_Galaxy"/>
+  <poll_question url_name="Poll_Question"/>
+  <discussion url_name="Poll_Question_discussion"/>
+</vertical>

@@ -1,0 +1,93 @@
+<problem url_name="Drag_and_Drop_0" display_name="Drag and Drop" markdown="null">
+  Here's an example of a "Drag and Drop" question set. Click and drag each word in the scrollbar below, up to the numbered bucket which matches the number of letters in the word.
+  <p>For this first problem, note the code used to create it below. For each draggable id, which corresponds to the words in the horizontal table below the image, there is a specific correct location where the words can go.  Specifying that is done by giving the coordinates in relation to the image you are using.</p>
+    <p><pre><code>
+&lt;drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/L9_buckets.png"&gt;
+            &lt;draggable id="1" label="a"/&gt;
+            &lt;draggable id="2" label="cat"/&gt;
+            &lt;draggable id="3" label="there"/&gt;
+            &lt;draggable id="4" label="pear"/&gt;
+            &lt;draggable id="5" label="kitty"/&gt;
+            &lt;draggable id="6" label="in"/&gt;
+            &lt;draggable id="7" label="them"/&gt;
+            &lt;draggable id="8" label="za"/&gt;
+            &lt;draggable id="9" label="dog"/&gt;
+            &lt;draggable id="10" label="slate"/&gt;
+            &lt;draggable id="11" label="few"/&gt;
+        &lt;/drag_and_drop_input&gt;
+        &lt;answer type="loncapa/python"&gt;
+correct_answer = {
+        '1':      [[70, 150], 121],
+        '6':      [[190, 150], 121],
+        '8':      [[190, 150], 121],
+        '2':      [[310, 150], 121],
+        '9':      [[310, 150], 121],
+        '11':     [[310, 150], 121],
+        '4':      [[420, 150], 121],
+        '7':      [[420, 150], 121],
+        '3':      [[550, 150], 121],
+        '5':      [[550, 150], 121],
+        '10':     [[550, 150], 121]}
+if draganddrop.grade(submission[0], correct_answer):
+    correct = ['correct']
+else:
+    correct = ['incorrect']
+        &lt;/answer&gt;
+    &lt;/customresponse&gt;</code></pre></p>
+   <customresponse><drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/L9_buckets.png"><draggable id="1" label="a"/><draggable id="2" label="cat"/><draggable id="3" label="there"/><draggable id="4" label="pear"/><draggable id="5" label="kitty"/><draggable id="6" label="in"/><draggable id="7" label="them"/><draggable id="8" label="za"/><draggable id="9" label="dog"/><draggable id="10" label="slate"/><draggable id="11" label="few"/></drag_and_drop_input><answer type="loncapa/python">
+correct_answer = {
+        '1':      [[70, 150], 121],
+        '6':      [[190, 150], 121],
+        '8':      [[190, 150], 121],
+        '2':      [[310, 150], 121],
+        '9':      [[310, 150], 121],
+        '11':     [[310, 150], 121],
+        '4':      [[420, 150], 121],
+        '7':      [[420, 150], 121],
+        '3':      [[550, 150], 121],
+        '5':      [[550, 150], 121],
+        '10':     [[550, 150], 121]}
+if draganddrop.grade(submission[0], correct_answer):
+    correct = ['correct']
+else:
+    correct = ['incorrect']
+        </answer></customresponse>
+    <customresponse><text><h2>Drag and Drop with Outline</h2><p>Please label hydrogen  atoms connected with left carbon atom.</p><p>Note that for this problem, there isn't a 1-to-1 ration.  This is still acceptable, so long as each target id has a location you've specified.  In this way, for this problem, we've been able to have multiple draggable Hydrogens which can be placed in a corresponding Hydrogen atom.</p><p><pre><code>
+ &lt;drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/ethglycol.jpg" target_outline="true" one_per_target="true" no_labels="true" label_bg_color="rgb(222, 139, 238)"&gt;
+            &lt;draggable id="1" label="Hydrogen" /&gt;
+            &lt;draggable id="2" label="Hydrogen" /&gt;
+
+            &lt;target id="t1_o" x="10" y="67" w="100" h="100"/&gt;
+            &lt;target id="t2" x="133" y="3" w="70" h="70"/&gt;
+            &lt;target id="t3" x="2" y="384" w="70" h="70"/&gt;
+            &lt;target id="t4" x="95" y="386" w="70" h="70"/&gt;
+            &lt;target id="t5_c" x="94" y="293" w="91" h="91"/&gt;
+            &lt;target id="t6_c" x="328" y="294" w="91" h="91"/&gt;
+            &lt;target id="t7" x="393" y="463" w="70" h="70"/&gt;
+            &lt;target id="t8" x="344" y="214" w="70" h="70"/&gt;
+            &lt;target id="t9_o" x="445" y="162" w="100" h="100"/&gt;
+            &lt;target id="t10" x="591" y="132" w="70" h="70"/&gt;
+        &lt;/drag_and_drop_input&gt;
+        &lt;answer type="loncapa/python"&gt;
+correct_answer = [{
+    'draggables': ['1', '2'],
+    'targets': ['t2', 't3', 't4' ],
+    'rule':'anyof'
+}]
+if draganddrop.grade(submission[0], correct_answer):
+    correct = ['correct']
+else:
+    correct = ['incorrect']
+        &lt;/answer&gt;
+    &lt;/customresponse&gt;</code></pre></p></text><drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/ethglycol.jpg" label_bg_color="rgb(222, 139, 238)" no_labels="true" one_per_target="true" target_outline="true"><draggable id="1" label="Hydrogen"/><draggable id="2" label="Hydrogen"/><target h="100" id="t1_o" w="100" x="10" y="67"/><target h="70" id="t2" w="70" x="133" y="3"/><target h="70" id="t3" w="70" x="2" y="384"/><target h="70" id="t4" w="70" x="95" y="386"/><target h="91" id="t5_c" w="91" x="94" y="293"/><target h="91" id="t6_c" w="91" x="328" y="294"/><target h="70" id="t7" w="70" x="393" y="463"/><target h="70" id="t8" w="70" x="344" y="214"/><target h="100" id="t9_o" w="100" x="445" y="162"/><target h="70" id="t10" w="70" x="591" y="132"/></drag_and_drop_input><answer type="loncapa/python">
+correct_answer = [{
+    'draggables': ['1', '2'],
+    'targets': ['t2', 't3', 't4' ],
+    'rule':'anyof'
+}]
+if draganddrop.grade(submission[0], correct_answer):
+    correct = ['correct']
+else:
+    correct = ['incorrect']
+        </answer></customresponse>
+</problem>

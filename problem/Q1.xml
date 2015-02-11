@@ -1,0 +1,9 @@
+<problem url_name="Q1" display_name="Q1" markdown="( ) Don't select this one&#10;( ) Don't select this one, either&#10;(x) If you select this one, you'll be right&#10;">
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Don't select this one</choice>
+      <choice correct="false">Don't select this one, either</choice>
+      <choice correct="true">If you select this one, you'll be right</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

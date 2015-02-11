@@ -1,0 +1,54 @@
+<problem url_name="OPEN_RESPONSE_MINIMUM_OF_10_WORDS" display_name="OPEN RESPONSE, MINIMUM OF 10 WORDS" markdown="&lt;div class=&quot;problem-description&quot;&gt;&#10;  &lt;!-- This is the problem description, that instructs students on what to write about. --&gt;&#10;&lt;p&gt;Problem description text for second question goes here...&lt;/p&gt;&#10;&lt;p&gt;More description text, if needed.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;problem markdown=&quot;null&quot; max_attempts=&quot;5&quot;&gt;&#10;&lt;label&gt;Please submit your essay here.&lt;/label&gt; &lt;!-- You can change this text, but this is a reasonable default. --&gt;&#10;&lt;script type=&quot;loncapa/python&quot;&gt;&#10;# The block below is the grading function for this problem. &#10;# The name you assign it here will be used below.&#10;import re&#10;  &#10;def short_response2(expect, ans):&#10;  words = ans.split()&#10;  return len(words) &gt;= 10&#10;  &#10;&lt;/script&gt;&#10;  &lt;span id=&quot;short_response_question_2&quot;/&gt; &lt;!-- Edit this id, for each problem --&gt;&#10;  &lt;script type=&quot;text/javascript&quot;&gt;&#10;    /* The object here is to replace the single line input with a textarea */&#10;  (function() {&#10;    var elem = $(&quot;#short_response_question_2&quot;)&#10;        .closest(&quot;div.problem&quot;)&#10;        .find(&quot;:text&quot;);&#10;    var label = $(&quot;#short_response_question_2&quot;)&#10;        .closest(&quot;div.problem&quot;)&#10;        .find('label');&#10;    label.attr('for', elem.attr('id'));&#10;    var description = $(&quot;#short_response_question_2&quot;)&#10;        .closest(&quot;div.problem&quot;)&#10;        .find('.problem-description');&#10;    description.attr('id', elem.attr('id')+'-description');&#10;    /* There's CSS in the LMS that controls the height, so we have to override here */&#10;    var textarea = $('&lt;textarea style=&quot;height:150px&quot; rows=&quot;20&quot; cols=&quot;70&quot;/&gt;');&#10;    &#10;    //This is just another way to do an iterator in JS&#10;    for (attrib in {'id':null, 'name':null}) {&#10;        textarea.attr(attrib, elem.attr(attrib));&#10;    }&#10;    textarea.attr('aria-describedby', elem.attr('id')+'-description');&#10;    /* copy over the submitted value and give an aria description*/&#10;    textarea.val(elem.val());&#10;    elem.replaceWith(textarea);&#10;    /* clear out echoed text */&#10;    textarea.siblings(&quot;.status&quot;).text(&quot;&quot;);&#10;    &#10;  })();&#10;  &lt;/script&gt;&#10;  &lt;customresponse cfn=&quot;short_response2&quot;&gt;&lt;!-- This 'cfn' name is the name of the python grading function above --&gt;&#10;    &lt;textline/&gt;&#10;  &lt;/customresponse&gt;&#10;&lt;/problem&gt;">
+  <div class="problem-description">
+    <p>Problem description text for second question goes here...</p>
+    <p>More description text, if needed.</p>
+  </div>
+  <problem markdown="null" max_attempts="5">
+    <label>Please submit your essay here.</label>
+    <script type="loncapa/python">
+# The block below is the grading function for this problem. 
+# The name you assign it here will be used below.
+import re
+  
+def short_response2(expect, ans):
+  words = ans.split()
+  return len(words) &gt;= 10
+  
+</script>
+    <span id="short_response_question_2"/>
+    <p>  </p>
+    <script type="text/javascript">
+    /* The object here is to replace the single line input with a textarea */
+  (function() {
+    var elem = $("#short_response_question_2")
+        .closest("div.problem")
+        .find(":text");
+    var label = $("#short_response_question_2")
+        .closest("div.problem")
+        .find('label');
+    label.attr('for', elem.attr('id'));
+    var description = $("#short_response_question_2")
+        .closest("div.problem")
+        .find('.problem-description');
+    description.attr('id', elem.attr('id')+'-description');
+    /* There's CSS in the LMS that controls the height, so we have to override here */
+    var textarea = $('<textarea cols="70" rows="20" style="height:150px"/>');
+    
+    //This is just another way to do an iterator in JS
+    for (attrib in {'id':null, 'name':null}) {
+        textarea.attr(attrib, elem.attr(attrib));
+    }
+    textarea.attr('aria-describedby', elem.attr('id')+'-description');
+    /* copy over the submitted value and give an aria description*/
+    textarea.val(elem.val());
+    elem.replaceWith(textarea);
+    /* clear out echoed text */
+    textarea.siblings(".status").text("");
+    
+  })();
+  </script>
+    <customresponse cfn="short_response2">
+      <textline/>
+    </customresponse>
+  </problem>
+</problem>
