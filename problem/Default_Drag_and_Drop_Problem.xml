@@ -77,11 +77,9 @@ else:
         </answer>
   </customresponse>
   <solution>
-<div class="detailed-solution">
-<p>Explanation</p>
-
-<p>This is the explanation for this question.</p>
-
-</div>
-</solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>This is the explanation for this question.</p>
+    </div>
+  </solution>
 </problem>

@@ -1,5 +1,5 @@
 <vertical display_name="New ORA problem">
-  <openassessment url_name="924c473b34a24e3fae49820b1181fb89" submission_start="2001-01-01T00:00:00+00:00" submission_due="2015-02-06T00:00:00+00:00" allow_file_upload="False" allow_latex="False">
+  <openassessment url_name="924c473b34a24e3fae49820b1181fb89" submission_start="2001-01-01T00:00:00" submission_due="2015-02-06T00:00:00" allow_file_upload="False" allow_latex="False">
     <title></title>
     <assessments>
       <assessment name="student-training" track_changes="">
@@ -14,8 +14,8 @@
           <select criterion="Content" option="Good"/>
         </example>
       </assessment>
-      <assessment name="peer-assessment" must_grade="5" must_be_graded_by="3" start="2001-01-01T00:00:00+00:00" due="2029-01-01T00:00:00+00:00" track_changes=""/>
-      <assessment name="self-assessment" start="2001-01-01T00:00:00+00:00" due="2029-01-01T00:00:00+00:00" track_changes=""/>
+      <assessment name="peer-assessment" must_grade="5" must_be_graded_by="3" start="2001-01-01T00:00:00" due="2029-01-01T00:00:00" track_changes=""/>
+      <assessment name="self-assessment" start="2001-01-01T00:00:00" due="2029-01-01T00:00:00" track_changes=""/>
     </assessments>
     <rubric>
       <prompt>    Censorship in the Libraries

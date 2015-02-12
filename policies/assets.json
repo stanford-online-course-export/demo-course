@@ -1,672 +1,16 @@
 {
-    "._13865565216419642.png": {
-        "contentType": "image/png", 
-        "displayname": "._13865565216419642.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._13865565216419642.png", 
-        "import_path": "._13865565216419642.png", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._1_-_default_sequential_file_to_edit-1.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._1 - default sequential file to edit-1.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._1_-_default_sequential_file_to_edit-1.jpg", 
-        "import_path": "._1 - default sequential file to edit-1.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._2_-_finished_version_of_your_sequential_xml_file.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._2 - finished version of your sequential xml file.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._2_-_finished_version_of_your_sequential_xml_file.jpg", 
-        "import_path": "._2 - finished version of your sequential xml file.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._3253931499_f45658e15a_o.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._3253931499_f45658e15a_o.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._3253931499_f45658e15a_o.jpg", 
-        "import_path": "._3253931499_f45658e15a_o.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._3253931499_fa88ec77d1.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._3253931499_fa88ec77d1.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._3253931499_fa88ec77d1.jpg", 
-        "import_path": "._3253931499_fa88ec77d1.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._3733658653_0aa6eda76e_o.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._3733658653_0aa6eda76e_o.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._3733658653_0aa6eda76e_o.jpg", 
-        "import_path": "._3733658653_0aa6eda76e_o.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._3733658653_d2109cec3b_z.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._3733658653_d2109cec3b_z.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._3733658653_d2109cec3b_z.jpg", 
-        "import_path": "._3733658653_d2109cec3b_z.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._601578_10152125660995162_1468211866_n.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._601578_10152125660995162_1468211866_n.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._601578_10152125660995162_1468211866_n.jpg", 
-        "import_path": "._601578_10152125660995162_1468211866_n.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._7075475901_691c15238b_c.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._7075475901_691c15238b_c.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._7075475901_691c15238b_c.jpg", 
-        "import_path": "._7075475901_691c15238b_c.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._7075475901_caf36bfc5f_o.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._7075475901_caf36bfc5f_o.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._7075475901_caf36bfc5f_o.jpg", 
-        "import_path": "._7075475901_caf36bfc5f_o.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._BladeRunnerPulp.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._BladeRunnerPulp.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._BladeRunnerPulp.jpg", 
-        "import_path": "._BladeRunnerPulp.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._CLASlite_overview_082213.en.txt": {
-        "contentType": "text/plain", 
-        "displayname": "._CLASlite_overview_082213.en.txt", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._CLASlite_overview_082213.en.txt", 
-        "import_path": "._CLASlite_overview_082213.en.txt", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Discussion.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._Discussion.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Discussion.jpg", 
-        "import_path": "._Discussion.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Hidden_Subsection_1.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._Hidden Subsection 1.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Hidden_Subsection_1.jpg", 
-        "import_path": "._Hidden Subsection 1.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Hitchhikers_Guide.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._Hitchhikers_Guide.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Hitchhikers_Guide.jpg", 
-        "import_path": "._Hitchhikers_Guide.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Instructor_Dashboard.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._Instructor Dashboard.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Instructor_Dashboard.jpg", 
-        "import_path": "._Instructor Dashboard.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Instructor_Dashboard_2.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._Instructor Dashboard 2.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Instructor_Dashboard_2.jpg", 
-        "import_path": "._Instructor Dashboard 2.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Multiple_Choice.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._Multiple Choice.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Multiple_Choice.jpg", 
-        "import_path": "._Multiple Choice.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._NAVIGATING_YOUR_COURSE.pdf": {
-        "contentType": "application/pdf", 
-        "displayname": "._NAVIGATING YOUR COURSE.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._NAVIGATING_YOUR_COURSE.pdf", 
-        "import_path": "._NAVIGATING YOUR COURSE.pdf", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._NAVIGATING_YOUR_COURSE_-_chapter_1.pdf": {
-        "contentType": "application/pdf", 
-        "displayname": "._NAVIGATING YOUR COURSE - chapter 1.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._NAVIGATING_YOUR_COURSE_-_chapter_1.pdf", 
-        "import_path": "._NAVIGATING YOUR COURSE - chapter 1.pdf", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Navigating_your_Course_-_chapter_2.pdf": {
-        "contentType": "application/pdf", 
-        "displayname": "._Navigating your Course - chapter 2.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Navigating_your_Course_-_chapter_2.pdf", 
-        "import_path": "._Navigating your Course - chapter 2.pdf", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Navigating_your_Course_-_chapter_3.pdf": {
-        "contentType": "application/pdf", 
-        "displayname": "._Navigating your Course - chapter 3.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Navigating_your_Course_-_chapter_3.pdf", 
-        "import_path": "._Navigating your Course - chapter 3.pdf", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._PDF.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._PDF.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._PDF.jpg", 
-        "import_path": "._PDF.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Piazza_screenshot.png": {
-        "contentType": "image/png", 
-        "displayname": "._Piazza_screenshot.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Piazza_screenshot.png", 
-        "import_path": "._Piazza_screenshot.png", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._README": {
-        "contentType": null, 
-        "displayname": "._README", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._README", 
-        "import_path": "._README", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Runningman.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._Runningman.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Runningman.jpg", 
-        "import_path": "._Runningman.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._Video.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._Video.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._Video.jpg", 
-        "import_path": "._Video.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._add_user_partitions_to_your_policy_json_file.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._add user partitions to your policy json file.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._add_user_partitions_to_your_policy_json_file.jpg", 
-        "import_path": "._add user partitions to your policy json file.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._advanced_settings.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._advanced settings.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._advanced_settings.jpg", 
-        "import_path": "._advanced settings.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._bt_77ZcXtYQ.srt": {
-        "contentType": null, 
-        "displayname": "._bt_77ZcXtYQ.srt", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._bt_77ZcXtYQ.srt", 
-        "import_path": "._bt_77ZcXtYQ.srt", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._changed.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._changed.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._changed.jpg", 
-        "import_path": "._changed.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._checklist.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._checklist.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._checklist.jpg", 
-        "import_path": "._checklist.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._click_staff_debug_info_and_copy_location.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._click staff debug info and copy location.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._click_staff_debug_info_and_copy_location.jpg", 
-        "import_path": "._click staff debug info and copy location.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._click_to_add_new_textbook_and_upload_pdfs_for_each_chapter.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._click to add new textbook and upload pdfs for each chapter.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._click_to_add_new_textbook_and_upload_pdfs_for_each_chapter.jpg", 
-        "import_path": "._click to add new textbook and upload pdfs for each chapter.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._clothing-items.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._clothing-items.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._clothing-items.jpg", 
-        "import_path": "._clothing-items.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._courseware_view_of_unit_a-b_test.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._courseware view of unit a-b test.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._courseware_view_of_unit_a-b_test.jpg", 
-        "import_path": "._courseware view of unit a-b test.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._discussion_component.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._discussion component.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._discussion_component.jpg", 
-        "import_path": "._discussion component.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._edit_advanced_modules_lti.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._edit advanced_modules lti.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._edit_advanced_modules_lti.jpg", 
-        "import_path": "._edit advanced_modules lti.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._end_result_in_lms.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._end result in lms.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._end_result_in_lms.jpg", 
-        "import_path": "._end result in lms.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._end_result_in_studio.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._end result in studio.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._end_result_in_studio.jpg", 
-        "import_path": "._end result in studio.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._endersgame.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._endersgame.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._endersgame.jpg", 
-        "import_path": "._endersgame.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._es_subs_Kya5Zqysi7A.srt.sjson": {
-        "contentType": null, 
-        "displayname": "._es_subs_Kya5Zqysi7A.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._es_subs_Kya5Zqysi7A.srt.sjson", 
-        "import_path": "._es_subs_Kya5Zqysi7A.srt.sjson", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._find_your_policy_json_file.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._find your policy json file.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._find_your_policy_json_file.jpg", 
-        "import_path": "._find your policy json file.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._finished_product_with_group_0_dropdown.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._finished product with group 0 dropdown.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._finished_product_with_group_0_dropdown.jpg", 
-        "import_path": "._finished product with group 0 dropdown.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._follow_or_upvote.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._follow or upvote.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._follow_or_upvote.jpg", 
-        "import_path": "._follow or upvote.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._hovering_over_subsection_gives_you_the_sequential_id.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._hovering over subsection gives you the sequential id.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._hovering_over_subsection_gives_you_the_sequential_id.jpg", 
-        "import_path": "._hovering over subsection gives you the sequential id.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._illustration_of_a-b_testing_of_subsections.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._illustration of a-b testing of subsections.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._illustration_of_a-b_testing_of_subsections.jpg", 
-        "import_path": "._illustration of a-b testing of subsections.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._images": {
-        "contentType": null, 
-        "displayname": "._images", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._images", 
-        "import_path": "._images", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._inline_discussion_category_and_subcategory_names.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._inline discussion category and subcategory names.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._inline_discussion_category_and_subcategory_names.jpg", 
-        "import_path": "._inline discussion category and subcategory names.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._inline_discussion_end_result.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._inline discussion end result.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._inline_discussion_end_result.jpg", 
-        "import_path": "._inline discussion end result.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._instant-hangout.js": {
-        "contentType": "text/javascript", 
-        "displayname": "._instant-hangout.js", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._instant-hangout.js", 
-        "import_path": "._instant-hangout.js", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._instanthangouts-0.1.0.js": {
-        "contentType": "text/javascript", 
-        "displayname": "._instanthangouts-0.1.0.js", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._instanthangouts-0.1.0.js", 
-        "import_path": "._instanthangouts-0.1.0.js", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._lti_in_the_advanced_component.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._lti in the advanced component.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._lti_in_the_advanced_component.jpg", 
-        "import_path": "._lti in the advanced component.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._mirror.html": {
-        "contentType": "text/html", 
-        "displayname": "._mirror.html", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._mirror.html", 
-        "import_path": "._mirror.html", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._new_split_file_created_for_this_vertical_ab_test.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._new split file created for this vertical ab test.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._new_split_file_created_for_this_vertical_ab_test.jpg", 
-        "import_path": "._new split file created for this vertical ab test.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._note_the_unit_identifier_string.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._note the unit identifier string.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._note_the_unit_identifier_string.jpg", 
-        "import_path": "._note the unit identifier string.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._policy_key_topics.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._policy key topics.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._policy_key_topics.jpg", 
-        "import_path": "._policy key topics.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._python_cheat_screen.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._python cheat screen.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._python_cheat_screen.jpg", 
-        "import_path": "._python cheat screen.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._randomization_setting_in_problem.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._randomization setting in problem.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._randomization_setting_in_problem.jpg", 
-        "import_path": "._randomization setting in problem.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._search_for__STAFF_.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._search for [STAFF].jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._search_for__STAFF_.jpg", 
-        "import_path": "._search for [STAFF].jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._select_LTI.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._select LTI.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._select_LTI.jpg", 
-        "import_path": "._select LTI.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._sequential_file_before_editing_for_ab_test_of_units-1.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._sequential file before editing for ab test of units-1.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._sequential_file_before_editing_for_ab_test_of_units-1.jpg", 
-        "import_path": "._sequential file before editing for ab test of units-1.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._show_all_discussions.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._show all discussions.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._show_all_discussions.jpg", 
-        "import_path": "._show all discussions.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._standard_tabs.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._standard tabs.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._standard_tabs.jpg", 
-        "import_path": "._standard tabs.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._stanford-hills-small.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._stanford-hills-small.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._stanford-hills-small.jpg", 
-        "import_path": "._stanford-hills-small.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._subs_DgjGqIwKLdU.srt.sjson": {
-        "contentType": null, 
-        "displayname": "._subs_DgjGqIwKLdU.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._subs_DgjGqIwKLdU.srt.sjson", 
-        "import_path": "._subs_DgjGqIwKLdU.srt.sjson", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._subs_Kya5Zqysi7A.srt.sjson": {
-        "contentType": null, 
-        "displayname": "._subs_Kya5Zqysi7A.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._subs_Kya5Zqysi7A.srt.sjson", 
-        "import_path": "._subs_Kya5Zqysi7A.srt.sjson", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._subs_OEoXaMPEzfM.srt.sjson": {
-        "contentType": null, 
-        "displayname": "._subs_OEoXaMPEzfM.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._subs_OEoXaMPEzfM.srt.sjson", 
-        "import_path": "._subs_OEoXaMPEzfM.srt.sjson", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._subs_XKSQmYUaIyE.srt.sjson": {
-        "contentType": null, 
-        "displayname": "._subs_XKSQmYUaIyE.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._subs_XKSQmYUaIyE.srt.sjson", 
-        "import_path": "._subs_XKSQmYUaIyE.srt.sjson", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._subs_edX-FA12-cware-1_100.srt.sjson": {
-        "contentType": null, 
-        "displayname": "._subs_edX-FA12-cware-1_100.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._subs_edX-FA12-cware-1_100.srt.sjson", 
-        "import_path": "._subs_edX-FA12-cware-1_100.srt.sjson", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._subs_lhIB0mqbPiE.srt.sjson": {
-        "contentType": null, 
-        "displayname": "._subs_lhIB0mqbPiE.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._subs_lhIB0mqbPiE.srt.sjson", 
-        "import_path": "._subs_lhIB0mqbPiE.srt.sjson", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._subs_sTSA_sWGM44.srt.sjson": {
-        "contentType": null, 
-        "displayname": "._subs_sTSA_sWGM44.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._subs_sTSA_sWGM44.srt.sjson", 
-        "import_path": "._subs_sTSA_sWGM44.srt.sjson", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._subsections_and_units.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._subsections and units.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._subsections_and_units.jpg", 
-        "import_path": "._subsections and units.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._textbook_from_content_drop-down.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._textbook from content drop-down.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._textbook_from_content_drop-down.jpg", 
-        "import_path": "._textbook from content drop-down.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._tools___export.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._tools > export.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._tools___export.jpg", 
-        "import_path": "._tools > export.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._two_units_in_one_for_the_split_test.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._two units in one for the split test.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._two_units_in_one_for_the_split_test.jpg", 
-        "import_path": "._two units in one for the split test.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._unit_identifier_number.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._unit identifier number.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._unit_identifier_number.jpg", 
-        "import_path": "._unit identifier number.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._unit_with_two_problem_components.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._unit with two problem components.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._unit_with_two_problem_components.jpg", 
-        "import_path": "._unit with two problem components.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._updated_vertical_file_after_exporting.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._updated vertical file after exporting.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._updated_vertical_file_after_exporting.jpg", 
-        "import_path": "._updated vertical file after exporting.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._vertical_file_in_course_file.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._vertical file in course file.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._vertical_file_in_course_file.jpg", 
-        "import_path": "._vertical file in course file.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._wrap_the_sequentials_in_a_split_test_tag.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._wrap the sequentials in a split_test tag.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._wrap_the_sequentials_in_a_split_test_tag.jpg", 
-        "import_path": "._wrap the sequentials in a split_test tag.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "._wrap_the_two_or_more_items_in_question_with_a_split_test_tag.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._wrap the two or more items in question with a split_test tag.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/._wrap_the_two_or_more_items_in_question_with_a_split_test_tag.jpg", 
-        "import_path": "._wrap the two or more items in question with a split_test tag.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
     "13865565216419642.png": {
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "13865565216419642.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "13865565216419642.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/13865565216419642.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/13865565216419642.png", 
         "import_path": "13865565216419642.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -675,14 +19,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "1_-_default_sequential_file_to_edit-1.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "1 - default sequential file to edit-1.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/1_-_default_sequential_file_to_edit-1.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/1_-_default_sequential_file_to_edit-1.jpg", 
         "import_path": "1 - default sequential file to edit-1.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -691,14 +35,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "1_-_starting_vertical_file_containing_conditional_result_options.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "1 - starting vertical file containing conditional result options.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/1_-_starting_vertical_file_containing_conditional_result_options.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/1_-_starting_vertical_file_containing_conditional_result_options.jpg", 
         "import_path": "1 - starting vertical file containing conditional result options.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -707,14 +51,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "1_-_vertical_for_conditional_before_editing.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "1 - vertical for conditional before editing.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/1_-_vertical_for_conditional_before_editing.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/1_-_vertical_for_conditional_before_editing.jpg", 
         "import_path": "1 - vertical for conditional before editing.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -723,14 +67,14 @@
         "contentType": "application/pdf", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "2013_-_EUSKAL_ASTEA_-_Egitaraua_ING.pdf", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "2013 - EUSKAL ASTEA - Egitaraua ING.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/2013_-_EUSKAL_ASTEA_-_Egitaraua_ING.pdf", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/2013_-_EUSKAL_ASTEA_-_Egitaraua_ING.pdf", 
         "import_path": "2013 - EUSKAL ASTEA - Egitaraua ING.pdf", 
         "locked": false, 
         "thumbnail_location": null
@@ -739,14 +83,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "2_-_finished_version_of_your_sequential_xml_file.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "2 - finished version of your sequential xml file.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/2_-_finished_version_of_your_sequential_xml_file.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/2_-_finished_version_of_your_sequential_xml_file.jpg", 
         "import_path": "2 - finished version of your sequential xml file.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -755,14 +99,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "2_-_unit_id_for_the_vertical_containing_the_conditional_result_options.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "2 - unit id for the vertical containing the conditional result options.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/2_-_unit_id_for_the_vertical_containing_the_conditional_result_options.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/2_-_unit_id_for_the_vertical_containing_the_conditional_result_options.jpg", 
         "import_path": "2 - unit id for the vertical containing the conditional result options.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -771,14 +115,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "2_-_wrap_your_content_in_conditional_tags.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "2 - wrap your content in conditional tags.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/2_-_wrap_your_content_in_conditional_tags.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/2_-_wrap_your_content_in_conditional_tags.jpg", 
         "import_path": "2 - wrap your content in conditional tags.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -787,14 +131,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "3253931499_f45658e15a_o.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "3253931499_f45658e15a_o.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/3253931499_f45658e15a_o.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/3253931499_f45658e15a_o.jpg", 
         "import_path": "3253931499_f45658e15a_o.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -803,14 +147,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "3253931499_fa88ec77d1.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "3253931499_fa88ec77d1.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/3253931499_fa88ec77d1.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/3253931499_fa88ec77d1.jpg", 
         "import_path": "3253931499_fa88ec77d1.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -819,14 +163,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "3733658653_0aa6eda76e_o.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "3733658653_0aa6eda76e_o.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/3733658653_0aa6eda76e_o.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/3733658653_0aa6eda76e_o.jpg", 
         "import_path": "3733658653_0aa6eda76e_o.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -835,14 +179,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "3733658653_d2109cec3b_z.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "3733658653_d2109cec3b_z.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/3733658653_d2109cec3b_z.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/3733658653_d2109cec3b_z.jpg", 
         "import_path": "3733658653_d2109cec3b_z.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -851,14 +195,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "3_-_click_on_staff_debug_info_and_copy_location_id_from_unit_with_question.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "3 - click on staff debug info and copy location id from unit with question.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/3_-_click_on_staff_debug_info_and_copy_location_id_from_unit_with_question.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/3_-_click_on_staff_debug_info_and_copy_location_id_from_unit_with_question.jpg", 
         "import_path": "3 - click on staff debug info and copy location id from unit with question.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -867,14 +211,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "4_-_all_display_names_for_the_component_will_display.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "4 - all display names for the component will display.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/4_-_all_display_names_for_the_component_will_display.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/4_-_all_display_names_for_the_component_will_display.jpg", 
         "import_path": "4 - all display names for the component will display.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -883,14 +227,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "4_-_end_result_in_vertical_file_is_this.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "4 - end result in vertical file is this.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/4_-_end_result_in_vertical_file_is_this.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/4_-_end_result_in_vertical_file_is_this.jpg", 
         "import_path": "4 - end result in vertical file is this.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -899,14 +243,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "601578_10152125660995162_1468211866_n.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "601578_10152125660995162_1468211866_n.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/601578_10152125660995162_1468211866_n.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/601578_10152125660995162_1468211866_n.jpg", 
         "import_path": "601578_10152125660995162_1468211866_n.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -915,14 +259,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "66812520c44ab2d12e.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "66812520c44ab2d12e.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/66812520c44ab2d12e.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/66812520c44ab2d12e.jpg", 
         "import_path": "66812520c44ab2d12e.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -931,14 +275,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "7075475901_691c15238b_c.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "7075475901_691c15238b_c.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/7075475901_691c15238b_c.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/7075475901_691c15238b_c.jpg", 
         "import_path": "7075475901_691c15238b_c.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -947,14 +291,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "7075475901_caf36bfc5f_o.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "7075475901_caf36bfc5f_o.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/7075475901_caf36bfc5f_o.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/7075475901_caf36bfc5f_o.jpg", 
         "import_path": "7075475901_caf36bfc5f_o.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -963,14 +307,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Along_Route_1__Pigeon_Point_Lighthouse__5572314215_.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Along_Route_1,_Pigeon_Point_Lighthouse_(5572314215).jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Along_Route_1__Pigeon_Point_Lighthouse__5572314215_.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Along_Route_1__Pigeon_Point_Lighthouse__5572314215_.jpg", 
         "import_path": "Along_Route_1,_Pigeon_Point_Lighthouse_(5572314215).jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -979,14 +323,14 @@
         "contentType": "application/zip", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Batteries_and_Fuel_Cells_2011_Slides.zip", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Batteries and Fuel Cells 2011 Slides.zip", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Batteries_and_Fuel_Cells_2011_Slides.zip", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Batteries_and_Fuel_Cells_2011_Slides.zip", 
         "import_path": "Batteries and Fuel Cells 2011 Slides.zip", 
         "locked": false, 
         "thumbnail_location": null
@@ -995,14 +339,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "BladeRunnerPulp.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "BladeRunnerPulp.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/BladeRunnerPulp.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/BladeRunnerPulp.jpg", 
         "import_path": "BladeRunnerPulp.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1011,14 +355,14 @@
         "contentType": "text/plain", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "CLASlite_overview_082213.en.txt", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "CLASlite_overview_082213.en.txt", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/CLASlite_overview_082213.en.txt", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/CLASlite_overview_082213.en.txt", 
         "import_path": "CLASlite_overview_082213.en.txt", 
         "locked": false, 
         "thumbnail_location": null
@@ -1027,14 +371,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Chat-1.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Chat-1.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Chat-1.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Chat-1.jpg", 
         "import_path": "Chat-1.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1043,14 +387,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Chat.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Chat.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Chat.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Chat.jpg", 
         "import_path": "Chat.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1059,14 +403,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Chat_1_anonymized-1.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Chat 1 anonymized-1.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Chat_1_anonymized-1.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Chat_1_anonymized-1.jpg", 
         "import_path": "Chat 1 anonymized-1.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1075,14 +419,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Discussion.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Discussion.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Discussion.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Discussion.jpg", 
         "import_path": "Discussion.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1091,15 +435,15 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "EdCast_1_page.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "EdCast 1 page.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/EdCast_1_page.jpg", 
-        "import_path": null, 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/EdCast_1_page.jpg", 
+        "import_path": "EdCast 1 page.jpg", 
         "locked": false, 
         "thumbnail_location": null
     }, 
@@ -1107,15 +451,15 @@
         "contentType": "application/pdf", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "G3U-Computers-CS101-Bob-T.-Builder-3.pdf", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "G3U-Computers-CS101-Bob-T.-Builder-3.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/G3U-Computers-CS101-Bob-T.-Builder-3.pdf", 
-        "import_path": null, 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/G3U-Computers-CS101-Bob-T.-Builder-3.pdf", 
+        "import_path": "G3U-Computers-CS101-Bob-T.-Builder-3.pdf", 
         "locked": false, 
         "thumbnail_location": null
     }, 
@@ -1123,15 +467,15 @@
         "contentType": "application/pdf", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "G3U-Computers-CS101-Bob-T.-Builder_1_-3.pdf", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "G3U-Computers-CS101-Bob-T.-Builder(1)-3.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/G3U-Computers-CS101-Bob-T.-Builder_1_-3.pdf", 
-        "import_path": null, 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/G3U-Computers-CS101-Bob-T.-Builder_1_-3.pdf", 
+        "import_path": "G3U-Computers-CS101-Bob-T.-Builder(1)-3.pdf", 
         "locked": false, 
         "thumbnail_location": null
     }, 
@@ -1139,14 +483,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Hidden_Subsection_1.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Hidden Subsection 1.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Hidden_Subsection_1.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Hidden_Subsection_1.jpg", 
         "import_path": "Hidden Subsection 1.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1155,14 +499,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Hitchhikers_Guide.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Hitchhikers_Guide.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Hitchhikers_Guide.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Hitchhikers_Guide.jpg", 
         "import_path": "Hitchhikers_Guide.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1171,14 +515,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Hydrogen.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Hydrogen.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Hydrogen.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Hydrogen.jpg", 
         "import_path": "Hydrogen.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1187,14 +531,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Instructor_Dashboard.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Instructor Dashboard.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Instructor_Dashboard.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Instructor_Dashboard.jpg", 
         "import_path": "Instructor Dashboard.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1203,14 +547,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Instructor_Dashboard_2.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Instructor Dashboard 2.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Instructor_Dashboard_2.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Instructor_Dashboard_2.jpg", 
         "import_path": "Instructor Dashboard 2.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1219,14 +563,14 @@
         "contentType": "application/vnd.ms-powerpoint", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Medical_Stats_Unit_1_for_pdfs__1___3_.ppt", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Medical_Stats_Unit_1_for_pdfs__1_ (3).ppt", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Medical_Stats_Unit_1_for_pdfs__1___3_.ppt", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Medical_Stats_Unit_1_for_pdfs__1___3_.ppt", 
         "import_path": "Medical_Stats_Unit_1_for_pdfs__1_ (3).ppt", 
         "locked": false, 
         "thumbnail_location": null
@@ -1235,14 +579,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Multiple_Choice.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Multiple Choice.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Multiple_Choice.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Multiple_Choice.jpg", 
         "import_path": "Multiple Choice.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1251,14 +595,14 @@
         "contentType": "application/pdf", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "NAVIGATING_YOUR_COURSE.pdf", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "NAVIGATING YOUR COURSE.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/NAVIGATING_YOUR_COURSE.pdf", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/NAVIGATING_YOUR_COURSE.pdf", 
         "import_path": "NAVIGATING YOUR COURSE.pdf", 
         "locked": false, 
         "thumbnail_location": null
@@ -1267,14 +611,14 @@
         "contentType": "application/pdf", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "NAVIGATING_YOUR_COURSE_-_chapter_1.pdf", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "NAVIGATING YOUR COURSE - chapter 1.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/NAVIGATING_YOUR_COURSE_-_chapter_1.pdf", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/NAVIGATING_YOUR_COURSE_-_chapter_1.pdf", 
         "import_path": "NAVIGATING YOUR COURSE - chapter 1.pdf", 
         "locked": false, 
         "thumbnail_location": null
@@ -1283,14 +627,14 @@
         "contentType": "application/pdf", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Navigating_your_Course_-_chapter_2.pdf", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Navigating your Course - chapter 2.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Navigating_your_Course_-_chapter_2.pdf", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Navigating_your_Course_-_chapter_2.pdf", 
         "import_path": "Navigating your Course - chapter 2.pdf", 
         "locked": false, 
         "thumbnail_location": null
@@ -1299,14 +643,14 @@
         "contentType": "application/pdf", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Navigating_your_Course_-_chapter_3.pdf", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Navigating your Course - chapter 3.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Navigating_your_Course_-_chapter_3.pdf", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Navigating_your_Course_-_chapter_3.pdf", 
         "import_path": "Navigating your Course - chapter 3.pdf", 
         "locked": false, 
         "thumbnail_location": null
@@ -1315,14 +659,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Oxygen.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Oxygen.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Oxygen.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Oxygen.jpg", 
         "import_path": "Oxygen.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1331,14 +675,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "PDF.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "PDF.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/PDF.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/PDF.jpg", 
         "import_path": "PDF.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1347,15 +691,15 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Piazza_LTI.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Piazza LTI.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Piazza_LTI.jpg", 
-        "import_path": null, 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Piazza_LTI.jpg", 
+        "import_path": "Piazza LTI.jpg", 
         "locked": false, 
         "thumbnail_location": null
     }, 
@@ -1363,14 +707,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Piazza_screenshot.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Piazza_screenshot.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Piazza_screenshot.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Piazza_screenshot.png", 
         "import_path": "Piazza_screenshot.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1379,15 +723,15 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Piazza_static_page.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Piazza static page.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Piazza_static_page.jpg", 
-        "import_path": null, 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Piazza_static_page.jpg", 
+        "import_path": "Piazza static page.jpg", 
         "locked": false, 
         "thumbnail_location": null
     }, 
@@ -1395,14 +739,14 @@
         "contentType": null, 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "README", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "README", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/README", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/README", 
         "import_path": "README", 
         "locked": false, 
         "thumbnail_location": null
@@ -1411,14 +755,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Runningman.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Runningman.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Runningman.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Runningman.jpg", 
         "import_path": "Runningman.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1427,14 +771,14 @@
         "contentType": "application/pdf", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Schedule.pdf", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Schedule.pdf", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Schedule.pdf", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Schedule.pdf", 
         "import_path": "Schedule.pdf", 
         "locked": false, 
         "thumbnail_location": null
@@ -1443,14 +787,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Screen_Shot_2014-08-12_at_3.17.34_PM.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Screen Shot 2014-08-12 at 3.17.34 PM.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Screen_Shot_2014-08-12_at_3.17.34_PM.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Screen_Shot_2014-08-12_at_3.17.34_PM.png", 
         "import_path": "Screen Shot 2014-08-12 at 3.17.34 PM.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1459,14 +803,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Screen_Shot_2014-08-12_at_3.42.06_PM.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Screen Shot 2014-08-12 at 3.42.06 PM.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Screen_Shot_2014-08-12_at_3.42.06_PM.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Screen_Shot_2014-08-12_at_3.42.06_PM.png", 
         "import_path": "Screen Shot 2014-08-12 at 3.42.06 PM.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1475,14 +819,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Screen_Shot_2014-08-12_at_5.00.37_PM.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Screen Shot 2014-08-12 at 5.00.37 PM.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Screen_Shot_2014-08-12_at_5.00.37_PM.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Screen_Shot_2014-08-12_at_5.00.37_PM.png", 
         "import_path": "Screen Shot 2014-08-12 at 5.00.37 PM.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1491,14 +835,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Sunset__Purple-Red.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Sunset,_Purple-Red.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Sunset__Purple-Red.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Sunset__Purple-Red.jpg", 
         "import_path": "Sunset,_Purple-Red.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1507,14 +851,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Sunsets_La_Jolla_beaches_clouds_orange.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Sunsets_La_Jolla_beaches_clouds_orange.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Sunsets_La_Jolla_beaches_clouds_orange.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Sunsets_La_Jolla_beaches_clouds_orange.jpg", 
         "import_path": "Sunsets_La_Jolla_beaches_clouds_orange.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1523,14 +867,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Track_Your_Progress.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Track Your Progress.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Track_Your_Progress.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Track_Your_Progress.png", 
         "import_path": "Track Your Progress.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1539,14 +883,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "Video.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "Video.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/Video.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/Video.jpg", 
         "import_path": "Video.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1555,14 +899,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "VideoTOC.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "VideoTOC.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/VideoTOC.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/VideoTOC.png", 
         "import_path": "VideoTOC.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1571,14 +915,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "add_done_to_advanced_module_list.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "add done to advanced module list.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/add_done_to_advanced_module_list.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/add_done_to_advanced_module_list.png", 
         "import_path": "add done to advanced module list.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1587,14 +931,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "add_user_partitions_to_your_policy_json_file.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "add user partitions to your policy json file.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/add_user_partitions_to_your_policy_json_file.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/add_user_partitions_to_your_policy_json_file.jpg", 
         "import_path": "add user partitions to your policy json file.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1603,14 +947,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "advanced___completion.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "advanced > completion.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/advanced___completion.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/advanced___completion.png", 
         "import_path": "advanced > completion.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1619,14 +963,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "advanced_settings.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "advanced settings.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/advanced_settings.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/advanced_settings.jpg", 
         "import_path": "advanced settings.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1635,14 +979,14 @@
         "contentType": "application/octet-stream", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "bt_77ZcXtYQ.srt", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "bt_77ZcXtYQ.srt", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/bt_77ZcXtYQ.srt", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/bt_77ZcXtYQ.srt", 
         "import_path": "bt_77ZcXtYQ.srt", 
         "locked": false, 
         "thumbnail_location": null
@@ -1651,14 +995,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "changed.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "changed.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/changed.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/changed.jpg", 
         "import_path": "changed.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1667,14 +1011,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "checklist.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "checklist.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/checklist.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/checklist.jpg", 
         "import_path": "checklist.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1683,14 +1027,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "click_staff_debug_info_and_copy_location.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "click staff debug info and copy location.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/click_staff_debug_info_and_copy_location.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/click_staff_debug_info_and_copy_location.jpg", 
         "import_path": "click staff debug info and copy location.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1699,14 +1043,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "click_to_add_new_textbook_and_upload_pdfs_for_each_chapter.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "click to add new textbook and upload pdfs for each chapter.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/click_to_add_new_textbook_and_upload_pdfs_for_each_chapter.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/click_to_add_new_textbook_and_upload_pdfs_for_each_chapter.jpg", 
         "import_path": "click to add new textbook and upload pdfs for each chapter.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1715,14 +1059,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "clothing-items.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "clothing-items.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/clothing-items.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/clothing-items.jpg", 
         "import_path": "clothing-items.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1731,14 +1075,14 @@
         "contentType": "application/octet-stream", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "code_1b_ToC.srt", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "code 1b ToC.srt", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/code_1b_ToC.srt", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/code_1b_ToC.srt", 
         "import_path": "code 1b ToC.srt", 
         "locked": false, 
         "thumbnail_location": null
@@ -1747,14 +1091,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "content_experiment_container.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "content_experiment_container.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/content_experiment_container.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/content_experiment_container.png", 
         "import_path": "content_experiment_container.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1763,14 +1107,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "courseware_view_of_unit_a-b_test.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "courseware view of unit a-b test.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/courseware_view_of_unit_a-b_test.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/courseware_view_of_unit_a-b_test.jpg", 
         "import_path": "courseware view of unit a-b test.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1779,14 +1123,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "discussion_component.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "discussion component.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/discussion_component.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/discussion_component.jpg", 
         "import_path": "discussion component.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1795,14 +1139,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "edit_advanced_modules_lti.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "edit advanced_modules lti.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/edit_advanced_modules_lti.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/edit_advanced_modules_lti.jpg", 
         "import_path": "edit advanced_modules lti.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1811,14 +1155,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "end_result_in_lms.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "end result in lms.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/end_result_in_lms.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/end_result_in_lms.jpg", 
         "import_path": "end result in lms.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1827,14 +1171,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "end_result_in_studio.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "end result in studio.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/end_result_in_studio.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/end_result_in_studio.jpg", 
         "import_path": "end result in studio.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1843,14 +1187,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "endersgame.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "endersgame.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/endersgame.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/endersgame.jpg", 
         "import_path": "endersgame.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1859,14 +1203,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "es_subs_Kya5Zqysi7A.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "es_subs_Kya5Zqysi7A.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/es_subs_Kya5Zqysi7A.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/es_subs_Kya5Zqysi7A.srt.sjson", 
         "import_path": "es_subs_Kya5Zqysi7A.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -1875,14 +1219,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "ethglycol.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "ethglycol.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/ethglycol.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/ethglycol.jpg", 
         "import_path": "ethglycol.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1891,14 +1235,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "find_your_policy_json_file.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "find your policy json file.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/find_your_policy_json_file.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/find_your_policy_json_file.jpg", 
         "import_path": "find your policy json file.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1907,14 +1251,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "finished_product_with_group_0_dropdown.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "finished product with group 0 dropdown.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/finished_product_with_group_0_dropdown.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/finished_product_with_group_0_dropdown.jpg", 
         "import_path": "finished product with group 0 dropdown.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1923,14 +1267,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "follow_or_upvote.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "follow or upvote.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/follow_or_upvote.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/follow_or_upvote.jpg", 
         "import_path": "follow or upvote.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -1939,14 +1283,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "hidden_subsection1_in_course_outline.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "hidden subsection1 in course outline.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/hidden_subsection1_in_course_outline.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/hidden_subsection1_in_course_outline.png", 
         "import_path": "hidden subsection1 in course outline.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1955,14 +1299,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "hidden_subsection_1_is_hidden_in_LMS.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "hidden subsection 1 is hidden in LMS.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/hidden_subsection_1_is_hidden_in_LMS.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/hidden_subsection_1_is_hidden_in_LMS.png", 
         "import_path": "hidden subsection 1 is hidden in LMS.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1971,14 +1315,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "hidden_subsection_causes_no_highighted_subsection_in_courseware_column.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "hidden subsection causes no highighted subsection in courseware column.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/hidden_subsection_causes_no_highighted_subsection_in_courseware_column.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/hidden_subsection_causes_no_highighted_subsection_in_courseware_column.png", 
         "import_path": "hidden subsection causes no highighted subsection in courseware column.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -1987,14 +1331,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "hover_mouse_over_subsection_breadcrumb_in_unit_to_see_location_ID.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "hover mouse over subsection breadcrumb in unit to see location ID.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/hover_mouse_over_subsection_breadcrumb_in_unit_to_see_location_ID.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/hover_mouse_over_subsection_breadcrumb_in_unit_to_see_location_ID.png", 
         "import_path": "hover mouse over subsection breadcrumb in unit to see location ID.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -2003,14 +1347,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "hovering_over_subsection_gives_you_the_sequential_id.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "hovering over subsection gives you the sequential id.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/hovering_over_subsection_gives_you_the_sequential_id.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/hovering_over_subsection_gives_you_the_sequential_id.jpg", 
         "import_path": "hovering over subsection gives you the sequential id.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2019,23 +1363,15 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "illustration_of_a-b_testing_of_subsections.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "illustration of a-b testing of subsections.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/illustration_of_a-b_testing_of_subsections.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/illustration_of_a-b_testing_of_subsections.jpg", 
         "import_path": "illustration of a-b testing of subsections.jpg", 
-        "locked": false, 
-        "thumbnail_location": null
-    }, 
-    "images_._course_image.jpg": {
-        "contentType": "image/jpeg", 
-        "displayname": "._course_image.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/images_._course_image.jpg", 
-        "import_path": "images/._course_image.jpg", 
         "locked": false, 
         "thumbnail_location": null
     }, 
@@ -2043,14 +1379,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "images_course_image.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "course_image.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/images_course_image.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/images_course_image.jpg", 
         "import_path": "images/course_image.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2059,14 +1395,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "inline_discussion_category_and_subcategory_names.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "inline discussion category and subcategory names.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/inline_discussion_category_and_subcategory_names.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/inline_discussion_category_and_subcategory_names.jpg", 
         "import_path": "inline discussion category and subcategory names.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2075,14 +1411,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "inline_discussion_end_result.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "inline discussion end result.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/inline_discussion_end_result.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/inline_discussion_end_result.jpg", 
         "import_path": "inline discussion end result.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2091,14 +1427,14 @@
         "contentType": "text/javascript", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "instant-hangout.js", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "instant-hangout.js", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/instant-hangout.js", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/instant-hangout.js", 
         "import_path": "instant-hangout.js", 
         "locked": false, 
         "thumbnail_location": null
@@ -2107,14 +1443,14 @@
         "contentType": "text/javascript", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "instanthangouts-0.1.0.js", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "instanthangouts-0.1.0.js", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/instanthangouts-0.1.0.js", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/instanthangouts-0.1.0.js", 
         "import_path": "instanthangouts-0.1.0.js", 
         "locked": false, 
         "thumbnail_location": null
@@ -2123,14 +1459,14 @@
         "contentType": "text/javascript", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "intro.js", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "intro.js", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/intro.js", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/intro.js", 
         "import_path": "intro.js", 
         "locked": false, 
         "thumbnail_location": null
@@ -2139,15 +1475,15 @@
         "contentType": "text/css", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "introjs.css", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "introjs.css", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/introjs.css", 
-        "import_path": null, 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/introjs.css", 
+        "import_path": "introjs.css", 
         "locked": false, 
         "thumbnail_location": null
     }, 
@@ -2155,14 +1491,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "lti_in_the_advanced_component.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "lti in the advanced component.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/lti_in_the_advanced_component.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/lti_in_the_advanced_component.jpg", 
         "import_path": "lti in the advanced component.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2171,14 +1507,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "mark_as_complete_studio_view.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "mark as complete studio view.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/mark_as_complete_studio_view.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/mark_as_complete_studio_view.png", 
         "import_path": "mark as complete studio view.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -2187,14 +1523,14 @@
         "contentType": "text/html", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "mirror.html", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "mirror.html", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/mirror.html", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/mirror.html", 
         "import_path": "mirror.html", 
         "locked": false, 
         "thumbnail_location": null
@@ -2203,14 +1539,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "new_split_file_created_for_this_vertical_ab_test.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "new split file created for this vertical ab test.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/new_split_file_created_for_this_vertical_ab_test.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/new_split_file_created_for_this_vertical_ab_test.jpg", 
         "import_path": "new split file created for this vertical ab test.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2219,14 +1555,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "note_the_unit_identifier_string.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "note the unit identifier string.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/note_the_unit_identifier_string.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/note_the_unit_identifier_string.jpg", 
         "import_path": "note the unit identifier string.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2235,14 +1571,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "peer_assessment_leaderboard.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "peer_assessment_leaderboard.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/peer_assessment_leaderboard.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/peer_assessment_leaderboard.png", 
         "import_path": "peer_assessment_leaderboard.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -2251,14 +1587,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "policy_key_topics.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "policy key topics.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/policy_key_topics.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/policy_key_topics.jpg", 
         "import_path": "policy key topics.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2267,14 +1603,14 @@
         "contentType": "image/png", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "polls_icon_in_simple_editor.png", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "polls icon in simple editor.png", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/polls_icon_in_simple_editor.png", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/polls_icon_in_simple_editor.png", 
         "import_path": "polls icon in simple editor.png", 
         "locked": false, 
         "thumbnail_location": null
@@ -2283,14 +1619,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "problem_component_toolbar_set.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "problem component toolbar set.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/problem_component_toolbar_set.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/problem_component_toolbar_set.jpg", 
         "import_path": "problem component toolbar set.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2299,14 +1635,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "python_cheat_screen.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "python cheat screen.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/python_cheat_screen.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/python_cheat_screen.jpg", 
         "import_path": "python cheat screen.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2315,14 +1651,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "randomization_setting_in_problem.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "randomization setting in problem.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/randomization_setting_in_problem.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/randomization_setting_in_problem.jpg", 
         "import_path": "randomization setting in problem.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2331,14 +1667,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "search_for__STAFF_.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "search for [STAFF].jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/search_for__STAFF_.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/search_for__STAFF_.jpg", 
         "import_path": "search for [STAFF].jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2347,14 +1683,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "select_LTI.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "select LTI.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/select_LTI.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/select_LTI.jpg", 
         "import_path": "select LTI.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2363,14 +1699,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "sequential_file_before_editing_for_ab_test_of_units-1.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "sequential file before editing for ab test of units-1.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/sequential_file_before_editing_for_ab_test_of_units-1.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/sequential_file_before_editing_for_ab_test_of_units-1.jpg", 
         "import_path": "sequential file before editing for ab test of units-1.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2379,14 +1715,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "show_all_discussions.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "show all discussions.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/show_all_discussions.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/show_all_discussions.jpg", 
         "import_path": "show all discussions.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2395,14 +1731,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "standard_tabs.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "standard tabs.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/standard_tabs.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/standard_tabs.jpg", 
         "import_path": "standard tabs.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2411,14 +1747,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "stanford-hills-small.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "stanford-hills-small.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/stanford-hills-small.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/stanford-hills-small.jpg", 
         "import_path": "stanford-hills-small.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2427,14 +1763,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_5_2CvsvGUm0.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_5_2CvsvGUm0.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_5_2CvsvGUm0.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_5_2CvsvGUm0.srt.sjson", 
         "import_path": "subs_5_2CvsvGUm0.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2443,14 +1779,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_DgjGqIwKLdU.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_DgjGqIwKLdU.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_DgjGqIwKLdU.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_DgjGqIwKLdU.srt.sjson", 
         "import_path": "subs_DgjGqIwKLdU.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2459,14 +1795,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_Kya5Zqysi7A.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_Kya5Zqysi7A.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_Kya5Zqysi7A.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_Kya5Zqysi7A.srt.sjson", 
         "import_path": "subs_Kya5Zqysi7A.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2475,15 +1811,15 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_OEoXaMPEzfM.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_OEoXaMPEzfM.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_OEoXaMPEzfM.srt.sjson", 
-        "import_path": null, 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_OEoXaMPEzfM.srt.sjson", 
+        "import_path": "subs_OEoXaMPEzfM.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
     }, 
@@ -2491,14 +1827,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_XKSQmYUaIyE.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_XKSQmYUaIyE.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_XKSQmYUaIyE.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_XKSQmYUaIyE.srt.sjson", 
         "import_path": "subs_XKSQmYUaIyE.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2507,14 +1843,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_ZeIDubcw7Ds.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_ZeIDubcw7Ds.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_ZeIDubcw7Ds.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_ZeIDubcw7Ds.srt.sjson", 
         "import_path": "subs_ZeIDubcw7Ds.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2523,14 +1859,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs__u4uAUqflvo.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs__u4uAUqflvo.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs__u4uAUqflvo.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs__u4uAUqflvo.srt.sjson", 
         "import_path": "subs__u4uAUqflvo.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2539,14 +1875,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_code_1b_bighead.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_code+1b+bighead.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_code_1b_bighead.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_code_1b_bighead.srt.sjson", 
         "import_path": "subs_code+1b+bighead.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2555,14 +1891,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_edX-FA12-cware-1_100.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_edX-FA12-cware-1_100.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_edX-FA12-cware-1_100.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_edX-FA12-cware-1_100.srt.sjson", 
         "import_path": "subs_edX-FA12-cware-1_100.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2571,14 +1907,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_jYZ-trPyY54.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_jYZ-trPyY54.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_jYZ-trPyY54.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_jYZ-trPyY54.srt.sjson", 
         "import_path": "subs_jYZ-trPyY54.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2587,14 +1923,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_lhIB0mqbPiE.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_lhIB0mqbPiE.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_lhIB0mqbPiE.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_lhIB0mqbPiE.srt.sjson", 
         "import_path": "subs_lhIB0mqbPiE.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2603,14 +1939,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subs_sTSA_sWGM44.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subs_sTSA_sWGM44.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subs_sTSA_sWGM44.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subs_sTSA_sWGM44.srt.sjson", 
         "import_path": "subs_sTSA_sWGM44.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2619,14 +1955,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "subsections_and_units.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "subsections and units.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/subsections_and_units.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/subsections_and_units.jpg", 
         "import_path": "subsections and units.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2635,14 +1971,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "table_subs_5_2CvsvGUm0.srt.sjson", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "table_subs_5_2CvsvGUm0.srt.sjson", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/table_subs_5_2CvsvGUm0.srt.sjson", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/table_subs_5_2CvsvGUm0.srt.sjson", 
         "import_path": "table_subs_5_2CvsvGUm0.srt.sjson", 
         "locked": false, 
         "thumbnail_location": null
@@ -2651,14 +1987,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "textbook_from_content_drop-down.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "textbook from content drop-down.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/textbook_from_content_drop-down.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/textbook_from_content_drop-down.jpg", 
         "import_path": "textbook from content drop-down.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2667,14 +2003,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "tools___export.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "tools > export.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/tools___export.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/tools___export.jpg", 
         "import_path": "tools > export.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2683,14 +2019,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "two_units_in_one_for_the_split_test.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "two units in one for the split test.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/two_units_in_one_for_the_split_test.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/two_units_in_one_for_the_split_test.jpg", 
         "import_path": "two units in one for the split test.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2699,14 +2035,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "unit_identifier_number.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "unit identifier number.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/unit_identifier_number.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/unit_identifier_number.jpg", 
         "import_path": "unit identifier number.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2715,14 +2051,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "unit_with_two_problem_components.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "unit with two problem components.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/unit_with_two_problem_components.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/unit_with_two_problem_components.jpg", 
         "import_path": "unit with two problem components.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2731,14 +2067,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "updated_vertical_file_after_exporting.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "updated vertical file after exporting.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/updated_vertical_file_after_exporting.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/updated_vertical_file_after_exporting.jpg", 
         "import_path": "updated vertical file after exporting.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2747,14 +2083,14 @@
         "contentType": "application/json", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "urlname_mapping.json", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "urlname_mapping.json", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/urlname_mapping.json", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/urlname_mapping.json", 
         "import_path": "urlname_mapping.json", 
         "locked": false, 
         "thumbnail_location": null
@@ -2763,14 +2099,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "vertical_file_in_course_file.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "vertical file in course file.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/vertical_file_in_course_file.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/vertical_file_in_course_file.jpg", 
         "import_path": "vertical file in course file.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2779,14 +2115,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "wrap_the_sequentials_in_a_split_test_tag.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "wrap the sequentials in a split_test tag.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/wrap_the_sequentials_in_a_split_test_tag.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/wrap_the_sequentials_in_a_split_test_tag.jpg", 
         "import_path": "wrap the sequentials in a split_test tag.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2795,14 +2131,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "wrap_the_two_or_more_items_in_question_with_a_split_test_tag.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "wrap the two or more items in question with a split_test tag.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/wrap_the_two_or_more_items_in_question_with_a_split_test_tag.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/wrap_the_two_or_more_items_in_question_with_a_split_test_tag.jpg", 
         "import_path": "wrap the two or more items in question with a split_test tag.jpg", 
         "locked": false, 
         "thumbnail_location": null
@@ -2811,14 +2147,14 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "OpenEdX", 
+            "course": "GitCourseDemo", 
             "name": "your_anonymous_survey_link_is_generated_afterwards.jpg", 
-            "org": "StanfordOnline", 
+            "org": "jbauU", 
             "revision": null, 
             "tag": "c4x"
         }, 
         "displayname": "your anonymous survey link is generated afterwards.jpg", 
-        "filename": "/c4x/StanfordOnline/OpenEdX/asset/your_anonymous_survey_link_is_generated_afterwards.jpg", 
+        "filename": "/c4x/jbauU/GitCourseDemo/asset/your_anonymous_survey_link_is_generated_afterwards.jpg", 
         "import_path": "your anonymous survey link is generated afterwards.jpg", 
         "locked": false, 
         "thumbnail_location": null

@@ -1,0 +1,131 @@
+{
+    "course/Feb15": {
+        "advanced_modules": [
+            "lti", 
+            "word_cloud", 
+            "edx_sga", 
+            "split_test", 
+            "done", 
+            "google-calendar", 
+            "google-document", 
+            "submit-and-compare", 
+            "imagemodal"
+        ], 
+        "advertised_start": null, 
+        "annotation_storage_url": "http://catch-load-balancer-192292975.us-west-2.elb.amazonaws.com/catch/annotator", 
+        "annotation_token_secret": "1e4019b6-86b0-42be-963c-cb5ffdba9bb3", 
+        "certificates_display_behavior": "early_with_info", 
+        "cohort_config": {
+            "auto_cohort_groups": [
+                "Good students", 
+                "OK students"
+            ], 
+            "cohorted": true, 
+            "cohorted_discussions": [
+                "i4x-StanfordOnline-OpenEdX-course-Demo-Cohort-A", 
+                "i4x-StanfordOnline-OpenEdX-course-Demo-Cohort-B"
+            ]
+        }, 
+        "course_image": "stanford-hills-small.jpg", 
+        "css_class": "", 
+        "days_early_for_beta": 365.0, 
+        "disable_progress_graph": false, 
+        "discussion_sort_alpha": true, 
+        "discussion_topics": {
+            "General": {
+                "id": "i4x-jbauU-GitCourseDemo-course-Feb15"
+            }
+        }, 
+        "display_coursenumber": "Feature", 
+        "display_name": "Demo Course", 
+        "enable_enrollment_email": true, 
+        "end": "2017-09-04T23:30:00Z", 
+        "enrollment_end": null, 
+        "enrollment_start": "2013-04-04T16:00:00Z", 
+        "giturl": "https://stanford-online-course-export:testing123@github.com/stanford-online-course-export/demo-course.git", 
+        "graceperiod": "2 days", 
+        "ispublic": true, 
+        "lti_passports": [
+            "piazza_id:stanford.edu:piazza_sf1-5jo6", 
+            "imathas_test:cid_1_1:secret", 
+            "chuckpython:12345:secret", 
+            "120988f929-274612:12345:secret", 
+            "cerego:130qMVoRYQV1lHBppme2EpkyqyW2TndEloQERPFsoaLSu30yaO3EP7MbeGqmJRjb:usgHARyvReymu40nPQfB8Jt3eqC63whzL9ujSzR6PMA2HlZBdErZN55DBgXNY156hUl2rIXgOZQLQCFHott9P1odfgkrU5mYMilW3LLki6J9XCS1lycEahhz1N5z6TWzlir2xVO4MLDoTQSTAhq3sAeZcvHqYvADt5IhKjgKMj4=", 
+            "edcast:3a342a91b977a2569a63d58f07f93231:b0530a9a6b8fd0f0e5101eeb79e5e89d5a6bdc015e0cecb80244884ec8b66512"
+        ], 
+        "pdf_textbooks": [
+            {
+                "chapters": [
+                    {
+                        "title": "Chapter 1", 
+                        "url": "/static/NAVIGATING_YOUR_COURSE_-_chapter_1.pdf"
+                    }, 
+                    {
+                        "title": "Chapter 2", 
+                        "url": "/static/Navigating_your_Course_-_chapter_2.pdf"
+                    }, 
+                    {
+                        "title": "Chapter 3", 
+                        "url": "/static/Navigating_your_Course_-_chapter_3.pdf"
+                    }
+                ], 
+                "id": "0Navigating_Your_Course", 
+                "tab_title": "Navigating Your Course"
+            }
+        ], 
+        "start": "2013-04-05T05:00:00Z", 
+        "tabs": [
+            {
+                "name": "Courseware", 
+                "type": "courseware"
+            }, 
+            {
+                "name": "Course Info", 
+                "type": "course_info"
+            }, 
+            {
+                "name": "Textbooks", 
+                "type": "textbooks"
+            }, 
+            {
+                "name": "Discussion", 
+                "type": "discussion"
+            }, 
+            {
+                "name": "Wiki", 
+                "type": "wiki"
+            }, 
+            {
+                "name": "Progress", 
+                "type": "progress"
+            }
+        ], 
+        "use_latex_compiler": false, 
+        "user_partitions": [
+            {
+                "description": "Content experiment 1", 
+                "groups": [
+                    {
+                        "id": 1, 
+                        "name": "group 1", 
+                        "version": 1
+                    }, 
+                    {
+                        "id": 2, 
+                        "name": "group 2", 
+                        "version": 1
+                    }
+                ], 
+                "id": 0, 
+                "name": "Experiment 1", 
+                "version": 1
+            }
+        ], 
+        "xml_attributes": {
+            "filename": [
+                "course/Feb15.xml", 
+                "course/Feb15.xml"
+            ]
+        }
+    }
+}

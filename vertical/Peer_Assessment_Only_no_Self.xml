@@ -1,8 +1,8 @@
 <vertical display_name="Peer Assessment Only, no Self">
-  <openassessment url_name="fb141743822d4264adf622ad5e1de1db" submission_start="2013-04-05T05:00:00+00:00" submission_due="2017-02-05T00:00:00+00:00" allow_file_upload="False" allow_latex="False">
+  <openassessment url_name="fb141743822d4264adf622ad5e1de1db" submission_start="2013-04-05T05:00:00" submission_due="2017-02-05T00:00:00" allow_file_upload="False" allow_latex="False">
     <title>Peer Assessment Only, No Self Assessment</title>
     <assessments>
-      <assessment name="peer-assessment" must_grade="1" must_be_graded_by="1" start="2013-04-05T05:00:00+00:00" due="2017-02-06T00:00:00+00:00" track_changes=""/>
+      <assessment name="peer-assessment" must_grade="1" must_be_graded_by="1" start="2013-04-05T05:00:00" due="2017-02-06T00:00:00" track_changes=""/>
     </assessments>
     <rubric>
       <prompt>    Censorship in the Libraries

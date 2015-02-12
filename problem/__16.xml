@@ -1,11 +1,9 @@
 <problem display_name="" markdown="&gt;&gt;If given the chance to go to space, would you?&lt;&lt;&#10;&#10;(x) Yes&#10;( ) No" show_reset_button="true" showanswer="finished">
-<p>If given the chance to go to space, would you?</p>
-<multiplechoiceresponse>
-  <choicegroup label="If given the chance to go to space, would you?" type="MultipleChoice">
-    <choice correct="true">Yes</choice>
-    <choice correct="false">No</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>If given the chance to go to space, would you?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="If given the chance to go to space, would you?" type="MultipleChoice">
+      <choice correct="true">Yes</choice>
+      <choice correct="false">No</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>
